@@ -17,14 +17,13 @@
 Remaining setup:
 - [ ] **In the `mathceo-uci.github.io`, set gh pages to be on the main branch** 
 - [ ] **Decide push access** — who can push to the site repository, and how they authenticate (it is a different remote from `origin`).
-- [ ] **Retire the old `gh-pages` path**: once publishing this way, delete the `gh-pages` branch (local and on `origin`) and turn off Pages on this source repository, so a stray `pretext deploy` recreating `gh-pages` here is never served.
 - [ ] (Maybe later, low priority) **Optional root `index.html`** linking the module folders — without one, only the `/<module>/` addresses work, not the site root.
 
 ## Public repository and restricted images
 All four modules' source will be in one public repository, `mathceo-uci/crt-modules-pretext`. Images whose licenses do not allow sharing are kept outside the repository, in a local folder, along with the original source PDFs and anything else that should not be public. The `.ptx` shows a gray placeholder box in their place (see [Restricted images](conventions.md#restricted-images-restrictedimage-placeholders)). Builds never read from that folder, so those images can never reach the website or a PDF.
 
 Remaining setup:
-- [ ] **Make `mathceo-uci/crt-modules-pretext` public.** It starts from a fresh first commit with no history, because the history of the old test repository, `crt-modules-test`, contains the restricted images. Then archive `crt-modules-test`.
+- [ ] **Make `mathceo-uci/crt-modules-pretext` public.** It starts from a fresh first commit with no history, because the history of the old test repository, `crt-modules-test`, contains the restricted images. That repository is archived and stays private.
 
 ## Repository license
 - [ ] **Decide on a separate license for the code.** The whole repository is under CC BY-NC-SA 4.0 (`LICENSE`), but Creative Commons advises against using its licenses for software. The code (`scripts/`, `xsl/`, and similar) could go under a software license such as MIT, with CC BY-NC-SA kept for the curriculum content. If we do this, the README's License section should say which license covers which folders.
