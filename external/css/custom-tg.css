@@ -1,0 +1,42 @@
+/* Teaching-Guide (*-tg-web) custom CSS.
+   Loaded via html.css.extra="external/css/custom-tg.css" for the TG web targets.
+   Pulls in the shared rules, then adds TG-only styling.
+   NOTE: @import must precede all other rules. */
+@import url("custom-common.css");
+
+/* ─── WORKSHEET "PAGE" CARD ──────────────────────────────────────────────────
+   Render each worksheet as a paper-like page card. PreTeXt emits every worksheet
+   as <section class="worksheet" …>, so this one selector covers all modules.
+   All colors are PreTeXt theme variables (redefined under :root.dark-mode), so
+   the card follows light/dark automatically — no hardcoded white. Worksheets
+   built from <page> elements nest <section class="onepage"> children; those are
+   intentionally left unstyled — one card per worksheet, no inner boxes, no
+   dividers.
+
+   TG-only: this file is not loaded by the SW targets, so Student Workbook
+   worksheets are unaffected.
+
+   Scope: NOT in the print-preview view (the printer icon → ?printpreview=…).
+   That view swaps theme.css for print-worksheet.css, but this file is a separate
+   <link> loaded AFTER the theme link, so without this guard our card
+   border/shadow/padding would override print-worksheet.css's
+   `section.worksheet{border:none}` and bleed into the printout. The print
+   preview adds a paper-size class (`letter`/`a4`) to <body> — added only in that
+   flow (via getPaperSize) — so negating it keeps the card to the reading view. */
+body:not(.letter):not(.a4) section.worksheet {
+  background: var(--content-background);      /* white in light, page surface in dark */
+  color: var(--body-text-color);
+  border: 1px solid var(--page-border-color);
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  padding: 1.8em 1.5em 1.5em;
+  margin: 1.5em -1.5em;
+}
+
+/* The worksheet renders as a <section> nested inside the chapter's section, so
+   PreTeXt's `section section > .heading { margin-top: 2em }` pushes the worksheet
+   title far down inside the card. Zero it out — the card's own top padding above
+   is the intended (and only) gap above the heading. */
+body:not(.letter):not(.a4) section.worksheet > .heading {
+  margin-top: 0;
+}

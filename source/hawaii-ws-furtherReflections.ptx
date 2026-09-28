@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="hawaii-ws-furtherReflections">
+  <title>Further Reflections</title>
+  <page>
+    <exercise xml:id="ex-ws-further-distinct-measures">
+      <statement>
+        <p>How might the environment and cultural practices of a community influence the creation of distinct measures?</p>
+      </statement>
+    </exercise>
+    <exercise xml:id="ex-ws-further-advantages">
+      <statement>
+        <p>Share your thoughts on the advantages and disadvantages of traditional units compared to modern standardized measurements.</p>
+      </statement>
+    </exercise>
+    <exercise xml:id="ex-ws-further-own-background">
+      <statement>
+        <p>Have you ever encountered unique measures in your own cultural background or learned unconventional ways of measuring?</p>
+      </statement>
+    </exercise>
+    <exercise xml:id="ex-ws-further-variation">
+      <statement>
+        <p>Since bodies vary in height and proportions, do you think there were preferred body measurements in Hawaiian units of measures OR was variation welcomed? (i.e., an 8 year old's iwilei is different from a 23 years old's iwilei, how was this possibly taken into account?)</p>
+      </statement>
+    </exercise>
+    <exercise xml:id="ex-ws-further-systems-developed">
+      <statement>
+        <p>How do you think that different cultures around the world developed their own systems of measurement? What factors might have influenced the choice of units in these systems?</p>
+      </statement>
+    </exercise>
+    <exercise xml:id="ex-ws-further-preserve">
+      <statement>
+        <p>Do you think it's important to preserve traditional units of measurement, even though we now have standardized systems like the metric system? Why or why not?</p>
+      </statement>
+    </exercise>
+    <exercise xml:id="ex-ws-further-diversity">
+      <statement>
+        <p>How might learning about traditional units of measurement from different cultures broaden our understanding of the diversity of human knowledge and experience?</p>
+      </statement>
+    </exercise>
+    <exercise xml:id="ex-ws-further-own-system">
+      <statement>
+        <p>If you were to create your own system of measurement based on your body or objects around you, what units would you use and why?</p>
+      </statement>
+    </exercise>
+    <exercise xml:id="ex-ws-further-koku">
+      <statement>
+        <p>Every country has different measuring systems. Did you know that there is a unit of measurement that was used in ancient times and is based on the time it takes to cook rice? Can you guess which culture used this unique method of measuring time and what the unit is called?</p>
+      </statement>
+      <solution>
+        <p>The unique unit of measurement based on the time it takes to cook rice comes from ancient Japan. It's called the <q>moment</q> or 刻 (koku) in Japanese. A koku is traditionally defined as the amount of time it takes for an incense stick to burn, which is approximately the same amount of time it takes to cook rice.</p>
+      </solution>
+    </exercise>
+    <exercise xml:id="ex-ws-further-everyday">
+      <statement>
+        <p>How else do you think we can use body measurements to approximate size, distance, etc. in our everyday lives?</p>
+      </statement>
+    </exercise>
+    <exercise xml:id="ex-ws-further-benefits-consequences">
+      <statement>
+        <p>What are the benefits of these units of measurements? What are the consequences? How do these units of measurements relate to non-standard units from other societies?</p>
+      </statement>
+    </exercise>
+  </page>
+</worksheet>

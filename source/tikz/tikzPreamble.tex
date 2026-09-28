@@ -1,0 +1,38 @@
+\usepackage{tikz, pgfplots}
+\usetikzlibrary{positioning,matrix,arrows,arrows.meta}
+\usetikzlibrary{shapes,decorations,shadows,fadings,patterns}
+\usetikzlibrary{decorations.markings}
+% ----- Global Colors ----------
+\definecolor{treeblue}{RGB}{30,63,190} % Cobalt blue for the diaMuertos counting tree (sec-how-many).
+% ------ Global font setting -------------------
+% sans serif Lato font for HTML SVGs: 
+% make sure this matches the print one set in customPreambleLate.tex to avoid clashes. 
+\usepackage[default]{lato}
+% --------- pgf settings -------------------------
+% assume math mode: tick numbers are math mode; this drops the $...$ wrap
+% so the digits print in Lato, not the math font.
+\pgfplotsset{/pgf/number format/assume math mode=true}
+% ---------- workspace box styling --------------------------
+% The fill is a vertical gradient, deepest at the top, fading downward. 
+% Both ends are mixes of workspacefill, so the box keeps one colour to edit. 
+\definecolor{workspacefill}{HTML}{E8F5E9}%   box fill   (light green)
+\definecolor{workspaceborder}{HTML}{2E7D32}% box border (darker green)
+\tikzset{workspaceboxstyle/.style={
+    top color=workspacefill, 
+    bottom color=workspacefill!20!white,
+    draw=workspaceborder, 
+    line width=0.8pt, 
+    rounded corners=2pt}
+}
+% ---------- placeholder for a restricted image --------------------------
+% Stands in for an image whose license does not allow sharing yet, so the
+% real image never reaches any output. Draw it at the real image's printed size.
+% #1 = printed width, #2 = printed height (with units),
+% #3 = description of the image (plain text; write _ as \_)
+% The text is 4cm wide; in a narrower box it is scaled down to fit.
+\newcommand{\restrictedimage}[3]{%
+  \begin{tikzpicture}
+    \draw[gray, dashed, fill=gray!10] (0,0) rectangle (#1, #2);
+    \node[text width=4cm, align=flush center, scale={min(1, 0.9*#1/4cm)}, transform shape]
+      at (0.5*#1, 0.5*#2) {\textbf{Image pending license}\\ #3};
+  \end{tikzpicture}}

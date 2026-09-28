@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="hawaii-ws-muku">
+  <title>The Muku</title>
+
+  <!-- <page> -->
+    <sidebyside widths="50% 30%" margins="0% 7%" valign="middle">
+      <p>
+        The muku is a traditional Hawaiian unit of length. It is equivalent to the length of a stretched arm, from the tip of the middle finger to the opposite elbow. In other words, it is the distance between the fingertips of one hand when the arm is fully extended, and the elbow. The muku is a very personal and practical measure, as it is based on the individual's own body proportions.
+      </p>
+      
+      <image source="hawaii-muku-labeled.png" width="40%">
+        <shortdescription>
+          Illustration of a person demonstrating muku: one arm extended to the side, with the measurement spanning from fingertips to the opposite elbow, labeled muku.
+        </shortdescription>
+      </image>
+    </sidebyside>
+
+    <p>
+        In Hawaiian culture, the muku was commonly used to measure things like the length of a canoe, the height of a person, or the width of a taro patch. It was a convenient way to estimate distances without instruments. This measurement system was passed down through generations, allowing Hawaiians to communicate and understand measurements in their lives.
+      </p>
+      
+
+      <image source="hawaiian-canoe.jpeg" width="100%">
+        <shortdescription>A traditional Hawaiian sailing canoe on open water with a large white sail, carrying many people.</shortdescription>
+      </image>
+    <p>
+      Comparing the muku to other cultures, we find similar concepts in different parts of the world. For example, the ancient Egyptians used the cubit (the length from the elbow to the tip of the middle finger). Like the muku, the cubit was a personal measure that varied slightly from person to person. The ancient Romans used the pace, which was the distance covered by two steps. These measurements were also based on the human body and were used for practical purposes.
+    </p>
+    <sidebyside widths="60% 35%" margins="0% 0%" valign="top">
+    <stack><p>
+      The cultural relevance of the muku goes beyond measurement. It reflects the close connection Hawaiians had with their environment and the importance of human interaction in their lives. By using a measure based on their own bodies, Hawaiians emphasized the relationship between people and the world around them. It also highlights the resourcefulness and ingenuity of the Hawaiian people in finding practical solutions to their needs.
+    </p>
+    <p>
+      Today, while the muku is not widely used in modern Hawaii, it still holds cultural significance. It serves as a reminder of the rich heritage and traditions of the Hawaiian people. It is also a symbol of the deep connection Hawaiians have with their land, history, and ancestors.
+    </p></stack>
+    <p><figure xml:id="fig-taro-patch">
+      <caption>
+        <p><em>Taro patch</em>, a plant whose root when made into poi forms the principal food of the natives of Hawaiian Islands.</p>
+      </caption>
+      <image source="taro-patch.jpeg" width="80%">
+        <shortdescription>A lush taro patch with large green leaves.</shortdescription>
+      </image>
+    </figure></p>
+  </sidebyside>
+  <!-- </page> -->
+</worksheet>

@@ -1,0 +1,40 @@
+/* Student-Workbook (*-sw-web) custom CSS.
+   Loaded via html.css.extra="external/css/custom-sw.css" for the SW web targets.
+   Pulls in the shared rules; add any SW-only styling below.
+   NOTE: @import must precede all other rules. */
+@import url("custom-common.css");
+
+/* The worksheet "page card" is intentionally TG-only — see custom-tg.css —
+   so it does not appear in the Student Workbook output. */
+
+/* ─── EXERCISE NUMBER RUNS IN WITH ITS FIRST LINE (tacoma override) ──────────
+   The SW targets use the tacoma theme (publication-sw.ptx: <css theme="tacoma"/>).
+   Tacoma applies its run-in heading rules to .paragraphs only. The default
+   theme applies the same rules to `article` as well, and an exercise is an
+   `article`, so under tacoma PreTeXt's <h2 class="heading"> stays a block
+   and the number takes a line of its own. (The printer-icon preview loads
+   print-worksheet.css, which is theme-independent and does include the
+   `article` half — hence the preview and the page disagree.)
+
+   Below are tacoma's own .paragraphs rules, repeated for .exercise-like.
+   Exercises only: tacoma deliberately gives theorem-like, definition-like
+   and example-like headings a line of their own, and those are left alone.
+
+   Three selectors follow the heading because PreTeXt wraps an exercise
+   statement in one or two .para layers, and each layer has to be inline
+   for the text to join the number. */
+.exercise-like > .heading:first-child {
+  display: inline;
+  line-height: initial;
+  border-bottom: 0;
+}
+.exercise-like > .heading:first-child::after {
+  content: "\2009";  /* thin space, as tacoma does for .paragraphs */
+}
+.exercise-like > .heading:first-child + :is(.para, .para.logical, .introduction) {
+  display: inline;
+}
+.exercise-like > .heading:first-child + :is(.para, .para.logical, .introduction) > .para:first-child,
+.exercise-like > .heading:first-child + :is(.para, .para.logical, .introduction) > .para.logical:first-child > .para:first-child {
+  display: inline;
+}

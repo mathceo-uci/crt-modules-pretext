@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="hawaii-ws-lengths">
+  <title>Lengths!</title>
+   <sidebyside widths="16% 16% 16%" valign="middle" margins="10%">
+      <image source="hawaii-pia-basic.png">
+        <shortdescription>Pia</shortdescription>
+      </image>
+      <image source="hawaii-poho-basic.png">
+        <shortdescription>Poho</shortdescription>
+      </image>
+      <image source="hawaii-kikoo-basic.png">
+        <shortdescription>Kīko'o</shortdescription>
+      </image>      
+    </sidebyside>
+    
+    <sidebyside widths="30% 30% 30%" valign="middle" margins="0%">
+      <image source="hawaii-muku-basic.png">
+        <shortdescription>Muku</shortdescription>
+      </image>
+      <image source="hawaii-hailima-basic.png">
+        <shortdescription>Ha'ilima</shortdescription>
+      </image>
+      <image source="hawaii-iwilei-basic.png">
+        <shortdescription>Iwilei</shortdescription>
+      </image>      
+    </sidebyside>
+
+      
+      <exercise>
+        <title>Notebook length</title>
+        <statement>
+          <p>Measure the <alert>long side</alert> of a notebook in poho, and then in kīko'o. What did you get approximately?
+          <ul>
+            <li><fillin characters="5"/> poho</li>
+            <li><fillin characters="5"/> kīko'o</li>
+          </ul>
+          </p>
+        </statement>
+        
+        <solution>
+          <p>Sample responses (answers will vary depending on hand size):
+            <ul>
+              <li> 3 poho </li>
+              <li> 1.5 (or 1 to 2) kīko'o </li>
+            </ul>
+          </p>
+        </solution>
+        
+      </exercise>
+      
+      <exercise>
+        <statement>
+          <p>Fill in the blanks:
+            <ul>
+              <li>1 kīko'o is about the same as <fillin characters="5"/> poho.</li>
+              <li>4 poho is about the same as <fillin characters="5"/> iwilei.</li>
+            </ul>
+          </p>
+        </statement>
+        
+        <solution>
+          <p>Sample responses (other near values are acceptable):
+            <ul>
+              <li> 1 kīko'o is about the same as <m>2</m> poho. </li>
+              <li> 4 poho is about the same as <m>1/2</m> iwilei (or <m>0.4</m> to <m>0.6</m>). </li>
+            </ul>
+          </p>
+        </solution>
+        
+      </exercise>
+  <exercise xml:id="ex-more-comparisons">
+    <statement>   
+      <p>Create more comparisons:
+      <ul>
+        <li>1 <fillin characters="12"/> is about the same as <fillin characters="5"/> <fillin characters="12"/></li>
+        <li><fillin characters="5"/> <fillin characters="12"/> is about the same as <fillin characters="5"/> <fillin characters="12"/></li>
+      </ul>
+      </p>
+    </statement>
+<solution>
+  <p>Sample responses (other near values are acceptable):
+  <ul>
+    <li>1 <em>ha'ilima</em> is about the same as <em>4</em> <em>poho</em>.</li>
+    <li><em>3</em> <em>kīko'o</em> is about the same as <em>6</em> <em>poho</em>.</li>
+  </ul>
+  </p>
+</solution>
+  </exercise>
+
+  <!-- <conclusion> -->
+  <!-- </conclusion> -->
+  <exercise xml:id="hawaii-ws-lengths-discuss" workspace="2cm">
+    <title>Discuss</title>
+    <statement>
+      <p>
+        <ol>
+          <li>Why/when do you think these units of measure were invented?</li>
+          <li>What are the advantages of these units? And disadvantages?</li>
+          <li>Do you use your body or objects to take measures? How?</li>
+        </ol>
+      </p>
+    </statement>
+  </exercise>
+</worksheet>

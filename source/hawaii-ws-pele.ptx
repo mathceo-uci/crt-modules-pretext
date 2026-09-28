@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="hawaii-ws-pele">
+  <title>Pele</title>
+
+  <introduction>
+    <blockquote>
+      <title>Pele (deity)</title>
+      <p>
+        In Hawaiian religion, Pele is the goddess of volcanoes and fire and the creator of the Hawaiian Islands. Often referred to as <q>Madame Pele</q> or <q>Tūtū Pele</q> as a sign of respect, she is a well-known deity within Hawaiian mythology and is notable for her contemporary presence and cultural influence as an enduring figure from ancient Hawaii.
+      </p>
+      <p>
+        Legend told that Pele herself journeyed on her canoe from the island of Tahiti to Hawai'i. When on her journey, it was said she tried to create her fires on different islands, but her sister, Nāmaka, was chasing her, wanting to put an end to her. In the end, the two sisters fought each other and Pele was killed. With this happening, her body was destroyed but her spirit lives in Halema'uma'u on Kīlauea. They say, <q>Her body is the lava and steam that comes from the volcano. She can also change form, appearing as a white dog, old woman, or beautiful young woman.</q>
+      </p>
+      <attribution>Adapted from <url href="https://en.wikipedia.org/wiki/Pele_(deity)">Wikipedia</url></attribution>
+    </blockquote>
+    <figure xml:id="fig-pele">
+      <caption>
+        Pele, by D. Howard Hitchcock (c. 1929)
+      </caption>
+      <image source="hawaii-pele-painting.jpg" width="55%">
+        <shortdescription>An oil painting of Pele, the Hawaiian volcano goddess, emerging from swirling flames and lava, her face and hair formed within the fire above a dark volcanic slope.</shortdescription>
+      </image>
+    </figure>
+  </introduction>
+
+  <exercise workspace="4cm" xml:id="ex-pele-sculpture">
+    <title>Sculpture of Pele</title>
+    <statement>
+      <sidebyside widths="55% 35%" margins="0% 3%">
+        <stack>
+          <p>
+            You want to make a sculpture of Pele. You want it to be between 45 and 50 feet tall. Complete the table of ranges with the Hawaiian measures <em>relative to</em> the statue.
+          </p>
+          <p><em>You can think of it as follows: if a giant person is 45–50 ft tall, what is the length, in ft, of 1 poho of that person?</em></p>
+          <p>Space for calculations:</p>
+        </stack>
+        <p>
+          <tabular halign="center" top="medium" left="minor" right="minor">
+          <col halign="left" width="30%"/>
+          <col width="30%"/>
+          <row header="yes" bottom="medium">
+            <cell>unit</cell>
+            <cell>how long? (feet)</cell>
+          </row>
+          <row bottom="minor"><cell halign="left">1 poho =</cell><cell></cell></row>
+          <row bottom="minor"><cell halign="left">1 kīko'o =</cell><cell></cell></row>
+          <row bottom="minor"><cell halign="left">1 ha'ilima =</cell><cell></cell></row>
+          <row bottom="minor"><cell halign="left">1 iwilei =</cell><cell></cell></row>
+          <row bottom="medium"><cell halign="left">height =</cell><cell>45 to 50</cell></row>
+        </tabular>
+      </p>
+      </sidebyside>
+    </statement>
+  </exercise>
+
+  <exercise workspace="2cm" xml:id="ex-pele-sculpture-small">
+    <title>A new Pele</title>
+    <statement>
+      <p>
+        You want to make a small figure of Pele. The length of 1 kīko'o of this figure is 1.25 inches. What should be the height of the figure, in inches?
+      </p>
+    </statement>
+    <solution>
+  <paragraphs>
+    <title>1. Sculpture of Pele</title>
+    <p>
+      Here are two common approaches students may take to complete Exercise 1:
+    </p>
+  </paragraphs>
+  <paragraphs>
+    <title>Approach 1: Doing a <q>me</q> table first</title>
+    <p>
+      The student first finds all measures relative to themselves. For example, the student knows their height: 5.25 feet. Then, the student takes their Hawaiian measures using a tape measure, in inches, and converts to feet. The student may just take one measure, and use the conversion table from Part i to figure out the rest!
+    </p>
+    <p>
+      Finally, the student scales the measures. Since 45/5.25 is about 8.5, and 50/5.25 is about 9.5, the student scales multiplying by 8.5 and by 9.5 to complete Pele's table.
+    </p>
+    <tabular halign="center" top="medium" left="minor" right="minor" width="80%">
+      <col halign="left" width="25%"/>
+      <col width="20%"/>
+      <col width="10%"/>
+      <col width="25%"/>
+      <row header="yes" bottom="minor">
+        <cell></cell>
+        <cell>myself</cell>
+        <cell></cell>
+        <cell>giant Pele</cell>
+      </row>
+      <row header="yes" bottom="medium">
+        <cell>unit</cell>
+        <cell>how long? (feet)</cell>
+        <cell></cell>
+        <cell>how long? (feet)</cell>
+      </row>
+      <row bottom="minor"><cell halign="left">1 poho =</cell><cell><m>\ldots</m></cell><cell><m>\Rightarrow</m></cell><cell><m>\ldots</m> to <m>\ldots</m></cell></row>
+      <row bottom="minor"><cell halign="left">1 kīko'o =</cell><cell><m>\ldots</m></cell><cell><m>\Rightarrow</m></cell><cell><m>\ldots</m> to <m>\ldots</m></cell></row>
+      <row bottom="minor"><cell halign="left">1 ha'ilima =</cell><cell><m>\ldots</m></cell><cell><m>\Rightarrow</m></cell><cell><m>\ldots</m> to <m>\ldots</m></cell></row>
+      <row bottom="minor"><cell halign="left">1 iwilei =</cell><cell><m>\ldots</m></cell><cell><m>\Rightarrow</m></cell><cell><m>\ldots</m> to <m>\ldots</m></cell></row>
+      <row bottom="medium"><cell halign="left">height =</cell><cell>5.25</cell><cell><m>\Rightarrow</m></cell><cell>45 to 50</cell></row>
+    </tabular>
+  </paragraphs>
+  <paragraphs>
+    <title>Approach 2: Finding height relative to a Hawaiian measure</title>
+    <p>
+      The student uses their own body to estimate their height (or the one of a partner) in terms of Hawaiian measures.
+    </p>
+    <p>
+      Example: Carlos and Lucy are working together. Carlos helps Lucy figure out her height in terms of kīko'o. Say, they got 8.3. Then, they recall the nice relative relations between Hawaiian measurements (powers of 2). They first divide 45 (and 50) by 8.3 to get about 5.4 and 6.
+    </p>
+    <tabular halign="center" top="medium" left="minor" right="minor" width="60%">
+      <col halign="left" width="50%"/>
+      <col width="50%"/>
+      <row header="yes" bottom="medium">
+        <cell>unit</cell>
+        <cell>how long? (feet)</cell>
+      </row>
+      <row bottom="minor"><cell halign="left">1 poho =</cell><cell></cell></row>
+      <row bottom="minor"><cell halign="left">1 kīko'o =</cell><cell>5.4 to 6</cell></row>
+      <row bottom="minor"><cell halign="left">1 ha'ilima =</cell><cell></cell></row>
+      <row bottom="minor"><cell halign="left">1 iwilei =</cell><cell></cell></row>
+      <row bottom="medium"><cell halign="left">height =</cell><cell>45 to 50</cell></row>
+    </tabular>
+    <p>
+      Then, they divide by 2 to get smaller units (poho) and multiply by 2 and 4 to get larger units (ha'ilima and iwilei) to complete the table.
+    </p>
+    <tabular halign="center" top="medium" left="minor" right="minor" width="60%">
+      <col halign="left" width="50%"/>
+      <col width="50%"/>
+      <row header="yes" bottom="medium">
+        <cell>unit</cell>
+        <cell>how long? (feet)</cell>
+      </row>
+      <row bottom="minor"><cell halign="left">1 poho =</cell><cell>2.7 to 3</cell></row>
+      <row bottom="minor"><cell halign="left">1 kīko'o =</cell><cell>5.4 to 6</cell></row>
+      <row bottom="minor"><cell halign="left">1 ha'ilima =</cell><cell>10.8 to 12</cell></row>
+      <row bottom="minor"><cell halign="left">1 iwilei =</cell><cell>21.6 to 24</cell></row>
+      <row bottom="medium"><cell halign="left">height =</cell><cell>45 to 50</cell></row>
+    </tabular>
+  </paragraphs>
+  <paragraphs>
+    <title>2. A new Pele</title>
+    <p>
+      Using the same proportional body ratio as before (height is approximately 8.3 kīko'o):
+    </p>
+    <p>
+      If 1 kīko'o is <m>1.25</m> inches, we can multiply by the person's height in kīko'o:
+    </p>
+    <md>
+      \text{Height} = 8.3 \times 1.25\text{ inches} \approx 10.375\text{ inches}
+    </md>
+    <p>
+      Alternatively, if a student uses their own ratio (for example, height is about 8 kīko'o):
+    </p>
+    <md>
+      \text{Height} = 8 \times 1.25\text{ inches} = 10\text{ inches}
+    </md>
+  </paragraphs>
+</solution>
+  </exercise>
+
+</worksheet>

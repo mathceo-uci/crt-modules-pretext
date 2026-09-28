@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preface xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="preface-intro-instructor">
+  <title>Module introduction</title>
+  <assemblage component="TODO">
+    <title>Add decorative intro image</title>
+    <p>Add a cover/decorative image (e.g. the four friends).</p>
+  </assemblage>
+
+  
+
+  <p>In this module, students will discover the hidden stereotypes, by detecting implicit biases, and they will reflect on experiences that they have had in the past.</p>
+
+  <assemblage component="TODO">
+    <title>Text above?</title>
+    <p>EAJ, 3Aug2026</p>
+    <p>The text above is a floating text from the TG slide. I propose to make it the onening paragraph. The paragraph that follows could then open as "More concretely, in this moodule we ..."</p>
+  </assemblage>
+
+  <p>In this module we create possible (small) <em>worlds</em> of people through basic combinatorics (counting permutations in the form of filled tables, and using trees, addition and multiplication expressions, and time strips). A world will be one combinatorial object, and we will represent it with a table, among other possible ways.</p>
+
+  <p>In one activity, students will talk about friendship, and share the aspects that they value in friendships, giving examples.</p>
+
+  <p>Also, students will discover the hidden stereotypes, by detecting implicit biases, and they will reflect on experiences that they have had in the past. This will connect with the notion of world: a stereotype shuts down many possible worlds.</p>
+
+  <paragraphs>
+    <title>Overview of Activities</title>
+    <ol>
+      <li>
+        <title><xref ref="chap-multiverses" text="title"/></title>
+        <p>We will solve logical puzzles and explore small <q>worlds</q> were friends make different choices, and reflect about our worlds (real and possible) of friendship. We will also discuss stereotypes. Finally, we will explore ways to count worlds, viewing them as objects with information, and using explicit counting (lists), tables, tree diagrams, expressions and more!</p>
+      </li>
+      <li>
+        <title><xref ref="chap-challenges" text="title"/></title>
+        <p>We continue solving problems that involve counting and understanding how to organize and represent different worlds.</p>
+      </li>
+    </ol>
+  </paragraphs>
+
+  <assemblage component="TODO">
+    <title><q>Occupations</q> sub-activity?</title>
+    <p>EAJ, 3Aug2026</p>
+    <p>The module Overview (TG p. 6) lists Multiverses as having three sub-activities: <q>i. Viajeros (5 min.), ii. Cuatro Amigos (20 min.), iii. Occupations (10 min.)</q>. But there is no Occupations activity anywhere else in the TG or SW (the Part 1 breakdown on p. 9 lists only two: A Travel Puzzle and Amigos). Decide whether Occupations is a dropped/planned activity, and reconcile.</p>
+  </assemblage>
+
+  <objectives>
+    <title>Math</title>
+    <ul>
+      <li>
+        <p>Counting</p>
+        <ul>
+          <li>Make sense of counting situations by understanding the objects that need to be counted, and giving examples, and non-examples.</li>
+          <li>Use tree diagrams flexibly to represent counting problems, and relate them to addition and multiplication expressions.</li>
+          <li>Use time strips in several ways to represent counting problems, and relate them to addition and multiplication expressions.</li>
+          <li>Extend counting problems already solved to new problems that include more complexity (such as a new step).</li>
+        </ul>
+      </li>
+    </ul>
+  </objectives>
+
+  <objectives>
+    <title>Enrichment</title>
+    <dl>
+      <li>
+        <title>Appreciate</title>
+        <p>We will appreciate the relationships that we have built with each other so far.</p>
+      </li>
+      <li>
+        <title>Empower</title>
+        <p>We will empower teachers and students to be people that ask lots of questions and like challenges, in a positive environment.</p>
+      </li>
+      <li>
+        <title>Resist</title>
+        <p>We will resist damaging biases that we or others have towards certain groups of people, and learn about how we can recognize them or bring them to the front.</p>
+      </li>
+      <li>
+        <title>Apologize</title>
+        <p>We will apologize to people that we may have hurt with our implicit biases or stereotypes, by acknowledging it with our own words, and change our mindset.</p>
+      </li>
+    </dl>
+  </objectives>
+
+</preface>

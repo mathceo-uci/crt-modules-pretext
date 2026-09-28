@@ -1,0 +1,95 @@
+\begin{tikzpicture}[
+    every node/.style={treeblue},
+    line/.style={treeblue, line width=1pt},
+]
+% Enrique Acosta, 2026
+% ============================================================================
+% A full n-ary tree drawn sideways: root on the left, leaves fanning out on
+% the right. 
+% 
+% Growth direction is controlled purely by the coordinate formula. 
+% Swap \xx and \yy in (1) to get a tree opening upwards, add a "-" to 
+% get it to open downwards.
+% ============================================================================
+
+% --- Tree parameters -----------------------------------------------
+\def\branch{3}       % children per node (branching factor)
+\def\depth{4}        % number of splits = tree depth (there are \depth+1 rows)
+% --- Layout parameters ------------------------------
+\def\levelsep{2.2}   % gap between levels (cm) in the branching direction
+\def\leafsep{0.2}    % perpendicular gap between adjacent leaves (cm)
+\def\rootrad{3.2}    % dot radius at the root (pt)
+\def\leafrad{1.6}    % dot radius at the leaves (pt), interpolated in between
+% -------------------------------------------------------------
+
+% --- Derived constants (computed once from the Tree parameters) -------- 
+\pgfmathtruncatemacro{\nleaves}{\branch^\depth}    % total leaves
+\pgfmathsetmacro{\midleaf}{(\nleaves-1)/2}         % center leaf index
+
+% 1) Define a coordinate for every node.
+%    Depth d (0..\depth) has branch^d nodes; each is centered on the leaves
+%    it covers.
+\foreach \d in {0,...,\depth} {
+    \pgfmathtruncatemacro{\nmax}{\branch^\d - 1}         % last node index here
+    \pgfmathtruncatemacro{\leavesper}{\branch^(\depth-\d)}% leaves under one node
+    \foreach \i in {0,...,\nmax} {
+%       Midpoint of the leaf block [ \i*\leavesper , +\leavesper-1 ], in
+%       leaf-index units. Centering each node on its block keeps parents
+%       symmetric above their children.
+        \pgfmathsetmacro{\cen}{\i*\leavesper + (\leavesper-1)/2}
+%       Recenter on 0 (subtract the middle leaf index) and scale to cm.
+        \pgfmathsetmacro{\yy}{(\cen-\midleaf)*\leafsep}
+        \pgfmathsetmacro{\xx}{\d*\levelsep}
+        \coordinate (n-\d-\i) at (\xx,\yy);
+    }
+}
+
+% 2) Draw the edges. Loop over PARENT depths 0..\depth-1; each parent \i has
+%    children \branch*\i + \k for \k = 0..\bm on the next depth.
+%    Depth=0 is special: has arrowheads and space between them an the child nodes
+\pgfmathtruncatemacro{\dm}{\depth-1}  % last PARENT depth
+\pgfmathtruncatemacro{\bm}{\branch-1} % last child offset
+\foreach \d in {0,...,\dm} {
+    \pgfmathtruncatemacro{\nmax}{\branch^\d - 1}
+    \pgfmathtruncatemacro{\dn}{\d+1}
+    \foreach \i in {0,...,\nmax} {
+        \foreach \k in {0,...,\bm} {
+            \pgfmathtruncatemacro{\child}{\branch*\i+\k}
+            \ifnum\d=0
+                \draw[line, -{Stealth[length=3mm]}, shorten >=4pt]
+                    (n-0-\i) -- (n-\dn-\child);
+            \else
+                \draw[line] (n-\d-\i) -- (n-\dn-\child);
+            \fi
+        }
+    }
+}
+
+% 3) Draw the dots on top, radius interpolated from \rootrad to \leafrad
+%    linearly with depth (replaces the old hand-picked size thresholds).
+\foreach \d in {0,...,\depth} {
+    \pgfmathtruncatemacro{\nmax}{\branch^\d - 1}
+    \pgfmathsetmacro{\rad}{\rootrad + (\leafrad-\rootrad)*\d/\depth}
+    \foreach \i in {0,...,\nmax} {
+        \fill[treeblue] (n-\d-\i) circle (\rad pt);
+    }
+}
+
+% 4) Root label and annotation.
+\node[ anchor=south
+     % , font=\large
+     , text width=1.5cm
+     , align=center
+     %, draw
+     ] at ([xshift=-4mm, yshift=6mm]n-0-0) {No choice yet!};
+
+\node[ anchor= south
+     % , font=\itshape
+     , text width=4cm
+     , align=center
+     %, draw
+     ] at ([xshift=-10mm, yshift=4mm]n-1-2)
+     {This tree splits in three four times.\\ It has 4 levels.\\
+      It shows all 81 músicos.\\($3\times3\times3\times3$)};
+
+\end{tikzpicture}

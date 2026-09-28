@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="palabras-ws-translationMachines">
+  <title>Translation Machines</title>
+
+  <page>
+    <sidebyside widths="45% 45%" margins="0% 0%">
+      <stack>
+        <image source="translationMachines-ENGtoGRE.png" width="80%">
+          <shortdescription>The "Sophia Machine" (labeled with a Greek alpha): a machine with an ENG input funnel on top and a GRE output at the bottom.</shortdescription>
+        </image>
+        <p>The <q>Sophia Machine</q> translated lots of words from English to Greek.</p>
+        <p>Words usually got longer<ellipsis/> On average, the <term>scaling factor</term> for the change in # of letters was <alert>1.22</alert>.</p>
+      </stack>
+      <stack>
+        <image source="translationMachines-ENGtoHEB.png" width="80%">
+          <shortdescription>The "Chokhma Machine": a machine with an ENG input funnel on top and a HEB (Hebrew) output at the bottom.</shortdescription>
+        </image>
+        <p>The <q>Chokhma Machine</q> translated tons of words from English to Hebrew.</p>
+        <p>Words typically got shorter<ellipsis/> On average, the <term>scaling factor</term> for the change in # of letters was <alert>0.79</alert>.</p>
+      </stack>
+    </sidebyside>
+
+    <exercise xml:id="ex-machines-greek-hebrew" workspace="4cm">
+      <statement>
+        <p>How would you use these machines to build a new one to translate from Greek to Hebrew? (Be creative!)</p>
+      </statement>
+      <solution>        
+        <p>
+          Sample response: I will first open the Sophia machine to inspect it, and reverse the mechanism so that it now works translating from Greek to English, and then put together with the Chokhma Machine:
+          <md>
+            \text{GRE}\xrightarrow{\text{(Sophia inverted)}}\text{ENG}\xrightarrow{\text{(Chokhma)}}\text{HEB}
+          </md>
+          (Make sure that students can build this arrow diagram or a similar visual.)
+        </p>
+      </solution>
+    </exercise>
+
+    <exercise xml:id="ex-machines-scaling-factor" workspace="4cm">
+      <statement>
+        <p>What would be the (approximate) <term>scaling factor</term>? Show why!</p>
+      </statement>
+      <solution>
+        <p>The new scaling factor is about 65%. To see this, we first approximate 1.22 to 1.2 (<m>6/5</m>) or to 1.25 (<m>5/4</m>), and 0.79 to 0.8 (<m>4/5</m>) to work this problem (note that we need to invert 1.22 since we reversed Sophia). Then, there are several methods to solve the problem:</p>
+        <ul>
+          <li>
+            <title>Method 1</title>
+            <p>
+              <md>\text{GRE}\xrightarrow{\times 5/6}\text{ENG}\xrightarrow{\times 4/5}\text{HEB}</md>
+              Multiply: <m>(5/6)\times(4/5) = 2/3</m> (about 66.6%).
+            </p>
+          </li>
+          <li>
+            <title>Method 2</title>
+            <p>
+              <md>\text{GRE}\xrightarrow{\times 4/5}\text{ENG}\xrightarrow{\times 4/5}\text{HEB}</md>
+              Multiply: <m>(4/5)\times(4/5) = 16/25</m> (64%).
+            </p>
+          </li>
+          <li>
+            <title>Method 3</title>
+            <p>Using calculator: <m>\left[1/(1.22)\right] \times (0.79) \approx 0.6475</m> <ellipsis/> (close to 65%).</p>
+          </li>
+        </ul>
+      </solution>
+    </exercise>
+  </page>
+
+</worksheet>

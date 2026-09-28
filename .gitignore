@@ -1,0 +1,17 @@
+.DS_Store
+/logs
+/output
+# don't track assets generated from source (PreTeXt rebuilds these)
+/generated-assets
+/published
+.vscode/settings.json
+.error_schema.log
+.cache/.web_assets.json
+/source-slides
+/.cache
+/source/tikz/*.pdf
+/source/tikz/*.log
+/source/tikz/*.aux
+# Python bytecode cache (from scripts/)
+__pycache__/
+*.pyc

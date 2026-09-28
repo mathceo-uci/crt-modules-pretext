@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preface xmlns:xi="http://www.w3.org/2001/XInclude"  xml:id="preface-intro-instructor">
+  <title>Module introduction</title>
+
+  <p>This meeting is all about learning and teaching words in different languages! We want that students can express themselves and share particular words that are meaningful to them, and realize how this can be part of their identity.</p>
+
+  <p>We'll explore two main big math ideas, which will blend together naturally: first, the idea of a <term>scaling factor</term> (a number that helps predict an output by multiplying the input). The variable that we'll deal with is <q>length</q> (number of letters of a word), and we'll see what happens when we do translations. Students will also practice <term>mental math</term>.</p>
+
+  <p>We will not have an exact scaling factor, but an <q>average</q> or <q>typical</q> one, because we are dealing with variable data. Students can approach this in many ways.</p>
+
+  <p>This brings us to the other main big idea of the meeting, which is <term>data associations &amp; trends</term>. Students will identify a line that best fits some data about lengths of translations, and make sense of the slope of the line, which will be the scaling factor. Along the way, students will learn what dot plots are and how they work.</p>
+
+  <paragraphs>
+    <title>Overview</title>
+    <ol>
+      <li>
+        <title><xref ref="chap-lengths-of-words" text="title"/></title>
+        <p>We will create a space to exchange how words shape us, and learn about languages. Then, we'll explore how the length of words change from English to Spanish, generate data, and summarize it using the idea of a <term>scaling factor</term> that represents many scaling factors. Students will understand how there are many scaling factors, but we want some <q>average</q>.</p>
+      </li>
+      <li>
+        <title><xref ref="chap-lets-read-tagalog" text="title"/></title>
+        <p>We will learn about the Tagalog language, and then be presented with some data, both in graph mode (dot plot) and in table mode. Students will relate both representations, find a line of best fit to describe a data association between lengths of words, and return to the idea of a scaling factor, connecting to Part 1.</p>
+      </li>
+    </ol>
+  </paragraphs>
+
+  <objectives>
+    <title>Math</title>
+    <ul>
+      <li>
+        <p>Scaling Factors</p>
+        <ul>
+          <li>Given a number that changes to another number by multiplication, and given the scaling factor (the multiplier), find the resulting number.</li>
+          <li>Given a number that <q>changes</q> to become another number, find the scaling factor that does this, and express it in different ways (decimal, fraction, percent change, tape diagrams).</li>
+          <li>Use mental math to find scaling factors or results of scaling, and orally explain the strategies and reasoning used.</li>
+        </ul>
+      </li>
+      <li>
+        <p>Analyzing Data</p>
+        <ul>
+          <li>Read dot plots in a situation, labeling the axes appropriately, and explaining the meaning of each point.</li>
+          <li>Given a dot plot, find a linear trend: that is, a line that fits all points as best as possible (intuitively, without deep calculations). Also, explain what the slope means in the particular real-world situation.</li>
+        </ul>
+      </li>
+    </ul>
+  </objectives>
+
+  <objectives>
+    <title>Enrichment</title>
+    <dl>
+      <li>
+        <title>Appreciate</title>
+        <p>We will appreciate different languages what we speak and learn about them.</p>
+      </li>
+      <li>
+        <title>Share</title>
+        <p>We will share cultural stories related to words and phrases that we use, along with activities, values, preferences, people, and beliefs associated with it.</p>
+      </li>
+      <li>
+        <title>Empower</title>
+        <p>We will empower everyone to interpret data in many ways and come up with out of the box thinking.</p>
+      </li>
+      <li>
+        <title>Encourage</title>
+        <p>We will encourage everyone to learn as much as possible, and help others in their learning.</p>
+      </li>
+    </dl>
+  </objectives>
+
+  <paragraphs>
+    <title>Video: meeting overview (13 min)</title>
+    <video youtube="1F1nR2UAz_g" width="90%"/>
+  </paragraphs>
+
+</preface>

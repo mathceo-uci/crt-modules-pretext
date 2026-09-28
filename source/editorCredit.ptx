@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Shared by every {module}-bibinfo.ptx. A credit with a role and an entity
+     prints on the copyright page, and in HTML on the front "Credits and
+     License" page, above the licence. -->
+<credit>
+  <role>Edited and engineered in <pretext/></role>
+  <entity><url href="https://enriqueacosta.github.io/" visual="enriqueacosta.github.io">Enrique Acosta Jaramillo</url></entity>
+</credit>

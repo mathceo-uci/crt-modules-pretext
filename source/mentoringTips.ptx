@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preface xml:id="preface-mentoring-tips" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Mentoring Tips</title>
+  <assemblage component="TODO">
+    <title>EAJ, Jun2026: Placement?</title>
+    <p>
+      Propose to move this to the backmatter. Opinions?
+    </p>
+  </assemblage>
+
+  <dl>
+    <li>
+      <title>Know Your Students</title>
+      <p>Call students by their names most of the time: talk about their day before the math.</p>
+    </li>
+    <li>
+      <title>Ask for Explanations</title>
+      <p>Ask students how they got their answers: <q>How do you know?</q>, <q>Why?</q>, <q>Draw a picture</q>, <q>Convince me!</q></p>
+    </li>
+    <li>
+      <title>Monitor</title>
+      <p>Monitor all students; check chat box and screens regularly; use an adequate tone of voice; promote teamwork.</p>
+    </li>
+    <li>
+      <title>Check Work</title>
+      <p>Verify that the students write the solutions to the problems, not just the answers.</p>
+    </li>
+    <li>
+      <title>At the End</title>
+      <p>Complete the meeting report; share experience with peer mentors in debrief session.</p>
+    </li>
+  </dl>
+
+  <assemblage component="TODO">
+    <title>EAJ, Jun2026: Heading?</title>
+    <p>
+      Does the [Keep in mind ...] heading work?
+    </p>
+  </assemblage>
+  <paragraphs>
+    <title>Keep in mind ...</title>
+    <ul>
+      <li><p>Clearly state your learning goals.</p></li>
+      <li><p>Explain with pictures, vivid language, metaphors, and videos.</p></li>
+      <li><p>Monitor mentee's status and change pace.</p></li>
+      <li><p>Ask questions continuously to check for thinking and understanding.</p></li>
+      <li><p>Have kids tell their ideas to other kids.</p></li>
+    </ul>
+  </paragraphs>
+
+  <paragraphs>
+    <title>Teaching Tips</title>
+    <assemblage component="TODO">
+      <title>EAJ, Jun2026: meaning?</title>
+      <p>
+          Don't follow this sentence. What is it referencing?
+      </p>
+    </assemblage>
+    <p>
+      Tips which you will find in the Teaching Manual: procedures, questions to ask, recommendations, methodologies.
+    </p>
+  </paragraphs>
+
+</preface>

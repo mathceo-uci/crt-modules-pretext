@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <xi:include href="./docinfo.ptx"/>
+  <book xml:id="cuatroAmigos-sw">
+    <title>Los 4 Amigos</title>
+    <subtitle>Student Workbook</subtitle>
+    <frontmatter xml:id="frontmatter">
+      <xi:include href="./cuatroAmigos-bibinfo.ptx"/>
+      <titlepage>
+        <titlepage-items/>
+      </titlepage>
+      <colophon>
+        <colophon-items/>
+      </colophon>
+      <xi:include href="./aboutMathCEO.ptx"/>
+      <xi:include href="./cuatroAmigos-sw-intro.ptx"/>
+    </frontmatter>
+
+    <chapter xml:id="chap-multiverses">
+      <title>Multiverses (40 min)</title>
+      <introduction>
+        <!-- widths are proportional to each portrait's aspect ratio (w/h), so all
+             four render at the same height: 1024x778, 500x750, 413x546, 953x631. -->
+        <sidebyside widths="29.7% 15.1% 17.1% 34.1%" margins="0% 0%" valign="middle">
+          <image source="cuatroAmigos-friends-axel.jpg" decorative="yes"/>
+          <image source="cuatroAmigos-friends-ben.jpg" decorative="yes"/>
+          <image source="cuatroAmigos-friends-cora.jpg" decorative="yes"/>
+          <image source="cuatroAmigos-friends-dana.jpg" decorative="yes"/>
+        </sidebyside>
+      </introduction>
+      <xi:include href="./cuatroAmigos-ws-viajeros.ptx"/>
+      <xi:include href="./cuatroAmigos-ws-cuatroAmigos.ptx"/>
+    </chapter>
+
+    <chapter xml:id="chap-challenges">
+      <title>Challenges (40 min)</title>
+      <xi:include href="./cuatroAmigos-ws-countingWorldsChallenges.ptx"/>
+    </chapter>
+
+    <backmatter xml:id="backmatter">
+      <title>Backmatter</title>
+
+      <appendix xml:id="appendix-image-attributions">
+        <title>Image Attributions</title>
+        <p>The following images are used in this module. Where known, source, author, and license information is provided.</p>
+
+        <!-- One entry per image, in the order the images appear in the book.  -->
+        <!-- Each entry opens with an  xref  whose text is a description of    -->
+        <!-- the image (text="custom"), pointing at the closest numbered       -->
+        <!-- division that holds it. On the web that description is the link,  -->
+        <!-- and hovering it shows where the link goes. In print PreTeXt puts  -->
+        <!-- the page number right after the description, so an entry reads    -->
+        <!-- "Axel, p. 12: ...".                                               -->
+        <!-- This book shares its worksheets with the Teaching Guide, so the   -->
+        <!-- same images are credited there too. Only the images that appear   -->
+        <!-- in this book are listed here.                                     -->
+        <p>
+        <ul>
+          <li><p><xref ref="cuatroAmigos-ws-cuatroAmigos" text="custom">Axel</xref>: <url href="https://boudewijnhuijgens.getarchive.net/amp/media/los-angeles-kids-boy-people-67771c" visual="boudewijnhuijgens.getarchive.net">GetArchive</url>, from a pre-July-2017 Pixabay upload (CC0). Public domain.</p></li>
+          <li><p><xref ref="cuatroAmigos-ws-cuatroAmigos" text="custom">Ben</xref>: <url href="https://www.pexels.com/photo/portrait-of-an-asian-boy-in-black-and-white-18124971/" visual="www.pexels.com">Pexels</url> photo by Aibek Skakov, <url href="https://www.pexels.com/license/" visual="pexels.com">Pexels License</url>.</p></li>
+          <li><p><xref ref="cuatroAmigos-ws-cuatroAmigos" text="custom">Cora</xref>: <url href="https://www.rawpixel.com/search/women%20latin?page=1&amp;path=_topics%7C%24editorial%7C%248%5Cx2e5%3A11&amp;sort=curated" visual="www.rawpixel.com">Young Latin-American girl, FSA camp, Robstown, Texas</url>, a Library of Congress U.S. Government work. Public domain.</p></li>
+          <li><p><xref ref="cuatroAmigos-ws-cuatroAmigos" text="custom">Dana</xref>: <url href="https://freerangestock.com/photos/159193/black-and-white-portrait-of-a-girl.html" visual="freerangestock.com">FreeRange Stock</url> photo by Candace McDaniel, from the site's CC0 Images. Public domain.</p></li>
+        </ul>
+        </p>
+
+        <assemblage component="TODO">
+          <title>PENDING: image attributions</title>
+          <p>Still needed:
+          <ul>
+            <li><p>Viajeros train (cuatroAmigos-viajeros-train.jpg): source, author, license.</p></li>
+            <li><p>Viajeros ordering (cuatroAmigos-viajeros-ordering.png): source, author, license.</p></li>
+            <li><p>24-world tree (cuatroAmigos-tree-empty.png, cuatroAmigos-tree-full.jpg): source, author, license.</p></li>
+          </ul>
+          </p>
+        </assemblage>
+      </appendix>
+
+      <xi:include href="./colophon.ptx"/>
+
+    </backmatter>
+  </book>
+</pretext>

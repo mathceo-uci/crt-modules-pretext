@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preface xml:id="preface-introduction-student" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Introduction</title>
+  <image source="palabras-map-southAmerica.jpg" width="60%" decorative="yes"/>
+  <assemblage component="TODO">
+    <title>Don't forget the SPanish version of the sw!</title>
+    <p>EAJ: 4June2026</p>
+    <p>It should be relatively easy to build once the English one is finalized using new files with filenames <code>-es.ptx</code>.</p>
+  </assemblage>
+  <p>
+    Let's create and analyze data about translations and lengths of words!
+  </p>
+
+  <paragraphs>
+    <title>Overview</title>
+    <ol>
+      <li>
+        <title><xref ref="chap-lengths-of-words" text="title"/></title>
+        <p>Let's talk about languages (English, Spanish, and more), and see how they compare in terms of the lengths of their words when translating.</p>
+      </li>
+      <li>
+        <title><xref ref="chap-lets-read-tagalog" text="title"/></title>
+        <p>Let's learn about Tagalog (a language from the Philippines), and use math to relate it to English using graphs, trends, and scaling factors!</p>
+      </li>
+    </ol>
+  </paragraphs>
+
+  <paragraphs>
+    <title>Math Topics</title>
+    <ul>
+      <li>percentages</li>
+      <li>finding &amp; using scaling factors</li>
+      <li>interpreting data</li>
+      <li>graphs (dot plots)</li>
+      <li>trend lines</li>
+    </ul>
+  </paragraphs>
+</preface>

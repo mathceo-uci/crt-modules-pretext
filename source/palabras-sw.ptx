@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <xi:include href="./docinfo.ptx"/>
+  <book xml:id="palabras-sw">
+    <title>Palabras More, Palabras Less</title>
+    <subtitle>Student Workbook</subtitle>
+    <frontmatter xml:id="frontmatter">
+      <xi:include href="./palabras-bibinfo.ptx"/>
+      <titlepage>
+        <titlepage-items/>
+      </titlepage>
+      <colophon>
+        <colophon-items/>
+      </colophon>
+      <xi:include href="./aboutMathCEO.ptx"/>
+      <xi:include href="./palabras-sw-intro.ptx"/>
+    </frontmatter>
+
+    <chapter xml:id="chap-lengths-of-words">
+      <title>Lengths of Words (50 min)</title>
+      <introduction>
+        <image source="translationMachines-ENGtoGRE.png" width="80%">
+          <shortdescription>The "Sophia Machine" (labeled with a Greek alpha): a machine with an ENG input funnel on top and a GRE output at the bottom.</shortdescription>
+        </image>
+      </introduction>
+      <xi:include href="./palabras-ws-sharingAboutLanguages.ptx"/>
+      <xi:include href="./palabras-ws-espanglishemos.ptx"/>
+      <xi:include href="./palabras-ws-translationMachines.ptx"/>
+      <xi:include href="./palabras-ws-challenges.ptx"/>
+    </chapter>
+
+    <chapter xml:id="chap-lets-read-tagalog">
+      <title>Let's Read Tagalog (30 min)</title>
+      <introduction>
+        <image source="palabras-philippines-street.jpg" width="100%">
+          <shortdescription>A cobblestone street in a historic Philippine town lined with Spanish colonial-era houses, with a horse-drawn kalesa carriage and vendors' stalls.</shortdescription>
+        </image>
+      </introduction>
+      <xi:include href="./palabras-ws-letsReadTagalog.ptx"/>
+      <xi:include href="./palabras-ws-puzzleTagalog.ptx"/>
+    </chapter>
+
+    <backmatter xml:id="backmatter">
+      <title>Backmatter</title>
+
+      <appendix xml:id="appendix-image-attributions">
+        <title>Image Attributions</title>
+
+        <p>The images listed below originate from an external source or an AI tool. All other images in this module were created by UCI MATH CEO and are released under the same license as the book, except the logos, which belong to their respective owners and are not covered by this license.</p>
+
+        <!-- Only externally-sourced and AI-generated images are listed; the -->
+        <!-- project's own images are covered by the note above. Entry format, -->
+        <!-- ordering, and xref anchoring: see DOCUMENTATION/conventions.md, -->
+        <!-- "Image attributions". -->
+        <p>
+        <ul>
+          <li><p>Cover (PDF edition): Image generated with Google Gemini, 2026.</p></li>
+          <li><p><xref ref="chap-lengths-of-words" text="custom">Sophia Machine (English to Greek)</xref>: Image generated with Google Gemini, 2026.</p></li>
+          <li><p><xref ref="palabras-ws-sharingAboutLanguages" text="custom">Map of South America</xref>: Image generated with Google Gemini, 2026.</p></li>
+          <li><p><xref ref="palabras-ws-translationMachines" text="custom">Chokhma Machine (English to Hebrew)</xref>: Image generated with Google Gemini, 2026.</p></li>
+          <li><p><xref ref="chap-lets-read-tagalog" text="custom">Historic Philippine street</xref>: watercolor by Roberto Forero, 2026, <url href="https://creativecommons.org/licenses/by-sa/4.0/" visual="creativecommons.org">CC BY-SA 4.0</url>.</p></li>
+        </ul>
+        </p>
+      </appendix>
+
+      <xi:include href="./colophon.ptx"/>
+
+    </backmatter>
+  </book>
+</pretext>

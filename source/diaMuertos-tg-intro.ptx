@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preface xmlns:xi="http://www.w3.org/2001/XInclude"  xml:id="preface-intro-instructor">
+  <title>Module introduction</title>
+
+  <p>We will all learn about Día de los Muertos, a special celebration in many parts of the world. We will share similar celebrations, and do a coloring activity to show what this day can mean for each person.</p>
+
+  <p>We will keep the celebration going by doing some math related to a Fiesta de Músicos. In particular, we will focus on building combinatorial objects by picking options in independent aspects, and making sense of this using manipulatives, lists, tables, trees, expressions and other modalities.</p>
+
+  <p>Later, we will play the game of SET, practicing logic and counting at a basic level.</p>
+
+  <p>We will first explore the concept of SETS in real life contexts, where students and teachers can bond. In the second part, we introduce the SET cards (with the músicos from a previous activity), play SET, and analyze different combinatorial scenarios. Some will include counting, similar to the ones done already. Instead of having the mindset of <q>just apply the formula</q>, we will continue developing intuition about counting, to model flexibly new situations through trees.</p>
+
+  <paragraphs>
+    <title>Overview of Activities</title>
+    <ol>
+      <li>
+        <title><xref ref="chap-celebrations" text="title"/></title>
+        <p>Students will learn about Día de Muertos, and share happy memories of their lost ones. Then, they will pick (and color) a calavera to represent someone they lost, build an altar and complete information in there.</p>
+      </li>
+      <li>
+        <title><xref ref="chap-los-musicos" text="title"/></title>
+        <p>Students will move on to a fiesta, and discover different ways to form músicos. They will learn about combinatorics (multiplication principles when counting), and visual ways to represent counting, without yet generalizing.</p>
+      </li>
+      <li>
+        <title><xref ref="chap-more-counting" text="title"/></title>
+        <p>Students get more opportunities to reason flexibly about counting concepts, techniques, misconceptions, and representations, in the same context as part 2.</p>
+      </li>
+      <li>
+        <title><xref ref="chap-sets-among-us" text="title"/></title>
+        <p>We will build on part 2, and keep exploring situations in which we need to count músicos (special subsets of the set of 81 músicos), but now with new scenarios. Trees will also be used, as well as multiplication expressions.</p>
+      </li>
+      <li>
+        <title><xref ref="chap-game-of-set" text="title"/></title>
+        <p>We will explore the combinatorial game of SET (in a <q>Día de Muertos</q> themed version) and answer different questions that involve logical reasoning, counting, and looking for specific configurations of sets of 3 friends called TRI's.</p>
+      </li>
+    </ol>
+  </paragraphs>
+
+  <objectives>
+    <title>Math</title>
+    <ul>
+      <li>
+        <p>Building objects (combinatorics)</p>
+        <ul>
+          <li>Given building rules for <q>things</q> (combinatorial objects), we will give examples, and we will tell when two objects are different based on the rules.</li>
+          <li>We will use different, flexible ways to represent or describe the same combinatorial object, and see how they match.</li>
+        </ul>
+      </li>
+      <li>
+        <p>Counting</p>
+        <ul>
+          <li>Given a building rule with independent choices, we will count how many objects we can build, and represent this using lists, tables, trees, and expressions.</li>
+        </ul>
+      </li>
+    </ul>
+  </objectives>
+
+  <objectives>
+    <title>Enrichment</title>
+    <dl>
+      <li>
+        <title>Appreciate</title>
+        <p>We will appreciate celebrations around the world and learn why they are important to people.</p>
+      </li>
+      <li>
+        <title>Empower</title>
+        <p>We will empower students to ask lots of questions and participate, all in a positive environment.</p>
+      </li>
+      <li>
+        <title>Frame</title>
+        <p>We will frame the principles upon which we will be having all our quarter's meetings, and discuss why this is important.</p>
+      </li>
+      <li>
+        <title>Encourage</title>
+        <p>We will encourage everyone to follow our agreements with kindness, but with persistence.</p>
+      </li>
+    </dl>
+  </objectives>
+
+</preface>

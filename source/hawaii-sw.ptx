@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <xi:include href="./docinfo.ptx"/>
+  <book xml:id="hawaii-sw">
+    <title>A Trip to Hawaii</title>
+    <subtitle>Student Workbook</subtitle>
+    <frontmatter xml:id="frontmatter">
+      <xi:include href="./hawaii-bibinfo.ptx"/>
+      <titlepage>
+        <titlepage-items/>
+      </titlepage>
+      <colophon>
+        <colophon-items/>
+      </colophon>
+      <xi:include href="./aboutMathCEO.ptx"/>
+      <xi:include href="./hawaii-sw-intro.ptx"/>
+    </frontmatter>
+
+    <chapter xml:id="chap-hawaiian-measures">
+      <title>Hawaiian Measures (85 min)</title>
+      <introduction>
+        <image source="hawaii-title-photo.png" width="100%">
+          <shortdescription>A painting of Waikiki Beach: coconut palms and an outrigger canoe on the sand, gentle surf, and the Diamond Head crater glowing in the distance under a blue sky.</shortdescription>
+        </image>
+      </introduction>
+      <xi:include href="./hawaii-ws-measureWithOurBodies.ptx"/>
+      <xi:include href="./hawaii-ws-lengths.ptx"/>
+      <xi:include href="./hawaii-ws-measuringTape.ptx"/>
+      <xi:include href="./hawaii-ws-spinIt.ptx"/>
+      <xi:include href="./hawaii-ws-ourData.ptx"/>
+    </chapter>
+
+    <chapter xml:id="chap-equivalencies">
+      <title>Equivalencies (40 min)</title>
+      <introduction>
+        <image source="hawaiian-canoe.jpeg" width="100%">
+          <shortdescription>A fleet of traditional Hawaiian sailing canoes with white sails crossing rough open water under a dramatic stormy sky.</shortdescription>
+        </image>
+        <p><em>Now let's connect the measures, build a table of equivalencies, hunt for patterns, and discover new units using our body.</em></p>
+      </introduction>
+      <xi:include href="./hawaii-ws-equivalencies.ptx"/>
+      <xi:include href="./hawaii-ws-moreUnits.ptx"/>
+      <xi:include href="./hawaii-ws-pele.ptx"/>
+      <xi:include href="./hawaii-ws-muku.ptx"/>
+    </chapter>
+
+    <chapter xml:id="chap-reflections">
+      <title>Reflections (10 min)</title>
+      <xi:include href="./hawaii-ws-reflectingAboutToday.ptx"/>
+      <xi:include href="./hawaii-ws-furtherReflections.ptx"/>
+    </chapter>
+
+    <backmatter xml:id="backmatter">
+      <title>Backmatter</title>
+
+      <appendix xml:id="appendix-image-attributions">
+        <title>Image Attributions</title>
+
+        <p>The images listed below originate from an external source or an AI tool. All other images in this module were created by UCI MATH CEO and are released under the same license as the book, except the logos, which belong to their respective owners and are not covered by this license.</p>
+
+        <!-- Entry format, ordering, and xref anchoring: see -->
+        <!-- DOCUMENTATION/conventions.md, "Image attributions". -->
+        <ul>
+          <li><p>Cover (PDF edition): <q>Taro patch</q>, watercolor by Roberto Forero, 2026, <url href="https://creativecommons.org/licenses/by-sa/4.0/" visual="creativecommons.org">CC BY-SA 4.0</url>.</p></li>
+          <li><p><xref ref="preface-introduction-student" text="custom">Hawaiian coastline</xref>: Image generated with Google Gemini, 2026.</p></li>
+          <li><p><xref ref="chap-hawaiian-measures" text="custom">Hawaiian shoreline</xref>: <url href="https://commons.wikimedia.org/wiki/File:Waikiki_Beach,_Diamond_Head,_Oahu_by_D._Howard_Hitchcock,_Hawaii,_1928.jpg" visual="commons.wikimedia.org">Waikiki Beach, Diamond Head, O'ahu</url> (1928) by D. Howard Hitchcock (d. 1943). Public domain.</p></li>
+          <li><p><xref ref="hawaii-ws-measureWithOurBodies" text="custom">Canoe</xref>: Image generated with Google Gemini, 2026.</p></li>
+          <li><p><xref ref="hawaii-ws-measureWithOurBodies" text="custom">Body-length unit illustrations</xref>: Images generated with Google Gemini, 2026.</p></li>
+          <li><p><xref ref="ex-read-the-tape" text="custom">Dual-scale inch/cm ruler</xref>: Image generated with Google Gemini, 2026.</p></li>
+          <li><p><xref ref="ex-build-measuring-tape" text="custom">Paper roll</xref>: <url href="https://publicdomainvectors.org/es/vectoriales-gratuitas/Arte-de-papel-rollo-vector-clip/22051.html" visual="publicdomainvectors.org">Arte de papel rollo vector clip</url>. Public domain (CC0).</p></li>
+          <li><p><xref ref="hawaii-ws-spinIt" text="custom">Spinner</xref>: made by UCI MATH CEO from the body-length unit illustrations (generated with Google Gemini), 2026.</p></li>
+          <li><p><xref ref="hawaii-ws-moreUnits" text="custom">Body poses</xref>: Image generated with Google Gemini, 2026.</p></li>
+          <li><p><xref ref="fig-pele" text="custom">Pele painting</xref>: <url href="https://commons.wikimedia.org/wiki/File:Pele_by_David_Howard_Hitchcock,_c._1929.jpg" visual="commons.wikimedia.org">Pele</url> (c. 1929) by D. Howard Hitchcock (d. 1943). Public domain.</p></li>
+          <li><p><xref ref="hawaii-ws-muku" text="custom">Muku illustration</xref>: Image generated with Google Gemini, 2026.</p></li>
+          <li><p><xref ref="hawaii-ws-muku" text="custom">Hawaiian canoe and storm</xref>: Image generated with Google Gemini, 2026.</p></li>
+          <li><p><xref ref="fig-taro-patch" text="custom">Taro patch</xref>: watercolor by Roberto Forero, 2026, <url href="https://creativecommons.org/licenses/by-sa/4.0/" visual="creativecommons.org">CC BY-SA 4.0</url>.</p></li>
+        </ul>
+
+      </appendix>
+
+      <xi:include href="./colophon.ptx"/>
+
+    </backmatter>
+  </book> 
+</pretext>

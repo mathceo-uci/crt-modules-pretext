@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- A colophon is about how the book was made. The full licence lives in
+     copyright.ptx, on the frontmatter colophon and the print copyright page;
+     this page repeats only a short copyright and licence line, taken from the
+     same shared files so the two cannot drift apart. Both pages are titled
+     "Credits and License", because <rename> matches the element name and this
+     is a colophon too. That repetition is accepted deliberately. -->
+<colophon xmlns:xi="http://www.w3.org/2001/XInclude">
+  <p><copyright/> <xi:include parse="text" href="./copyrightYear.txt"/> <xi:include parse="text" href="./copyrightHolder.txt"/>.</p>
+  <p>Licensed under <xi:include href="./licenseLink.ptx"/>.</p>
+  <p><line>Edited and engineered in <pretext/> by </line>
+    <line><url href="https://enriqueacosta.github.io/" visual="enriqueacosta.github.io">Enrique Acosta Jaramillo</url>.</line></p>
+</colophon>

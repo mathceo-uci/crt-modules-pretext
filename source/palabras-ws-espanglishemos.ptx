@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="palabras-ws-espanglishemos">
+<title>ESPaNgliSHemos</title>
+
+
+<page>
+<exercise xml:id="ex-translate-1">
+  <statement>
+    <p>Translate these words to Spanish/English. For the last 2, pick any words! 
+    <ul>
+      <li> Write their <term>length</term> (# of letters).</li> 
+      <li>In each case, find the scaling factor going from English to Spanish.</li>
+    </ul>
+    </p>
+    <sbsgroup widths="47% 47%" margins="0% 0%" valign="bottom">
+      <sidebyside>
+        <image source="espanglishemos-leche-milk.png">
+          <shortdescription>(for accessibility)</shortdescription>
+        </image>
+        <image source="espanglishemos-ballena-empty.png">
+          <shortdescription>(for accessibility)</shortdescription>
+        </image>
+      </sidebyside>
+
+      <sidebyside>
+        <image source="espanglishemos-house-empty.png">
+          <shortdescription>(for accessibility)</shortdescription>
+        </image>
+        <image source="espanglishemos-pig-empty.png">
+          <shortdescription>(for accessibility)</shortdescription>
+        </image>
+      </sidebyside>
+
+      <sidebyside>
+        <image source="espanglishemos-raton-empty.png">
+          <shortdescription>(for accessibility)</shortdescription>
+        </image>
+        <image source="espanglishemos-corazon-empty.png">
+          <shortdescription>(for accessibility)</shortdescription>
+        </image>
+      </sidebyside>
+
+      <sidebyside>
+        <image source="espanglishemos-door-empty.png">
+          <shortdescription>(for accessibility)</shortdescription>
+        </image>
+        <image source="espanglishemos-avocado-empty.png">
+          <shortdescription>(for accessibility)</shortdescription>
+        </image>  
+    </sidebyside>
+
+      <sidebyside>
+        <image source="espanglishemos-zanahoria-empty.png">
+          <shortdescription>(for accessibility)</shortdescription>
+        </image>
+        <image source="espanglishemos-empty-empty.png">
+          <shortdescription>(for accessibility)</shortdescription>
+        </image>  
+      </sidebyside>
+
+      <sidebyside>
+        <image source="espanglishemos-strawberry-empty.png">
+          <shortdescription>(for accessibility)</shortdescription>
+        </image>
+        <image source="espanglishemos-empty-empty.png">
+          <shortdescription>(for accessibility)</shortdescription>
+        </image>  
+      </sidebyside>
+    </sbsgroup>
+  </statement>
+
+  <solution>
+
+<p>We illustrate in detail the case of the pair <q>DOOR</q>, <q>PUERTA</q>. The scaling factors are 1.5 and 0.66 (periodic). These are different ways to find them: </p>
+            <image source="espanglishemos-door-puerta.png" width="60%">
+              <shortdescription></shortdescription>
+            </image>
+            <paragraphs>
+              <title>From English to Spanish</title> 
+              <image source="espanglishemos-exampleEngToSpa.png" width="30%">
+                <shortdescription>(for accessibility)</shortdescription>
+              </image>
+              <p>The length increased, so the scaling factor is <m>\gt 1</m>.</p>
+              <ul>
+                <li><p>One way: think<ellipsis/> which number I can multiply 4 by to get 6? Solution: <alert>1.5</alert>.</p></li>
+                <li><p>Another way: divide by 4 (to get 1), then multiply by 6 (to get 6). This is the same as multiplying (in a single step) by <m>6/4</m>.</p></li>
+                <li><p>Another way: divide by 2 (to get 2), then multiply by 3 (to get 6). This is the same as multiplying (in a single step) by <m>3/2</m>.</p></li>
+                <li><p>Another way: look at the tape diagram and see that the length grows by half, so this is a <alert>+50%</alert> growth. (or: a scaling of <alert>150%</alert>)</p></li>
+              </ul>
+            </paragraphs>
+            <paragraphs>
+              <title>From Spanish to English</title>
+              <image source="espanglishemos-exampleSpaToEng.png" width="30%">
+                <shortdescription>(for accessibility)</shortdescription>
+              </image>
+              <p>The length decreased, so the scaling factor is <m>\lt 1</m>.</p>
+              <ul>
+                <li><p>One way: think<ellipsis/> which number I can multiply 6 by to get 4? Solution: <m>2/3</m>, since 4 is two thirds of 6.</p></li>
+                <li><p>Another way: divide by 6 (to get 1), then multiply by 4 (to get 4). This is the same as multiplying (in a single step) by <m>4/6</m>.</p></li>
+                <li><p>Another way: divide by 3 (to get 2), then multiply by 2 (to get 4). This is the same as multiplying (in a single step) by <m>2/3</m>.</p></li>
+                <li><p>Another way: look at the tape diagram and see that the length gets cut by 1/3, so this is a change of <alert>−33.3%</alert> (or a 33.3% decrease, or a scaling of 66.66%).</p></li>
+                <li><p>Another way: since 1.5 was the scaling factor going from ENG to SPA, the reverse should be <m>1/(1.5) = (1/1)/(3/2) = 2/3</m>.</p></li>
+              </ul>
+            </paragraphs>
+    <p>
+      The following table summarizes the lengths of the words, and the scaling factors going from English to Spanish.
+    </p>
+    <tabular>
+      <row header="yes" bottom="medium">
+        <cell>English</cell><cell>length</cell><cell>Spanish</cell><cell>length</cell><cell>ENG→SPA</cell>
+      </row>
+      <row><cell>MILK</cell><cell>4</cell><cell>LECHE</cell><cell>5</cell><cell><m>5/4 = 1.25</m></cell></row>
+      <row><cell>WHALE</cell><cell>5</cell><cell>BALLENA</cell><cell>7</cell><cell><m>7/5 = 1.4</m></cell></row>
+      <row><cell>HOUSE</cell><cell>5</cell><cell>CASA</cell><cell>4</cell><cell><m>4/5 = 0.8</m></cell></row>
+      <row><cell>PIG</cell><cell>3</cell><cell>CERDO</cell><cell>5</cell><cell><m>5/3 \approx 1.66</m></cell></row>
+      <row><cell>MOUSE</cell><cell>5</cell><cell>RATÓN</cell><cell>5</cell><cell><m>5/5 = 1</m></cell></row>
+      <row><cell>HEART</cell><cell>5</cell><cell>CORAZÓN</cell><cell>7</cell><cell><m>7/5 = 1.4</m></cell></row>
+      <row><cell>DOOR</cell><cell>4</cell><cell>PUERTA</cell><cell>6</cell><cell><m>6/4 = 1.5</m></cell></row>
+      <row><cell>AVOCADO</cell><cell>7</cell><cell>AGUACATE</cell><cell>8</cell><cell><m>8/7 \approx 1.14</m></cell></row>
+      <row><cell>CARROT</cell><cell>6</cell><cell>ZANAHORIA</cell><cell>9</cell><cell><m>9/6 = 1.5</m></cell></row>
+      <row><cell>STRAWBERRY</cell><cell>10</cell><cell>FRESA</cell><cell>5</cell><cell><m>5/10 = 0.5</m></cell></row>
+    </tabular>
+  </solution>
+</exercise>
+</page>
+
+<page>
+
+<exercise xml:id="ex-translate-2">
+  <statement>
+    <p>Now complete this table. It has the lengths of words, and scaling factor and percentage of increase/decrease going from English to Spanish.</p>
+
+      <tabular halign="center" rowstretch="1.5">
+          <row header="yes" bottom="medium">
+            <cell>English</cell><cell>length</cell><cell>Spanish</cell><cell>length</cell><cell>Scaling Factor</cell><cell>% of inc./dec.</cell>
+          </row>
+          <row bottom="minor"><cell>MILK</cell><cell>4</cell><cell>LECHE</cell><cell>5</cell><cell><m>5/4 = 1.25</m></cell><cell><m>+25 \%</m></cell></row>
+          <row bottom="minor"><cell></cell><cell></cell><cell>BALLENA</cell><cell></cell><cell></cell><cell></cell></row>
+          <row bottom="minor"><cell>HOUSE</cell><cell>5</cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+          <row bottom="minor"><cell>PIG</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+          <row bottom="minor"><cell></cell><cell></cell><cell>RATÓN</cell><cell></cell><cell></cell><cell></cell></row>
+          <row bottom="minor"><cell></cell><cell></cell><cell>CORAZÓN</cell><cell></cell><cell></cell><cell></cell></row>
+          <row bottom="minor"><cell>DOOR</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+          <row bottom="minor"><cell>AVOCADO</cell><cell>7</cell><cell></cell><cell>8</cell><cell></cell><cell></cell></row>
+          <row bottom="minor"><cell></cell><cell></cell><cell>ZANAHORIA</cell><cell></cell><cell></cell><cell></cell></row>
+          <row bottom="minor"><cell>STRAWBERRY</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+          <row bottom="minor"><cell><nbsp/></cell><cell><nbsp/></cell><cell><nbsp/></cell><cell><nbsp/></cell><cell><nbsp/></cell><cell><nbsp/></cell></row>
+          <row bottom="medium"><cell><nbsp/></cell><cell><nbsp/></cell><cell><nbsp/></cell><cell><nbsp/></cell><cell><nbsp/></cell><cell><nbsp/></cell></row>
+        </tabular>
+  </statement>
+
+  <solution>
+    <tabular>
+      <row header="yes" bottom="medium">
+        <cell>English</cell><cell>length</cell><cell>Spanish</cell><cell>length</cell><cell>ENG→SPA</cell>
+      </row>
+      <row><cell>MILK</cell><cell>4</cell><cell>LECHE</cell><cell>5</cell><cell><m>5/4 = 1.25</m></cell></row>
+      <row><cell>WHALE</cell><cell>5</cell><cell>BALLENA</cell><cell>7</cell><cell><m>7/5 = 1.4</m></cell></row>
+      <row><cell>HOUSE</cell><cell>5</cell><cell>CASA</cell><cell>4</cell><cell><m>4/5 = 0.8</m></cell></row>
+      <row><cell>PIG</cell><cell>3</cell><cell>CERDO</cell><cell>5</cell><cell><m>5/3 \approx 1.66</m></cell></row>
+      <row><cell>MOUSE</cell><cell>5</cell><cell>RATÓN</cell><cell>5</cell><cell><m>5/5 = 1</m></cell></row>
+      <row><cell>HEART</cell><cell>5</cell><cell>CORAZÓN</cell><cell>7</cell><cell><m>7/5 = 1.4</m></cell></row>
+      <row><cell>DOOR</cell><cell>4</cell><cell>PUERTA</cell><cell>6</cell><cell><m>6/4 = 1.5</m></cell></row>
+      <row><cell>AVOCADO</cell><cell>7</cell><cell>AGUACATE</cell><cell>8</cell><cell><m>8/7 \approx 1.14</m></cell></row>
+      <row><cell>CARROT</cell><cell>6</cell><cell>ZANAHORIA</cell><cell>9</cell><cell><m>9/6 = 1.5</m></cell></row>
+      <row><cell>STRAWBERRY</cell><cell>10</cell><cell>FRESA</cell><cell>5</cell><cell><m>5/10 = 0.5</m></cell></row>
+    </tabular>
+  </solution>
+</exercise>
+
+
+<exercise xml:id="ex-translate-patterns" workspace="4cm">
+  <statement>
+    <p>Which patterns about lengths of words did you see? Any conclusions? Any rule/hypothesis? You can create a diagram or a table!</p>
+  </statement>
+  <solution>
+    <p>Students may notice several things:</p>
+    <ul>
+      <li><p>The scaling factors are all different.</p></li>
+      <li><p>Sometimes, the scaling factors are equal to 1.</p></li>
+      <li><p>The scaling factors from ENG to SPA are often larger than 1.</p></li>
+      <li>
+        <p>The reverse scaling factor (SPA to ENG) is 1 over the other scaling factor.</p>
+        <ul>
+          <li><p>Ask them why they think this is true! (Help them with a diagram.)</p></li>
+        </ul>
+      </li>
+    </ul>
+    <p>Students could also look at frequencies (by range) of scaling factors, to see if there seems to be a higher concentration in a particular range, say, the range <m>[1, 2]</m>, or even a finer one like <m>[1, 1.4]</m>.</p>
+    <p>Students may even find the average scaling factor (by eyeballing, or estimating it), or find the median.</p>
+  </solution>
+</exercise>
+</page>
+
+<page>
+
+<exercise xml:id="ex-translate-predict">
+  <!-- <title>Predict</title> -->
+  <statement>
+    <p>Use the previous data and your rules to <alert>predict</alert>:
+      <ol>
+        <li workspace="3.5cm">
+          <p>A list of words in English has <alert>100</alert> letters in total. About how many letters does it have after it is translated to Spanish?</p>
+        </li>
+        <li workspace="3.5cm">
+          <p>A list of words in Spanish has <alert>1,000</alert> letters in total. About how many letters does it have after it is translated to English?</p>
+        </li>
+        <li workspace="3.5cm">
+          <p>What's a representative <term>scaling factor</term> (or <term>multiplier</term>) to convert from # of letters in English to # of letters of a translation to Spanish? (ENG <m>\to</m> SPA)
+            <md>\text{word} \xrightarrow{\;\times\, ?\;} \text{palabra}</md>
+          </p>
+          <!-- <image source="espanglishemos-machineEngToSpa.jpg" width="60%">
+            <shortdescription>A machine that turns an English word into a Spanish word (palabra), scaling its length by an unknown factor.</shortdescription>
+          </image> -->
+        </li>
+        <li workspace="3.5cm">
+          <p>And the other way around? Scaling factor to convert from # of letters in Spanish to # of letters of a translation to English? (ENG <m>\leftarrow</m> SPA)
+            <md>\text{palabra} \xrightarrow{\;\times\, ?\;} \text{word}</md>
+          </p>
+          <!-- <image source="espanglishemos-machineSpaToEng.png" width="60%">
+            <shortdescription>A machine that turns a Spanish word (palabra) into an English word, scaling its length by an unknown factor.</shortdescription>
+          </image> -->
+        </li>
+      </ol>
+    </p>
+  </statement>
+  <solution>
+    <assemblage component="TODO">
+      <title>These solutions are more teacher notes than actual solutions.</title>
+      <p>EAJ, 11Jun2026</p>
+      <p>Should they go somewhere else? The <q>Analyzing the Data</q> subsection (<c>subsec-analyzing-the-data</c>) already has notes about this.</p>
+    </assemblage>
+    <ol marker="a">
+      <li>
+        <p>Anticipate different ideas, and advance their thinking:</p>
+        <ul>
+          <li><p>Students may just say that the answer is a number larger than 100, but say that it's <em>impossible</em> to know!</p></li>
+          <li><p>They could just guess using intuition (E.g.: 200, 150, 110).</p></li>
+          <li><p>They could use a scaling factor that they liked from the data.</p></li>
+          <li><p>Or: they can start thinking about an <q>ideal</q> (average, representative) scaling factor using the data collected.</p></li>
+          <li><p>They can even generate more data! (New translation samples).</p></li>
+        </ul>
+      </li>
+      <li>
+        <p>The answer in this problem should be consistent with the answer in part (a). Start a rich discussion about scaling factors and their inverses (reverse scaling), help solidify the concepts. Introduce the idea of <q>translating back</q> and draw a diagram with 2 arrows.</p>
+      </li>
+      <li>
+        <p>Students must think about modes, averages, or medians of the data. Expect, probably, answers close to 1.25. Ask students to draw a diagram. Students' answer <em>can</em> be a small interval! For example, [1.2, 1.4]. This shows good understanding of thinking with data.</p>
+        <p>Have students test their scaling factor with new translations! They can calibrate and adjust their answer based on new evidence.</p>
+      </li>
+      <li>
+        <p>Again, students need to be consistent. Ex: If the answer in part (c) is <m>6/5</m>, then the answer in part (d) should be <m>5/6</m>.</p>
+        <p>If students don't connect to part (c) and start thinking about this in isolation, ask them, <q>How can we use part (c) to help us?</q></p>
+      </li>
+    </ol>
+  </solution>
+</exercise>
+</page>
+
+
+</worksheet>

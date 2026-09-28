@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Shared by every {module}-bibinfo.ptx. PreTeXt places it on the print
+     copyright page and the HTML colophon. The year, holder and licence link
+     come from shared files that colophon.ptx also uses. -->
+<copyright xmlns:xi="http://www.w3.org/2001/XInclude">
+  <year><xi:include parse="text" href="./copyrightYear.txt"/></year>
+  <holder><xi:include parse="text" href="./copyrightHolder.txt"/></holder>
+  <shortlicense>
+    This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License, <xi:include href="./licenseLink.ptx"/>. Openly licensed images remain under the terms of their respective licenses. For more information, see the <xref ref="appendix-image-attributions" text="custom">image attributions</xref>.
+  </shortlicense>
+</copyright>

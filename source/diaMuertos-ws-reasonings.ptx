@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="diaMuertos-ws-reasonings">
+  <title>Reasonings</title>
+
+
+  <assemblage component="TODO">
+    <title>Photos/images for Joon, Mario, Johanna, Mary?</title>
+    <p>EAJ, Jun2026</p>
+    <p>Where do the original TG photos come from? License? Usage permissions? I created a temporary cartoon-style image with Nano Banana (AI) and used it as a placeholder for all of them. They should be replaced.</p>
+  </assemblage>
+  
+  <page>
+    <introduction>
+      <p>In what follows, we assume that we are in a full fiesta!</p>
+      <p>Each of these students counted some particular set of músicos. Do you agree with any of the reasonings? If you disagree, how would you change their reasoning and calculations?</p>
+    </introduction>
+    
+    <exercise xml:id="ex-reasonings-joon" workspace="2.2cm">
+      <title>Joon</title>
+      <statement>
+        <sidebyside widths="10% 88%" margins="0% 0%">
+          <image source="diaMuertos-student1.jpg" decorative="yes"/>
+          <p><q>The total number of músicos is 3 (gift) plus 3 (body) plus 3 (jaranas) plus 3 (face). We need to add because all the options are different. So I get: <alert>4 times 3, or 12 músicos.</alert></q></p>
+        </sidebyside>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="ex-reasonings-mario" workspace="2.2cm">
+      <title>Mario</title>
+      <statement>
+        <sidebyside widths="10% 88%" margins="0% 0%">
+          <image source="diaMuertos-student2.jpg" decorative="yes"/>
+          <p><q>I wanted to know how many músicos are NOT human. I first found the TOTAL of músicos. Then, I subtracted 1, as we did not want the 1 human. I wrote: <alert>TOTAL minus 1.</alert></q></p>
+        </sidebyside>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="ex-reasonings-johanna" workspace="2.2cm">
+      <title>Johanna (Challenge)</title>
+      <statement>
+        <sidebyside widths="10% 88%" margins="0% 0%">
+          <image source="diaMuertos-student3.jpg" decorative="yes"/>
+          <p><q>If there were only 1 gift option (<q>bread</q>), then the NEW TOTAL of músicos one third of the OLD TOTAL. I wrote: <alert>NEW TOTAL = (1/3) times OLD TOTAL.</alert></q></p>
+        </sidebyside>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="ex-reasonings-mary" workspace="2.2cm">
+      <title>Mary (Challenge)</title>
+      <statement>
+        <sidebyside widths="10% 88%" margins="0% 0%">
+          <image source="diaMuertos-student4.jpg" decorative="yes"/>
+          <p><q>If we get 2 more Face options (say <q>Perro</q>, <q>Rana</q>), then the NEW TOTAL of músicos is twice the OLD TOTAL, since the options double. I wrote: <alert>NEW TOT equals 2 times OLD TOTAL.</alert></q></p>
+        </sidebyside>
+      </statement>
+    </exercise>
+  </page>
+</worksheet>

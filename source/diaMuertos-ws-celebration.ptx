@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="diaMuertos-ws-celebration">
+  <title>Celebración</title>
+
+  <introduction>
+    
+    <image source="diaMuertos-calaverasSamples.png" width="70%">
+      <shortdescription>Sample of calaveras to color.</shortdescription>
+    </image>
+    <p>Think about a loved one that's not with you anymore: a person, a pet, a plush, etc.</p>
+  </introduction>
+
+  <sidebyside widths="55% 40%" margins="0% 0%" valign="middle">
+    <ol>
+      <li>
+         <p><em>Select one calavera</em> to represent a loved one that you miss and want to celebrate. You can choose one from the <url href="external/diaMuertos-blm-calaveras.pdf" visual="separate">templates</url> or start from a blank canvas.</p>
+      </li>
+      <li>
+         <p><em>Color your calavera</em>.</p>
+      </li>
+      <li>
+        <p><em>Take one <url href="external/diaMuertos-blm-altar.pdf" visual="separate">altar</url> and glue the calavera.</em> Complete the details to honor your love one. Add 1 thing for each aspect!</p>
+      </li>
+      <li>
+        <p><em>Share your altar if you want!</em> Celebrate and tell us fond memories!</p>
+      </li>
+    </ol>
+    <image source="diaMuertos-altarScreenshot.png" width="50%">
+      <shortdescription>Sample of calaveras to color.</shortdescription>
+    </image>
+  </sidebyside>
+
+</worksheet>

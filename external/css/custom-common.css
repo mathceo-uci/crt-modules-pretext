@@ -1,0 +1,75 @@
+/* ─── TABULAR WIDTH FIX ──────────────────────────────────────────────────────
+   PreTeXt wraps <tabular> in a .tabular-box div whose inline style carries the
+   author-specified width (e.g. width="100%"). However, the inner <table> does
+   not inherit that width — it only sizes to its content. This rule forces the
+   inner table to fill its wrapper whenever the wrapper is set to 100%.
+   Without this, width="100%" on a <tabular> has no visible effect in HTML. */
+.tabular-box[style*="100%"] table.tabular {
+  width: 100%;
+}
+
+
+/* ─── AUTHOR-TOOLS: TODO MARKERS ────────────────────────────────────────────
+   PreTeXt renders <!-- TODO --> XML comments as a <span> pushed into the
+   right margin via a large negative margin-right. This rule makes them
+   visible and legible during authoring/review by styling them with a red
+   border and yellow highlight.
+
+   To pull TODOs out of the margin and into the normal flow instead
+   (e.g. for a print review pass), uncomment the four lines below. */
+span[style*="margin-right:-25em"] {
+  /* UNCOMMENT to move TODOs from margin into inline blocks */
+  /* display: block; */
+  /* float: none !important; */
+  /* width: auto !important; */
+  /* margin-right: 0 !important; */
+  color: red !important;
+  background-color: #fffb91;
+  border: 2px solid red;
+  border-radius: 4px;
+  padding: 0.5em 1em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+
+/* TODO style as assemblages */
+.assemblage.assemblage-like {
+  color: red !important;
+  background-color: #fffb91;
+  border: 2px solid red;
+  /* Uncomment next line for a quick way to turn TODOS off for HTML */
+  /* display: none;  */
+}
+.assemblage-like:not(.knowl__content, .born-hidden-knowl) > .heading:first-child {
+  color: inherit;
+}
+/* TODO texts before and after. Currently off */
+/* .assemblage-like .title::before {
+  content: "*******   ";
+  white-space: pre;
+}
+.assemblage-like .title::after {
+  content: "   *******";
+  white-space: pre;
+} */
+
+/* The Credits and License page holds the copyright and licence terms, which a
+   teacher rarely needs and which PreTeXt puts first in the Front Matter menu,
+   ahead of the content they came for. The schema requires that page to live in
+   <frontmatter>, so it cannot be moved in the source. Ordering the menu group
+   as a flex column sends that one entry to the bottom of the group instead.
+
+   The group is selected by class, not by its generated id: that id comes from
+   the frontmatter's xml:id, which is "frontmatter" in the SW books but
+   module-specific in the TG ones, so an id selector would work in half the
+   books and silently fail in the rest.
+
+   HTML only. Print never reads CSS. */
+.ptx-toc .toc-frontmatter > ul.toc-item-list {
+  display: flex;
+  flex-direction: column;
+}
+.ptx-toc .toc-frontmatter > ul.toc-item-list > .toc-colophon {
+  order: 1;
+}

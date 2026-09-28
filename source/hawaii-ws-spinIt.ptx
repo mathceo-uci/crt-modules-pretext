@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="hawaii-ws-spinIt">
+  <title>Spin It!</title>
+  <page>
+  <sidebyside widths="45% 50%" margins="0% 5%" valign="middle">
+    <image source="hawaiian-spinner.png" width="50%">
+      <shortdescription>A circular spinner divided into four quadrants, each showing a Hawaiian body measurement illustration: poho (palm), iwilei (shoulder to fingertip), ha'ilima (raised arm), and kīko'o (spread hand).</shortdescription>
+    </image>
+    <ul>
+      <li>Spin the spinner twice to get two units (unit#1, unit#2).</li>
+      <li>Roll the die. Say, you got <m>p</m>.</li>
+      <li>
+        <p>Create an equation: 
+          <md>[p] \cdot \text{unit\#1} = [?] \cdot \text{unit\#2}.</md> 
+          Then, solve it. (You can approximate a bit!)</p>
+      </li>
+    </ul>
+  </sidebyside>
+  <sidebyside>
+    <exercise workspace="16cm">
+      <statement><p>Round 1</p>
+      </statement>
+    </exercise>
+    <exercise workspace="16cm">
+      <statement><p>Round 2</p>
+      </statement>
+    </exercise>
+    <exercise workspace="16cm">
+      <statement><p>Round 3</p>
+      </statement>
+    </exercise>
+  </sidebyside>
+  </page>
+</worksheet>

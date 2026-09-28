@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibinfo xmlns:xi="http://www.w3.org/2001/XInclude">
+  <!-- The byline is the institution. The people who wrote the Palabras More,
+       Palabras Less module go in the <credit> below, which prints under a heading on the
+       title page. -->
+  <author>
+    <personname>UCI MATH CEO Curriculum Module</personname>
+  </author>
+  <author>
+    <personname>University of California, Irvine</personname>
+  </author>
+  <credit>
+    <title>Authors</title>
+    <author>
+      <personname>Alessandra Pantano</personname>
+      <affiliation>
+        <institution>University of California, Irvine</institution>
+      </affiliation>
+    </author>
+    <author>
+      <personname>Andrés Forero Cuervo</personname>
+      <affiliation>
+        <institution>University of California, Irvine</institution>
+      </affiliation>
+    </author>
+  </credit>
+  <credit>
+    <title>Editor and PreTeXt Production</title>
+    <author>
+      <personname>Enrique Acosta Jaramillo</personname>
+      <!-- <affiliation>
+        <institution><url href="https://enriqueacosta.github.io/" visual="enriqueacosta.github.io"/></institution>
+      </affiliation> -->
+    </author>
+  </credit>
+  <date>
+    <today/>
+  </date>
+  <xi:include href="./website.ptx"/>
+  <xi:include href="./copyright.ptx"/>
+  <xi:include href="./editorCredit.ptx"/>
+</bibinfo>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="palabras-ws-sharingAboutLanguages">
+  <title>Sharing About Languages</title>
+  <sidebyside widths="50% 45%" margins="0% 0%" valign="middle">
+    <image source="palabras-map-southAmerica.jpg" width="80%" decorative="yes"/>
+    <stack>
+      <p>
+        <exercise workspace="3cm">
+          <statement>
+            <p>Which <alert>languages</alert> do you speak (even slightly)? Which do you want to learn?</p>
+          </statement>
+        </exercise>
+      </p>
+      <p>
+        <exercise workspace="5cm">
+          <statement>
+            <p>What's the <alert>longest</alert> word you can say? Or any interesting words/sayings?</p>
+          </statement>
+        </exercise>
+      </p>     
+    </stack>
+  </sidebyside>
+  
+    <exercise workspace="4cm">
+      <statement>
+        <p><alert>Where</alert> in the world is Spanish spoken? Use the map if if helps you identify some of these places.</p>
+      </statement>
+    </exercise>
+
+  <exercise workspace="2cm">
+      <statement>
+        <p>Comparing English &amp; Spanish, which words are usually <alert>longer</alert>? How much longer?</p>
+      </statement>
+    </exercise>
+</worksheet>

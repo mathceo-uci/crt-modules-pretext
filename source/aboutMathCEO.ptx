@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preface xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="preface-about-mathceo">
+  <title>About UCI MATH CEO</title>
+  <image source="logo-mathceo_small.png" width="35%">
+    <shortdescription>UCI MATH CEO logo: University of California, Irvine anteater mascot with the words "Math CEO"</shortdescription>
+  </image>
+  <p>
+    UC Irvine Math CEO is a free, innovative comprehensive, high-quality math enrichment program
+    designed to empower secondary students in underserved communities in Southern California
+    through joyful after-school activities, collaboration, mentorship and intergenerational learning.
+  </p>
+  <sbsgroup widths="8% 80%" margins="5% 6%" valign="middle">
+    <sidebyside>
+      <image source="logo-mathceo_smallest.png">
+        <shortdescription>UCI MATH CEO logo, marking the website link</shortdescription>
+      </image>
+      <p>
+        <url href="https://sites.ps.uci.edu/mathceo/" visual="sites.ps.uci.edu/mathceo/">MATH CEO Website</url>
+      </p>
+    </sidebyside>
+    <sidebyside>
+      <image source="logo-youtube.png">
+        <shortdescription>YouTube logo, marking the channel link</shortdescription>
+      </image>
+      <p>
+        <url href="https://www.youtube.com/channel/UCF_SO3ElBGZTpx8DmX4ZRgA" visual="youtube.com/channel/UCF_SO3ElBGZTpx8DmX4ZRgA">Math CEO YouTube Channel</url>
+      </p>
+    </sidebyside>
+  </sbsgroup>
+
+  <paragraphs>
+    <title>Our Goals</title>
+    <p>
+    <dl>
+      <li>
+        <title>Promote</title>
+        <p>students' interest and proficiency in mathematics, through engaging mathematical
+        explorations that are relevant to youth, and inclusive, culturally-responsive,
+        informal pedagogical practices.</p>
+      </li>
+      <li>
+        <title>Support</title>
+        <p>students' socio-emotional development and wellbeing, by fostering positive
+        relationships with peers and college mentors.</p>
+      </li>
+      <li>
+        <title>Foster</title>
+        <p>a college-going identity in youth, increase their familiarity with college and
+        set the foundations to be successful in STEM careers.</p>
+      </li>
+    </dl>
+    </p>
+  </paragraphs>
+
+  <paragraphs>
+    <title>Special Thanks</title>
+    <p><nbsp/></p>
+    <sidebyside widths="12% 25% 20% 18% 12%" valign="middle" margins="0%">
+      <stack>
+        <image source="logo-nsf.png">
+          <shortdescription>NSF — National Science Foundation logo</shortdescription>
+        </image>
+        <p>NSF AISL 2215695</p>
+      </stack>
+      <image source="logo-uclinks.png">
+        <shortdescription>UC Links to Learning After School logo</shortdescription>
+      </image>
+      <image source="logo-nicholas-endowment.png">
+        <shortdescription>The Nicholas Endowment logo</shortdescription>
+      </image>
+      <image source="logo-ucirvine-blue.png">
+        <shortdescription>UC Irvine logo</shortdescription>
+      </image>
+      <image source="logo-uci-math.png">
+        <shortdescription>Department of Mathematics, University of California Irvine logo</shortdescription>
+      </image>      
+    </sidebyside>
+  </paragraphs>
+
+</preface>

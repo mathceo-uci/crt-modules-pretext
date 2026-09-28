@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="hawaii-ws-ourData">
+  <title>Our Data</title>
+  <p>In your group, complete the following data. Measure in <alert>inches</alert>. Round to the nearest quarter of an inch.</p>
+  <tabular halign="center" top="medium" left="minor" right="minor">
+    <col halign="left" width="35%"/>
+    <col width="20%"/>
+    <col width="20%"/>
+    <col width="25%"/>
+    <row header="yes" bottom="medium">
+      <cell>Person</cell>
+      <cell>iwilei</cell>
+      <cell>kīko'o</cell>
+      <cell>iwilei / kīko'o</cell>
+    </row>
+    <row bottom="minor"><cell halign="left">1)</cell><cell></cell><cell></cell><cell></cell></row>
+    <row bottom="minor"><cell halign="left">2)</cell><cell></cell><cell></cell><cell></cell></row>
+    <row bottom="minor"><cell halign="left">3)</cell><cell></cell><cell></cell><cell></cell></row>
+    <row bottom="minor"><cell halign="left">4)</cell><cell></cell><cell></cell><cell></cell></row>
+    <row bottom="minor"><cell halign="left">5)</cell><cell></cell><cell></cell><cell></cell></row>
+    <row bottom="minor"><cell halign="left">6)</cell><cell></cell><cell></cell><cell></cell></row>
+    <row bottom="minor"><cell halign="left">7)</cell><cell></cell><cell></cell><cell></cell></row>
+    <row bottom="minor"><cell halign="left">8)</cell><cell></cell><cell></cell><cell></cell></row>
+    <row bottom="minor"><cell halign="left">9)</cell><cell></cell><cell></cell><cell></cell></row>
+    <row bottom="medium"><cell halign="left">10)</cell><cell></cell><cell></cell><cell></cell></row>
+    <row bottom="medium"><cell halign="left">a possible center</cell><cell></cell><cell></cell><cell></cell></row>
+   </tabular>
+ 
+  <exercise xml:id="ex-variation" workspace="2cm">
+  <statement>
+    <p>
+      How much variation is there in the measures?
+    </p>
+  </statement>
+  <solution>
+    <p>Sample data rounded to the nearest quarter of an inch:</p>
+    <tabular halign="center" top="medium" left="minor" right="minor">
+      <col halign="left" width="35%"/>
+      <col width="20%"/>
+      <col width="20%"/>
+      <col width="25%"/>
+    <row header="yes" bottom="medium">
+      <cell>Person</cell>
+      <cell>iwilei</cell>
+      <cell>kīko'o</cell>
+      <cell>iwilei / kīko'o</cell>
+    </row>
+    <row bottom="minor"><cell halign="left">1)</cell><cell>25.5</cell><cell>6.5</cell><cell>3.9</cell></row>
+    <row bottom="minor"><cell halign="left">2)</cell><cell>24.25</cell><cell>6.25</cell><cell>3.9</cell></row>
+    <row bottom="minor"><cell halign="left">3)</cell><cell>26.0</cell><cell>6.5</cell><cell>4.0</cell></row>
+    <row bottom="minor"><cell halign="left">4)</cell><cell>23.75</cell><cell>6.25</cell><cell>3.8</cell></row>
+    <row bottom="minor"><cell halign="left">5)</cell><cell>26.75</cell><cell>6.75</cell><cell>4.0</cell></row>
+    <row bottom="minor"><cell halign="left">6)</cell><cell>25.0</cell><cell>6.5</cell><cell>3.8</cell></row>
+    <row bottom="minor"><cell halign="left">7)</cell><cell></cell><cell></cell><cell></cell></row>
+    <row bottom="minor"><cell halign="left">8)</cell><cell></cell><cell></cell><cell></cell></row>
+    <row bottom="minor"><cell halign="left">9)</cell><cell></cell><cell></cell><cell></cell></row>
+    <row bottom="medium"><cell halign="left">10)</cell><cell></cell><cell></cell><cell></cell></row>
+    <row bottom="medium"><cell halign="left">a possible center</cell><cell>25.25</cell><cell>6.5</cell><cell>3.9</cell></row>
+  </tabular>
+    <p>Sample response: For iwilei, measurements range from 23.75 to 26.75 inches (a variation of 3.0 inches). For kīko'o, measurements range from 6.25 to 6.75 inches (a variation of 0.5 inches).</p>
+  </solution>
+</exercise>
+
+<exercise xml:id="ex-center" workspace="2cm">
+  <statement>
+    <p>
+      What seems to be the <term>center</term> (a representative value) of each measure?
+    </p>
+  </statement>
+  <solution>
+    <p>Sample response: Using the median as a representative center, the center for iwilei is 25.25 inches, and for kīko'o, it is 6.5 inches.</p>
+  </solution>
+</exercise>
+
+<exercise xml:id="ex-outliers" workspace="2cm">
+  <statement>
+    <p>
+      Are there any <term>outliers</term> (data far from the typical values)?
+    </p>
+  </statement>
+  <solution>
+    <p>Sample response: Looking at our sample data, there are no extreme outliers; all iwilei measurements stay close to 23.75–26.75 inches and kīko'o measurements stay around 6.25–6.75 inches.</p>
+  </solution>
+</exercise>
+
+<exercise xml:id="ex-last-column" workspace="2cm">
+  <statement>
+    <p>
+      Now use a calculator to find the last column in the table. Round to 1 decimal place. What do you notice?
+    </p>
+  </statement>
+  <solution>
+    <p>Sample response: The ratio values in the last column stay very close to 3.9 (ranging from 3.8 to 4.0). Dividing the representative centers (25.25 ÷ 6.5 ≈ 3.9) shows that an iwilei is consistently about 3.9 times as long as a kīko'o.</p>
+  </solution>
+</exercise>
+</worksheet>

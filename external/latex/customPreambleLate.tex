@@ -1,0 +1,753 @@
+% =====================================================================
+%  Custom LATE preamble — UCI Math CEO Student Workbooks
+%  Enrique Acosta, June2026
+% =====================================================================
+%  USAGE: the *-print targets in project.ptx wire this file in via the
+%      latex.preamble.late="\input{external/latex/customPreambleLate.tex}"
+%  stringparam, so PreTeXt inputs it at the end of the generated preamble.
+%  No manual editing of the output .tex is needed.
+%
+%  WHY "LATE": this file is read at the very end of the PreTeXt-generated
+%  preamble, so it gets the LAST word and overrides the generated
+%  defaults (geometry, environments, title formats, page styles).
+%
+%  WHAT IT CHANGES (overview):
+%    Fonts ....... Lato (sans) for text, sans math to match.
+%    Paragraphs .. non-indented, \medskip glue between them (parskip).
+%    Line breaks . a little extra stretch as a last resort, so a line
+%                  ending in a web address wraps instead of overflowing.
+%    Assemblages . suppressed (they hold author TODOs, not student text).
+%    Fill-ins .... simpler, better-looking blank than the default.
+%    Exercises ... workspace drawn as a green box (see \workspacestyle).
+%    Chapters .... centred opener — a coloured "Part N" badge + enlarged title.
+%    Blue accent . exblue on exercise titles/numbers, enumerate labels, \ptxlititle.
+%    Worksheets .. custom page layout — title centred in a running header,
+%                  logo pinned to the outer top corner, footer with part
+%                  title and page number. Margins, logo and page number
+%                  all mirror per leaf.
+%
+%  CONVENTIONS:
+%    - All \definecolor live together under COLORS, below.
+%    - Tunable numbers are marked  "ADJUST:" in the comments.
+%    - Commented-out lines are kept on purpose as ready references.
+% =====================================================================
+
+
+% =====================================================================
+%  ENGINE DETECTION
+% ---------------------------------------------------------------------
+%  The font guards below use \ifpdftex / \ifluatex / \ifxetex.
+%  PreTeXt loads ifxetex+ifluatex, which in current TeX already pull in
+%  iftex and so define \ifpdftex as well (verified). Load iftex only as a
+%  fallback, for the case \ifpdftex is somehow still undefined.
+% =====================================================================
+\ifdefined\ifpdftex\else\RequirePackage{iftex}\fi%
+
+
+% =====================================================================
+%  COLORS  (palette — referenced throughout the file)
+% =====================================================================
+\definecolor{footgray}{gray}{0.55}%   footer part-title    (light gray; 0=black, 1=white)
+\definecolor{exblue}{cmyk}{1,0.6,0,0}% blue accent: exercise title/number, enumerate labels, \ptxlititle (ADJUST C,M,Y,K)
+
+
+% =====================================================================
+%  FONTS
+% ---------------------------------------------------------------------
+%  If you switch to a SERIF text font, drop sfmath (sans math next to
+%  serif text looks inconsistent) and load a matching math font instead
+%  — e.g. XCharter + \usepackage[charter]{newtxmath}, or New Century
+%  Schoolbook + fouriernc.
+%  For SANS headings over a serif body, point PreTeXt's heading font at
+%  your sans: \renewcommand{\divisionfont}{\sffamily} (with a sans loaded).
+% =====================================================================
+% \RequirePackage[sfdefault]{roboto}%
+% \RequirePackage[sfdefault, book]{FiraSans}%
+% \RequirePackage[sfdefault]{noto-sans}%
+\RequirePackage[default]{lato}%
+% \RequirePackage[sfdefault]{biolinum}
+% \RequirePackage[default]{sourcesanspro}%
+% \RequirePackage{sourceserifpro}%
+% \RequirePackage{XCharter}%
+\RequirePackage{sfmath}%   sans math, to match the sans text font
+% NOTE: sfmath is pdflatex only (lato itself works in any engine); it does not
+% work with xelatex or luatex. A version that uses lato and compiles with luatex
+% OR xelatex is commented out below (luatex renders emoji; xetex shows tofu). To
+% switch: uncomment that block AND comment out the two \RequirePackage lines
+% above, or lato/sfmath load twice (and unicode-math would clash with sfmath).
+%%% % --- Engine split: pdflatex (default) vs a lualatex / xelatex opt-in -------
+%%% %  pdflatex (the default; what every enabled target builds with): the
+%%% %    established Type1 stack, Lato + sfmath + hwemoji.
+%%% %  lualatex: fontspec Lato + unicode-math (Fira Math) + a Noto Color Emoji
+%%% %    fallback, so literal emoji codepoints render without hwemoji.
+%%% %  xelatex : fontspec Lato + unicode-math (Fira Math). Compiles, but XeTeX has
+%%% %    NO font fallback, so literal emoji render as tofu -- lualatex is preferred
+%%% %    for the emoji. Lato/Fira Math load by FILE NAME here because XeTeX cannot
+%%% %    find them by bare family name (luaotfload can).
+%%% %  fontspec is loaded by PreTeXt under xe/lua; unicode-math is not, so we add it.
+%%% %  Compile with  latexmk -lualatex  (or -xelatex); the hwemoji guard below
+%%% %  already skips hwemoji for both engines.
+%%% \ifpdftex
+%%%   \RequirePackage[default]{lato}%
+%%%   \RequirePackage{sfmath}%   sans math, to match the sans text font
+%%% \else\ifluatex
+%%%   \directlua{luaotfload.add_fallback("emojifallback", {"NotoColorEmoji:mode=harf;"})}%
+%%%   \setmainfont{Lato}[RawFeature={fallback=emojifallback}]%
+%%%   \setsansfont{Lato}%
+%%%   \usepackage{unicode-math}%
+%%%   \setmathfont{Fira Math}%   sans math, replaces sfmath
+%%% \else% xelatex
+%%%   \RequirePackage[default]{lato}%   lato.sty finds the font file; XeTeX can't find "Lato" by bare name
+%%%   \usepackage{unicode-math}%
+%%%   \setmathfont{FiraMath-Regular.otf}%   by file name, XeTeX-safe
+%%% \fi\fi
+
+
+% =====================================================================
+%  PACKAGES ADDED
+% ---------------------------------------------------------------------
+%  calc     : PreTeXt sometimes uses it but does not load it (bug fix).
+%  parskip  : non-indented paragraphs with vertical glue between them
+%             (glue amounts tuned under PARAGRAPH SPACING, below).
+%  needspace: reserve a minimum of vertical space (used to keep an
+%             exercise title with the block that follows it).
+% =====================================================================
+\usepackage{calc}%
+\usepackage{parskip}%
+\usepackage{needspace}%
+
+
+% =====================================================================
+%  PARAGRAPH SPACING
+% ---------------------------------------------------------------------
+%  Non-indented paragraphs with \medskip glue between them, applied the
+%  same way in the body AND inside tcolorbox interiors.
+%
+%  parskip zeroes \parindent at load, but PreTeXt resets it to 1.5em via
+%  \AtBeginDocument (and mirrors it into \ptxnormalparindent, which
+%  \ptxsetparstyle reapplies inside every tcolorbox). Re-zero both AFTER
+%  those hooks — these \AtBeginDocument runs last since this file is input
+%  at the preamble's end. \ptxnormalparskip likewise carries \medskipamount
+%  into tcolorbox interiors (via \ptxsetparstyle), and \parskip into the body.
+%
+%  The names must match PreTeXt's (declared in core
+%  pretext-latex-common.xsl). These lines \setlength lengths PreTeXt has
+%  already declared, so a wrong name stops the build with "Undefined
+%  control sequence" instead of failing quietly.
+% =====================================================================
+\AtBeginDocument{\setlength{\ptxnormalparindent}{0pt}}%
+\AtBeginDocument{\setlength{\ptxnormalparskip}{\medskipamount}}%
+\AtBeginDocument{\setlength{\parindent}{\ptxnormalparindent}}%
+\AtBeginDocument{\setlength{\parskip}{\ptxnormalparskip}}%
+
+% ---- paragraphs: restore parskip after the runin title --------------
+% PreTeXt's paragraphs env opens with titlesec's runin \subparagraph*,
+% which defers the heading into the next paragraph via \everypar. Inside
+% a tcolorbox (sbspanel/sidebyside, divisionexercise, ...) that machinery
+% swallows the parskip of the FIRST paragraph break after the title, so a
+% multi-paragraph block in a panel collapses to single-baseline spacing.
+% Render the runin title manually (no sectioning command) to sidestep the
+% titlesec/tcolorbox interaction; \label/\hypertarget are kept for xrefs.
+% The 3.25ex/1em mirror the \titlespacing* the generated env used.
+\RenewDocumentEnvironment{paragraphs}{mm}
+ {\par\addvspace{3.25ex plus 1ex minus .2ex}%
+  \noindent{\normalfont\normalsize\bfseries #1}\hspace{1em}%
+  \hypertarget{#2}{}\label{#2}\ignorespaces}
+ {\par}
+
+
+% =====================================================================
+%  HYPHENATION — on
+% ---------------------------------------------------------------------
+%  Hyphenation is left at LaTeX's default. The three settings below
+%  turned it off; they are kept commented out in case that is wanted
+%  again. \tolerance and \emergencystretch belong with them — they only
+%  existed to absorb the slack that banning word splits leaves behind.
+%  (A smaller \emergencystretch is now on anyway, with hyphenation left
+%  on; see LAST-RESORT STRETCH below. Restoring the 3em line replaces it.)
+%
+%  Turning them back on needs a plan for sidebyside panels. A panel is
+%  narrow, and with no hyphenation the word spaces there stretch far
+%  enough to be distracting. Setting panels ragged right fixes the
+%  spacing, but then a ragged paragraph sits among justified ones,
+%  which looks worse. Hyphenation on its own keeps panels acceptable,
+%  so nothing extra is needed here.
+%
+%  If the lines below are restored, leave \exhyphenpenalty alone: it
+%  governs breaks at hyphens already in the text, and url.sty marks URL
+%  break points the same way, so raising it would push long URLs into
+%  the margin.
+% =====================================================================
+% \hyphenpenalty=10000%  never split a word
+% \tolerance=3000%       accept a loose line
+% \emergencystretch=3em% ...rather than an overfull one
+
+
+% =====================================================================
+%  LAST-RESORT STRETCH — so web addresses wrap instead of overflowing
+% ---------------------------------------------------------------------
+%  Print adds a link's address after the link text, in parentheses and
+%  in a typewriter font: (creativecommons.org). An address can only be
+%  split after a dot, slash or hyphen, so a part like
+%  "(creativecommons." cannot be split at all. When that part lands at
+%  the end of a line, moving it down would stretch the line's spaces
+%  more than LaTeX allows, so LaTeX let the line run into the right
+%  margin instead. This happened in three image attribution entries.
+%
+%  This setting lets LaTeX stretch the spaces a little further, but
+%  only in a paragraph it could not break any other way. Every other
+%  paragraph is set exactly as before. The address moves whole to the
+%  next line, and the line above gets slightly wider spaces.
+%
+%  1.5em was enough for every overflowing line in the four workbooks.
+%  If a line overflows again, check the compile log for "Overfull
+%  \hbox ... in paragraph" before raising it.
+% =====================================================================
+\setlength{\emergencystretch}{1.5em}
+
+
+% =====================================================================
+%  CONTENT TWEAKS
+% =====================================================================
+
+% ---- Suppress assemblages -------------------------------------------
+% Assemblages in this project hold TODO notes, not student-facing
+% text, so discard their body entirely. (environ gives \RenewEnviron.)
+% The @ifundefined is there because if an export has no TODOS, then the
+% {assemblage} environment would not exist and \RenewEnviron would error.
+\usepackage{environ}%
+\makeatletter
+\@ifundefined{assemblage}
+  {\NewEnviron{assemblage}[3]{}}
+  {\RenewEnviron{assemblage}[3]{}}
+\makeatother
+
+% ---- Fill-in blanks -------------------------------------------------
+% The underline comes from <fillin textstyle="underline"/> in the
+% publication file. Its 0.3pt rule is hardcoded and too faint to write
+% on, so the macro is restated with a thicker one. That pins print to
+% underline, so change both together.
+\newlength{\ptxfillinrule}\setlength{\ptxfillinrule}{1pt}% ADJUST: rule thickness
+% Guarded: PreTeXt emits \ptxfillintext only for books that use <fillin>.
+\ifdefined\ptxfillintext
+  \renewcommand{\ptxfillintext}[1]{%
+    \setlength{\ptxfillinmaxwidth}{#1\ptxcharmaxwidth}%
+    \setlength{\ptxfillincontract}{#1\ptxcharminwidth}%
+    \strut\nobreak\leaders\vbox{\hrule width 0.3pt height \ptxfillinrule
+      \vskip -1.2pt}\hskip 1\ptxfillinmaxwidth minus \ptxfillincontract
+    \nobreak\strut%
+  }%
+\fi
+
+% ---- Figure / image spacing -----------------------------------------
+% Restyle the \begin{image} box: no frame, small rubber space before it.
+\tcbset{ imagestyle/.style={blankest, before skip={2.8ex plus 0.5ex minus 0.1ex}, after skip={2.8ex plus 0.5ex minus 0.1ex}} }%
+
+% ---- Side-by-side spacing -------------------------------------------
+% The space around a sidebyside is the raster's, not the panels' (those
+% are size=minimal). The last two keys are PreTeXt's, restated because
+% \tcbset replaces a style: they keep panel widths and equal row heights.
+\tcbset{ sbsstyle/.style={raster before skip={\dimexpr\parskip+1ex\relax plus 0.4ex minus 0.4ex},% ADJUST: above. Tied to \parskip so it tracks the paragraph gap; +1ex is the box-geometry offset (a sidebyside sits ~1ex higher than text for the same skip). Small stretch for steadier spacing.
+                          raster after skip={0.7\baselineskip plus 1ex minus 0.5ex},% ADJUST: below
+                          raster equal height=rows, raster force size=false} }%
+% An exercise alone in a panel puts its before-skip at the top of that
+% panel, where it reads as space between two side-by-sides. Shrink it
+% there only — a panel's upper part is a group, so it restores on exit.
+% The first two keys are PreTeXt's, restated (see the \tcbset note above).
+\tcbset{ sbspanelstyle/.style={bwminimalstyle, fonttitle=\blocktitlefont,
+                               before upper app={\ptxsetparstyle
+                                 \renewcommand{\exbeforeskip}{0pt}}} }% ADJUST: above an exercise in a panel
+
+
+% =====================================================================
+%  PREFACE TITLE SPACING
+% ---------------------------------------------------------------------
+%  Prefaces render as chapter-level, unnumbered titles. Command targets
+%  {name=\chapter,numberless} (NOT plain \chapter) so real chapters are
+%  untouched. The negative before-sep pulls the preface heading upward.
+%      \titlespacing*{<cmd>}{<left>}{<before-sep>}{<after-sep>}
+% =====================================================================
+\titlespacing*{name=\chapter,numberless}{0pt}{-40pt}{0pt}%
+
+
+% =====================================================================
+%  CHAPTER TITLE — centred opener with a coloured "Part N" badge
+% ---------------------------------------------------------------------
+%  Numbered chapters render as a [display] title: a label line
+%  ("<divisionname> <number>", e.g. "Part 1") above the title. We
+%  replace the plain left-aligned label with a coloured rounded badge,
+%  centre the whole block, enlarge the title, and add top space so it
+%  seats lower. The whole \titleformat must be restated, and
+%  \titlespacing MUST follow it — \titleformat resets this level's
+%  spacing to titlesec defaults.
+%
+%  Scope: numbered \chapter only (the Parts, and appendices, which are
+%  \chapter-level). Prefaces are {name=\chapter,numberless} and keep
+%  their style. True VERTICAL centring is not a titlesec thing (the
+%  heading is not its own page); the larger top space only seats it lower.
+%
+%  ADJUST the badge: colour (colback), roundness (arc), padding
+%  (left/right/top/bottom), and size (add fontupper=\large\bfseries and
+%  wrap the label size to match). The previous plain-label version is
+%  kept commented below as a ready reference (uncomment to revert).
+% =====================================================================
+\newtcbox{\partbadge}{on line, nobeforeafter, box align=base,
+  boxrule=0pt, arc=1.1ex, boxsep=0pt,
+  left=1.4ex, right=1.4ex, top=0.7ex, bottom=0.7ex,
+  colback=exblue, coltext=white}%   ADJUST: badge colour/shape
+\newcommand{\chaptertitlesize}{\fontsize{34}{38}\selectfont}%  ADJUST: chapter title size
+\titleformat{\chapter}[display]
+  {\centering}%                                            whole block centred
+  {\partbadge{\bfseries\MakeUppercase{\divisionnameptx\space\thechapter}}}%  badge, e.g. "PART 2"
+  {24pt}%                                                  gap badge -> title
+  {\chaptertitlesize\bfseries#1}%                          the TITLE, centred + big
+  [{\Large\authorsptx}]%
+\titlespacing*{\chapter}{0pt}{90pt}{40pt}%  restate AFTER \titleformat; larger top seats it lower
+
+% ---- BASELINE (previous): plain left-aligned label. Uncomment to revert.
+% \newcommand{\chaptertitlesize}{\fontsize{30}{34}\selectfont}%
+% \titleformat{\chapter}[display]
+%   {\divisionfont\huge\bfseries}%          format for the block (label line)
+%   {\divisionnameptx\space\thechapter}%    label: e.g. "Part 1"
+%   {20pt}%                                 gap between label line and title
+%   {\chaptertitlesize#1}%                  the TITLE
+%   [{\Large\authorsptx}]%
+% \titlespacing*{\chapter}{0pt}{50pt}{40pt}%
+
+
+% =====================================================================
+%  EXERCISES — visible workspace box + coloured run-in number
+% ---------------------------------------------------------------------
+%  PreTeXt draws an exercise's workspace as an invisible, zero-width
+%  strut of the requested height. \workspacebox replaces it, and
+%  \workspacestyle (below) selects what it draws: a filled, bordered
+%  rectangle spanning the text width, blank space, or nothing.
+%
+%  TWO WORKSPACE PATHS FEED \workspacebox (both must stay in sync):
+%    1. <exercise workspace> in a worksheet -> height is the 3rd arg of
+%       the divisionexercise tcolorbox; the \renewtcolorbox below draws
+%       \workspacebox{#3} in its after= clause.  Handled entirely here.
+%    2. <task workspace> (and inline/project workspace) -> stock PreTeXt
+%       would emit an invisible \rule{\ptxworkspacestrutwidth}{h}.  This
+%       preamble CANNOT fix that (no macro hook on a bare \rule), so it
+%       is redirected to \par\workspacebox{h} by a custom XSL override
+%       of mode="workspace" in  xsl/custom-latex.xsl , wired into the
+%       *-print targets in project.ptx.  So editing this box changes
+%       BOTH paths, but the task path only reaches here via that XSL.
+% =====================================================================
+
+% ---- The workspace box (#1 = height requested by PreTeXt) -----------
+%
+% ADJUST: pick one of four styles.
+%   grow      : green box, at least #1 tall, growing into the spare space
+%               left on the page. Best use of paper for a workbook.
+%               (Only grows when the box sits directly on the page — see
+%               the note below for the two cases where it can't.)
+%   fixed     : green box exactly #1 tall. Any spare space collects at
+%               the foot of the page, as it does in ordinary text.
+%   invisible : #1 of blank space, nothing drawn. Same room to write in
+%               as fixed, but no green box (this is what stock PreTeXt
+%               does).
+%   none      : no box and no reserved space, so the document is compact.
+%               Useful for reading or reviewing the content.
+\def\workspacestyle{grow}%
+%
+% HOW THE BOX IS DRAWN. Nothing here can ask "how much room is left",
+% because LaTeX chooses the page break later. So the size is measured
+% after the fact: mark the top, add #1, mark the bottom, then draw a
+% rectangle between the two marks. Marks record where things END UP,
+% after the break, so the rectangle matches the space the box got. The
+% grow style adds a \vfill between the marks, which takes the page's
+% spare space into the box; fixed omits it.
+%
+% GROW ONLY WORKS WHEN THE BOX SITS DIRECTLY ON THE PAGE. If it is drawn
+% inside another box (a tcolorbox), the \vfill cannot stretch and grow
+% behaves like fixed. So it does NOT grow for (1) a workspace inside an
+% exercise (a <li>/<task workspace> — only <exercise workspace> grows,
+% since that one is drawn after the exercise box, out on the page), or
+% (2) an exercise inside a sidebyside panel (the panel is a box too).
+% Can't be fixed here; the workspace has to sit on the page to grow.
+%
+% Marks are read on the pass after they are written, so boxes are absent
+% on the first LaTeX run and correct from the second. Run pdflatex 3 times
+% (or use latexmk -g if Perl is installed); \iftikzmark keeps run one from
+% erroring.
+%
+% \nobreak stops LaTeX breaking the page at the \vfill, which would leave
+% the two marks on different pages and draw a rectangle between them.
+\usetikzlibrary{tikzmark}%
+\newcounter{wsboxid}%
+\def\sidePadding{0.5ex}%   padding on each side of the box
+% A tikzmark has to sit in a paragraph, and a paragraph costs a
+% \baselineskip plus a \parskip even when its contents have no size.
+% Zeroing those glues makes the mark's line take no vertical room, so
+% the space around the box is only what \wsGapAbove and the following
+% content ask for.
+\newcommand{\wsmark}[1]{%
+    \begingroup
+      \parskip=0pt \baselineskip=0pt \lineskip=0pt \lineskiplimit=0pt
+      \noindent\hspace*{\sidePadding}\tikzmark{#1}\par
+    \endgroup}
+% ADJUST: air between the text above and the top of the box. The space
+% BELOW the box is not set here; it comes from whatever follows (the
+% next exercise brings its own before-skip).
+\def\wsGapAbove{0.5\baselineskip}%
+\newcommand{\workspacebox}[1]{%
+  \ifdefstring{\workspacestyle}{none}{\par}{%
+    \par\nobreak\stepcounter{wsboxid}%
+    \vspace{\wsGapAbove}\nobreak
+    \wsmark{wsT\thewsboxid}%
+    \nobreak\vspace*{#1}%
+    \ifdefstring{\workspacestyle}{grow}{\nobreak\vfill\nobreak}{}%
+    \wsmark{wsB\thewsboxid}%
+    \ifdefstring{\workspacestyle}{invisible}{}{%
+      \iftikzmark{wsB\thewsboxid}{%
+        % Same zeroed glues, for the same reason as \wsmark: an overlay
+        % picture puts nothing in the text, but it still opens a
+        % paragraph, and a paragraph costs a line.
+        \begingroup
+          \parskip=0pt \baselineskip=0pt \lineskip=0pt \lineskiplimit=0pt
+          \noindent
+          \begin{tikzpicture}[remember picture, overlay]
+            % workspaceboxstyle defined in source/tikz/tikzPreamble.tex
+            \draw[workspaceboxstyle]
+                (pic cs:wsT\thewsboxid)
+                rectangle
+                ([xshift=\dimexpr\linewidth-\sidePadding*2\relax]pic cs:wsB\thewsboxid);
+          \end{tikzpicture}%
+          \par
+        \endgroup
+      }{}%
+    }%
+    \par
+  }%
+}
+
+% ---- Redefine divisionexercise --------------------------------------
+% Changes from PreTeXt's version:
+%   1. No hanging indent: PreTeXt hangs the body in a 5ex slot with the "N."
+%      pulled left into it (left=5ex + \hspace*{-5ex} + \makebox). We drop all
+%      of it — the number is a plain run-in before the title, body not indented.
+%   2. Workspace: the after= clause draws \workspacebox instead of the
+%      original invisible strut.
+%   3. Before-skip: drop exercisespacingstyle (1.5ex) for an explicit
+%      \exbeforeskip — more space above each exercise. The amount is a
+%      macro so sbspanelstyle can shrink it inside a sidebyside panel,
+%      where it would otherwise show as a gap between the panels' rows.
+%      Uses `before' (not
+%      `before skip') so we can also run \needspace here since
+%      tcolorbox executes `before' in the outer page context, before the
+%      box starts, so \needspace measures the real remaining page space.
+%      If fewer than \exminspace lines are left, the whole exercise — its
+%      title AND the block that follows (e.g. a sidebyside, which is an
+%      unbreakable box that would otherwise relocate on its own and strand
+%      the title) — moves to the next page together. \addvspace reproduces
+%      `before skip={2.5ex plus 0.5ex}'.
+%   4. Colour: title (coltitle) and number both set to exblue.
+%   5. Titled break: after title = \par, so a titled exercise starts its body
+%      on a new line; an untitled exercise's number stays run-in with the body.
+%   6. Base style: tcolorbox's built-in `blanker' (frameless, zero padding)
+%      replaces PreTeXt's hand-rolled bwminimalstyle — cleaner, and coltitle
+%      below then supplies the (blue) title colour.
+\newcommand{\exbeforeskip}{2.5ex plus 0.5ex}% ADJUST: space above an exercise
+% Gap under an exercise title: the body's natural leading (a paragraph's
+% \parskip, a list's \topsep, a sidebyside's raster skip) makes that gap a
+% uniform but tall \medskip. Pull the body up by a fixed amount right at the
+% title->body boundary (see after title). This runs once, so it shrinks ONLY
+% that gap — intra-body paragraphs, lists elsewhere and item spacing are all
+% untouched. It subtracts the same amount from every body shape, so the gaps
+% stay uniform, just tighter.
+% In ex (not pt) so it tracks the text size if the font changes. Set at
+% \AtBeginDocument because ex must measure the BODY font: `after title' runs
+% in the title font (\large), where ex would be larger.
+\newlength{\ptxextitleshrink}% ADJUST (below): how far the body is pulled up under an exercise title
+\AtBeginDocument{\setlength{\ptxextitleshrink}{0.6ex}}%
+\tcbset{
+    divisionexercisestyle/.style={%
+        blanker,%     built-in tcolorbox style: frameless, zero padding
+        fonttitle=\blocktitlefont\upshape\bfseries\large, 
+        attach title to upper,
+        before={\par\addvspace{\exbeforeskip}\needspace{\exminspace}},
+        coltitle=exblue,% title color
+        breakable,%
+        before upper app={\ptxsetparstyle},%
+    }%
+}%
+\renewtcolorbox{divisionexercise}[4]{%
+    divisionexercisestyle,%
+    before title = {\makebox{#1.\space}},%  number (makebox ensures \space is not ignored)
+    title        = {\notblank{#2}{#2}{}},%  title if present
+    after title  = {\notblank{#2}{\par\nobreak\vspace{-\ptxextitleshrink}}{}},%   titled: body on a new line, pulled up by \ptxextitleshrink so the title-to-body gap is tight (\nobreak keeps the title with its body); untitled: run-in
+    phantom      = {\label{#4}\hypertarget{#4}{}},%
+    after        = {\notblank{#3}{\par\workspacebox{#3}\par}{\par}},%  draw workspace
+    % No \vfill here, unlike stock PreTeXt. A \vfill in this position
+    % pushes whatever follows to the foot of the page and leaves a blank
+    % strip under the box. The grow style puts its \vfill INSIDE the box
+    % instead, so the spare space becomes writing room.
+}%
+% ADJUST: minimum room an exercise needs at the bottom of a page before it
+% is allowed to start there; below this the whole exercise moves down.
+% Tuning: if this leaves too much empty space at the bottom of some pages,
+% LOWER it (e.g. 5\baselineskip); if a title still splits from a taller
+% following block (needspace only reserves a fixed number of lines, so an
+% unusually tall sidebyside can still overflow), RAISE it.
+\newcommand{\exminspace}{6\baselineskip}%
+
+
+% =====================================================================
+%  ENUMERATE LABELS — same vibrant blue (exblue)
+% ---------------------------------------------------------------------
+%  enumitem typesets every list label as \enit@format{label}; the `font'
+%  key just redefines \enit@format. PreTeXt emits enumerates two ways —
+%  plain (no font) and, inside exercises, with their own `font=\bfseries'
+%  — so a plain \setlist default would be OVERRIDDEN on the latter.
+%  Instead we (1) redefine the `font' key itself to always PREPEND
+%  \color{exblue} (so any per-list font stays coloured), and (2) give
+%  enumerate a default empty font so no-font lists trigger it too.
+%  Itemize/description set no `font', so their markers stay black.
+%  NOTE: touches an enumitem internal (\enit@format) — revisit if enumitem
+%  changes. exblue is defined in COLORS above.
+% =====================================================================
+\makeatletter
+\enitkv@key{}{font}{\def\enit@format{\color{exblue}#1}}%
+\makeatother
+\setlist[enumerate]{font={}}%
+
+% ---- List spacing — tight within an item, roomier between items ------
+% enumitem keys: parsep is the gap between paragraphs INSIDE one item;
+% the gap BETWEEN items is itemsep + parsep. So a multi-paragraph item is
+% compact (\smallskip), while distinct items are set apart by a \medskip.
+% With parsep = \smallskip, itemsep = \smallskip makes itemsep + parsep a
+% \medskip (6pt = 3pt + 3pt). Applies to itemize, enumerate and description.
+% NOTE: a list-item <title> (\ptxlititle) breaks to its body with a \par, so
+% the title-to-body gap is a parsep too — this pulls it tight to \smallskip,
+% seating a titled item's label close to its content (no separate title knob).
+\setlist{parsep=\smallskipamount, itemsep=\smallskipamount}%
+
+% ---- List-item titles (\ptxlititle) — same blue, kept with their body
+% PreTeXt sets a <title> on a list item, and task, example and project
+% labels, in slanted type through \ptxlititle. Add exblue, keep the
+% slant. The \par\nobreak stops the title from being stranded at the foot
+% of a page, away from its body.
+%
+% PreTeXt defines \ptxlititle only when the source uses one, so
+% \providecommand makes sure the macro exists before \renewcommand
+% changes it. The name must match PreTeXt's: any other name defines a
+% macro that nothing calls, and no error is reported.
+\providecommand{\ptxlititle}[1]{#1}%
+\renewcommand{\ptxlititle}[1]{{\color{exblue}\slshape#1}\par\nobreak}%
+
+
+% =====================================================================
+%  PAGE GEOMETRY — references and debugging
+% ---------------------------------------------------------------------
+%  Worksheet pages set their own geometry locally (see WORKSHEET PAGES).
+%  Non-worksheet pages keep the generated preamble's geometry, unless you
+%  override it here, e.g.:
+%      \geometry{letterpaper,total={496pt,9.0in}}%
+%      \geometry{left=1in, right=1in, top=0in, bottom=0.75in}%
+%
+%  showframe draws the geometry frames (header band, body, margins) on
+%  every page — a debugging aid. It is a LOAD-TIME option, so it must be
+%  set with \geometry (global), NOT inside \newgeometry, to have effect.
+%  >>> Comment this out for the final PDF. <
+% =====================================================================
+% Orientation is a \documentclass option, set via the "sidedness" override
+% in xsl/custom-latex.xsl — NOT here. As a class option it swaps the paper
+% itself, so the PDF page size follows and the margins below just apply to
+% that paper. Do NOT add landscape to these \geometry calls — geometry's
+% own landscape option would swap width and height a SECOND time and flip
+% the pages back to portrait.
+%
+% The side margins must be matched to the paper currently selected there:
+%   portrait letter  (8.5in wide, current) : inner=1.20in, outer=0.95in -> 6.35in text
+%   landscape letter (11in wide)           : inner=2in,    outer=2in    -> 7in text
+% Left on the landscape values, portrait paper gets only 4.5in of text.
+%
+% These are the margins for ordinary pages. Worksheet pages take their
+% margins from their own \newgeometry in the WORKSHEET PAGES block below,
+% so the two CAN differ, but are deliberately kept equal so every page
+% shares a text width. Change one, change the other.
+%
+% The measure these give is wider than book-typography norms, on purpose.
+% See the margins note in DOCUMENTATION/reference/latex-preamble-decisions.md
+% for the measurements behind that and for why the Teaching Guides would need
+% different values.
+\geometry{twoside, inner=1.20in, outer=0.95in, top=0.5in, bottom=0.75in}
+% \geometry{showframe}%
+
+
+% =====================================================================
+%  WORKSHEET PAGES — environment + running header/footer
+% ---------------------------------------------------------------------
+%  PreTeXt 2.42 puts a \newgeometry just before each
+%  \begin{worksheet-section} and a \restoregeometry just after the end.
+%  Redefine the environment to KEEP that margin switching, but change
+%  two things from the stock output:
+%     1. own \newgeometry values (margins + header band), and
+%     2. \section* instead of \section, so worksheets are not numbered.
+%  Also move the worksheet TITLE out of the body and into the page
+%  header to gain vertical space, and add a logo and a footer.
+%  The page style is applied to every page, so the header and footer
+%  also appear on page 2 and beyond when a worksheet runs long.
+% =====================================================================
+
+% ---- Logo (pinned to the page corner, not inside the header) --------
+% A remember-picture/overlay tikz node takes up NO height, so the logo
+% sits against the paper corner and does NOT count toward headheight.
+% It mirrors per leaf, always landing in the OUTER top corner: odd pages
+% are rectos, so their outer edge is the right one; even pages are versos
+% and take the left. \value{page} is read in the output routine, where it
+% already holds the number of the page being shipped out.
+%   ADJUST: \logoHeight = size, \logoInset = distance in from the corner
+%           (used for both the horizontal and the vertical offset).
+% NOTE: remember picture/overlay settles on the SECOND compile — the
+%       first pass may misplace it. Run latex twice before judging.
+% \graphicspath{{../../external/}}
+\def\logoHeight{3\baselineskip}%
+\def\logoInset{0.25in}%
+\newcommand{\workbooklogo}{%
+  \begin{tikzpicture}[remember picture, overlay]%
+    \ifodd\value{page}%
+      \node[anchor=north east, inner sep=0pt]
+        at ([xshift=-\logoInset, yshift=-\logoInset]current page.north east)
+        {\includegraphics[height=\logoHeight]{external/logo-mathceo_smallest.png}};%
+    \else
+      \node[anchor=north west, inner sep=0pt]
+        at ([xshift=\logoInset, yshift=-\logoInset]current page.north west)
+        {\includegraphics[height=\logoHeight]{external/logo-mathceo_smallest.png}};%
+    \fi
+  \end{tikzpicture}%
+}%
+
+% ---- Title used in the running header -------------------------------
+% \section* does not set titleps' \sectiontitle, so store the title
+% in \wstitle ourselves. \gdef makes it global, so the value is kept
+% across page breaks and stays correct on overflow pages. Empty until
+% the first worksheet.
+\newcommand{\wstitle}{}%
+
+\RenewDocumentEnvironment{worksheet-section}{mmmmmmm}%
+{%
+  % Local page geometry for worksheet pages (undone by \restoregeometry).
+  %
+  % twoside + inner/outer : margins mirror per leaf; inner is the binding
+  %                         side (wider), outer the trimmed edge.
+  % includehead           : the header band counts as part of the top
+  %                         margin, so `top` reaches the TOP OF THE HEADER,
+  %                         not the body. The body then begins at
+  %                         top + headheight + headsep. (Without it, `top`
+  %                         would reach the body and the header would float
+  %                         up into the margin.)
+  %
+  % Vertical keys are listed top-to-bottom in the order they stack down
+  % the page. Units follow the kind of quantity:
+  %   headheight is TYPE-DERIVED (must clear the title font) -> pt.
+  %   top / headsep / bottom are CHOSEN WHITESPACE            -> in.
+  %
+  %   ADJUST (vertical, top of page downward):
+  %     top        = paper edge -> top of header band
+  %     headheight = header band height (set by the title size - e.g. 20pt for \huge)
+  %     headsep    = header band -> body  (the gap under the header)
+  %     bottom     = body -> paper edge
+  %   ADJUST (horizontal):
+  %     inner/outer = binding / trimmed side margins
+  % No orientation key here. \newgeometry keeps whatever paper the
+  % \documentclass selected (see xsl/custom-latex.xsl); only the margins
+  % are set. Adding landscape here would swap the paper a second time.
+  % Keep inner/outer equal to the body \geometry above, so worksheet and
+  % non-worksheet pages share a text width.
+  \newgeometry{twoside, inner=1.20in, outer=0.95in,
+               top=0.4in, headheight=20pt, headsep=0.3in, bottom=0.75in,
+               includehead}%
+  \renewcommand{\divisionnameptx}{#1}%
+  \renewcommand{\titleptx}{#2}%
+  \renewcommand{\subtitleptx}{#3}%
+  \renewcommand{\shortitleptx}{#4}%
+  \renewcommand{\authorsptx}{#5}%
+  \renewcommand{\epigraphptx}{#6}%
+  \gdef\wstitle{#2}%                 % give the title to the header (use #4 for the short title)
+  \section*{#2}%                     % starred: no number; rendered by the invisible body format below
+  \addcontentsline{toc}{section}{#4}%
+  \label{#7}%
+}{\restoregeometry}%
+
+% ---- Body title: kept, but rendered invisible -----------------------
+% The visible title lives in the header now. Keep a real (but empty)
+% title box so \titlespacing still has something to control.
+\titleformat{name=\section,numberless}[block]{}{}{0pt}{}[]%
+% Title-to-body gap = after-sep (3rd argument). NEGATIVE on purpose: the
+% empty title box still takes about one line of height, so a negative
+% value pulls the body back up to remove that space.
+%     ADJUST: this single number sets the gap above the body.
+\titlespacing*{\section}{0pt}{0pt}{-2.5ex}%
+
+% ---- Page style (used on every worksheet page) ----------------------
+% Slots are {left}{center}{right}. The head is the single form (no [..]),
+% so both sides of a leaf match; the foot uses the bracketed [even]{odd}
+% form so it mirrors:
+%   head (both)      : (empty)    · title      · logo hook
+%   foot (odd/recto) : Math CEO   · part title · page number
+%   foot (even/verso): page number · part title · Math CEO
+% Everything that marks the edge of the leaf — the logo at the top, the
+% page number at the bottom — therefore sits in the OUTER margin, which
+% is the edge a reader thumbs through.
+% The title is CENTRED, which keeps it clear of the logo without having
+% to mirror it: the logo pins itself to the outer top corner (see the
+% logo section) and is drawn over the page, so it does not push text
+% aside and would collide with a title on the same side. Which slot holds
+% \workbooklogo makes no difference — the hook only causes it to render,
+% and the node inside positions itself.
+%   A very long title could still reach the logo. If one does, shorten it
+%   with the worksheet's short title, or reduce \logoHeight.
+% \chaptertitle is provided automatically by titleps (the PreTeXt "part").
+% footgray is defined in COLORS above.
+% NOTE: "centred" means centred on the text block, and the twoside
+%       margins are mirrored (inner wider than outer), so the title sits
+%       a shade closer to the outer edge. Set equal inner/outer margins
+%       in the worksheet \newgeometry if you want it optically centred.
+\renewpagestyle{headings}{%
+  \sethead{}{\pagefont\huge\bfseries\wstitle}{\workbooklogo}%
+  \setfoot[\pagefont\thepage][\pagefont\textcolor{footgray}{Part \thechapter: \chaptertitle}][\pagefont\textcolor{footgray}{Math CEO}]%  even/verso
+          {\pagefont\textcolor{footgray}{Math CEO}}{\pagefont\textcolor{footgray}{Part \thechapter: \chaptertitle}}{\pagefont\thepage}%  odd/recto
+}%
+\pagestyle{headings}%
+
+
+% =====================================================================
+%  EVEN PAGE COUNT — pad a blank page at the end for duplex printing
+% ---------------------------------------------------------------------
+%  Ensures the document ends on an even total page count, so every
+%  physical sheet is fully used when printing double-sided.
+%
+%  Parity test: LaTeX steps the `page' counter AFTER shipping each page,
+%  so once the last content page N is out, \value{page} = N+1. With the
+%  continuous numbering this book uses (\mainmatter starts recto, so the
+%  frontmatter is padded to an even count — physical parity therefore
+%  matches the printed page number), N is also the total page count.
+%    N even  <=>  N+1 odd  <=>  \ifodd\value{page} TRUE  -> already even, skip
+%    N odd   ->   add ONE blank page.
+%  \null makes the padding page non-empty so \clearpage actually ships
+%  it; \thispagestyle{empty} strips the header/footer from that page.
+%
+%  NOTE: assumes continuous page numbering. If a future target restarts
+%  numbering after an odd-length front section, physical parity would no
+%  longer match \value{page} and this test would need revisiting.
+% =====================================================================
+\AtEndDocument{%
+  \clearpage
+  \ifodd\value{page}\else
+    \null\thispagestyle{empty}\clearpage
+  \fi
+}%
+% ---- Back colophon --------------------------------------------------
+% PreTeXt centres the colophon in a box inset 0.15\textwidth on each
+% side. That leaves a short measure, and LaTeX hyphenates to fill it,
+% breaking names: "Enrique Acosta" came out as "En- rique Acosta". The
+% text here is a couple of lines, so it does not need hyphenation at
+% all. Restating the whole style, since \tcbset replaces it.
+\tcbset{ backcolophonstyle/.style={bwminimalstyle, blockspacingstyle,
+  before skip=5ex, left skip=0.08\textwidth, right skip=0.08\textwidth,
+  fonttitle=\blocktitlefont\large\bfseries, center title, halign=center,
+  bottomtitle=2ex,
+  before upper app={\hyphenpenalty=10000\exhyphenpenalty=10000}} }%

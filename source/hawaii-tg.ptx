@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <xi:include href="./docinfo.ptx"/>
+  <book xml:id="hawaii-tg">
+  <title>A Trip to Hawaii</title>
+  <subtitle>Teaching Guide</subtitle>
+  
+  <frontmatter xml:id="frontmatter">
+    <xi:include href="./hawaii-bibinfo.ptx"/>
+    <titlepage>
+      <titlepage-items/>
+    </titlepage>
+    <colophon>
+      <colophon-items/>
+    </colophon>
+    <xi:include href="./hawaii-tg-intro.ptx"/>
+    <xi:include href="./aboutMathCEO.ptx"/>
+    <!-- <xi:include href="./mentoringTips.ptx"/> -->
+  </frontmatter>
+
+  <chapter xml:id="chap-hawaiian-measures">
+    <title>Hawaiian Measures (85 min)</title>
+    <introduction>
+      <!-- <title>Introduction</title> -->
+      <p>
+        In this part, students will be introduced to traditional Hawaiian measures of length (used for fishing, to refer to lengths of fish, among other things).
+      </p>
+      <p>
+        Students will use their own bodies to make sense of the units, as well as physical manipulatives, compare the units, and relate them to standard units, and use proportional thinking to complete tables relating the measures.
+      </p>
+      <p>
+        In the final activity, students will dig deeper into studying these units, to verify if the ratio relating one unit to another seems to be the same or close to the same, independent on the person. So, while each measure may be non-standard (varies from person to person), the ratio or proportion of them may be the same (or approximately the same).
+      </p>
+
+      <paragraphs>
+        <title>Breakdown</title>
+        <p>Total time: 85 minutes</p>
+
+        <p>
+        <dl>
+          <li>
+            <title><xref ref="sec-body-lengths" text="type-global"/></title>
+            <p><xref ref="sec-body-lengths" text="title"/></p>
+            <p>Introduce 4 Hawaiian units of length</p>
+          </li>
+          <li>
+            <title><xref ref="sec-measuring-tape" text="type-global"/></title>
+            <p><xref ref="sec-measuring-tape" text="title"/></p>
+            <p>Build a measuring tape</p>
+          </li>
+          <li>
+            <title><xref ref="sec-spin-it" text="type-global"/></title>
+            <p><xref ref="sec-spin-it" text="title"/></p>
+            <p>A spinner game involving conversions</p>
+          </li>
+          <li>
+            <title><xref ref="sec-our-data" text="type-global"/></title>
+            <p><xref ref="sec-our-data" text="title"/>
+            <ul>
+              <li>Compare our data</li>
+              <li>Connections to measures of center</li>
+            </ul>
+            </p>
+          </li>
+        </dl>
+        </p>
+      </paragraphs>
+
+      <objectives>
+        <ul>
+          <li>Familiarize with non-standard measures from other cultures that may be non-dominant, and relate them to standard measures.</li>
+          <li>Use proportional thinking to solve problems.</li>
+        </ul>
+      </objectives>
+
+      <paragraphs>
+        <title>Materials</title>
+        <ul>
+          <li>Student Workbook (<url href="https://mathceo-uci.github.io/hawaii-sw.pdf">pdf</url> / <url href="https://mathceo-uci.github.io/hawaii-workbook">web</url>)</li>
+          <!-- <li>Receipt Paper Rolls (1 per 4 students)</li> -->
+          <li>Whiteboards and Markers</li>
+          <li>Our bodies!</li>
+          <li>
+            <p>Hawaiian Measures Descriptions (<url href="external/hawaii-blm-measures.pdf">pdf</url>)
+            </p>
+          </li>
+          <li>
+            <p>1 per 4 students:</p>
+            <ul>
+              <li><p>A 6-sided die</p>
+              </li>
+              <li>Receipt paper roll (or similar)</li>
+              <li>Hawaiian Spinner — 4 sectors (<url href="external/hawaii-blm-spinner.pdf">pdf</url>)
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </paragraphs>
+
+      <paragraphs>
+        <title>Video: Body Lengths activity walkthrough (6 min)</title>
+        <assemblage component="TODO">
+          <title>EAJ, video needs review</title>
+          <p>
+            This video talks about the lengths and spinner activities, but not about the data one. Redo?
+          </p>
+        </assemblage>
+        <video youtube="AAcg_Y1OpR4" width="100%"/>
+      </paragraphs>
+    </introduction>
+
+    <section xml:id="sec-body-lengths">
+      <title>Body Lengths (20 min)</title>
+
+      <introduction>
+        <paragraphs>
+          <title>Checklist</title>
+          <ul>
+            <li>Introduce the 4 lengths: ha'ilima, iwilei, kīko'o, poho</li>
+            <li>Practice learning them using spinners, creating equations.</li>
+          </ul>
+        </paragraphs>
+        <p>
+          Point students to the Student Workbook pages for <xref ref="hawaii-ws-measureWithOurBodies" text="type-global-title"/> and <xref ref="hawaii-ws-lengths" text="type-global-title"/> and have them make sense of the pictures that they see. Offer help only when needed, but otherwise have them lead in the explanations and observations about these non-standard lengths. Make sure that the following ideas emerge (either by students, but if not, you can lead):
+        </p>
+        <ul>
+          <li>The words used are in Hawaiian language (<url href="https://www.gohawaii.com/hawaiian-culture/hawaiian-language-guide" visual="www.gohawaii.com"/>).</li>
+          <li>We do NOT need a ruler for these measures. We need our body!</li>
+          <li>These measures depend on the person. They are not the same for everyone, but should be close, say, for kids of the same age.</li>
+          <li>If I use these measures, I should not expect exact results, because when using my body, maybe my hand is not fully stretched out, or I leave gaps measuring again.</li>
+          <li>These measures seem practical for measuring things outside, maybe when building something, or doing tasks with hands.</li>
+          <li>It seems complicated that there are 4 measures. I wonder if it would be best using just 1 or 2 measures…</li>
+          <li>I wonder how these measures relate to inches, feet, meters, or other measures that we explored last time.</li>
+          <li>I wonder which other body measures they use in that culture.</li>
+        </ul>
+        <p>
+          Have students work on <xref ref="hawaii-ws-measureWithOurBodies" text="type-global-title"/>, and discuss the strategies used to get these values. Then, move to <xref ref="hawaii-ws-lengths" text="type-global-title"/>. The first questions are closed ended, and just require one number to be filled out. Students may discuss whether they can place a decimal value (maybe 1.92, or 2.1, etc.), but have them also come up with an integer. The last two questions allow students to be more creative and come up with their own comparisons. In the last one, press students to use a number different than 1. Use <em>body act outs</em> and diagrams to make sense of the equations.
+        </p>
+        <p>
+          In <xref ref="sec-measuring-tape"/>, students go deeper and build a measuring tape. You may return to <xref ref="hawaii-ws-lengths" text="type-global-title"/> to revisit after this!
+        </p>
+        
+      </introduction>
+
+      <xi:include href="./hawaii-ws-measureWithOurBodies.ptx"/>
+
+      <p> For reference, and when monitoring this activity, it's helpful to know that, approximately, 
+        <m>1</m> anana = <m>2</m> iwilei = <m>4</m> ha'ilima = <m>8</m> kīko'o = <m>16</m> poho. See the figure below.</p>
+      
+      <figure xml:id="fig-hawaiian-units-ws">
+        <caption>Nā Anakahi Hawai'i — Hawaiian Units of Measurement.</caption>
+        <image source="hawaiian-units.png" width="65%">
+          <shortdescription>Diagram showing some Hawaiian body measurements: poho (palm), kīko'o (= 2 poho), ha'ilima (= 2 kīko'o), iwilei (= 2 ha'ilima), anana (= 2 iwilei = 4 ha'ilima = 8 kīko'o = 16 poho).</shortdescription>
+        </image>
+      </figure>
+
+      <xi:include href="./hawaii-ws-lengths.ptx"/>
+
+    </section>
+
+    <section xml:id="sec-measuring-tape">
+      <title>Let's Build a Measuring Tape (20 min)</title>
+
+      <introduction>
+        <paragraphs>
+          <title>Checklist</title>
+          <ul>
+            <li>Build a measuring tape for Hawaiian measures (kīko’o and poho).</li>
+            <li>Relate previous knowledge from students about converting between measurements.</li>
+            <li>Anticipate and correct typical conceptual errors when measuring lengths.</li>
+          </ul>
+        </paragraphs>        
+        <p>
+          The main goal in this part is to help students make connections to previous knowledge (about measures), so that they understand that they can apply similar ideas, when making conversions, to the case of Hawaiian measures.
+        </p>
+        <p>
+          This will also help students learn that they can use the newly learned measures in general ways, by specifying a number before it. So, in the same way they say <q>8 feet</q>, they can say <q>8 poho</q> to indicate some length (although non-standard).
+        </p>
+        <p>
+          For this activity, try that students work in groups of 3–4, if possible. They will need to decide <q>who's hands/arms</q> to use as the model, or if they can use all of them. This can lead to the (wanted) discussion about non-standard measurements.
+        </p>
+        <p>
+          Even if students are familiar with tape measures, anticipate students making important conceptual mistakes. These are good opportunities to bring key concepts about measures in general. In particular:
+          <ul>
+            <li>Make sure that students start at 0, which is convenient for a tape measure as start point.</li>
+            <li>Make sure that the numbers grow from left to right, for each measure, and that there are no gaps.</li>
+            <li>Help students with labeling at the start.</li>
+          </ul>
+        </p>
+        <image source="hawaii-rulerKikoPoho.png" width="70%">
+          <shortdescription>A measuring tape with two aligned scales: an upper kīko'o scale numbered 0 to 5, and a lower poho scale numbered 0 to 10, lined up so that each kīko'o spans two poho.</shortdescription>
+        </image>
+
+
+      </introduction>
+
+      <xi:include href="./hawaii-ws-measuringTape.ptx"/>
+
+    </section>
+
+    <section xml:id="sec-spin-it">
+      <title>Spin It! (20 min)</title>
+
+      <introduction>
+        <paragraphs>
+          <title>Checklist</title>
+          <ul>
+            <li>Practice learning Hawaiian measurements using spinners, creating equations.</li>
+            <li>Can play as many rounds as you want.</li>
+          </ul>
+        </paragraphs>
+        <p>
+          The goal with this game is to have students familiarize more with the measures of length that they just learned, that they can relate them to daily life and culture, and that they can use proportional reasoning to compare them.
+        </p>
+
+      <paragraphs>
+        <title>Instructions</title>
+        <ul>
+          <li>Spin twice to get two Hawaiian units of length (unit#1, unit#2).</li>
+          <li>Roll a 6-sided die. Say, you got a number <m>p</m>.</li>
+          <li>Create an equation of the form <m>[p] \cdot \text{unit\#1} = [?] \cdot \text{unit\#2}</m>, and solve it with everyone (approximations and rounding are encouraged).</li>
+        </ul>
+      </paragraphs>
+
+      <example>
+        <ul>
+          <li>Spin to get these units: iwilei, poho</li>
+          <li>Roll a 2</li>
+          <li><p><line>Create the following equation: <alert>[2] poho = [?] iwilei</alert></line> <line>(the <q>opposite equation</q> is also valid: [2] iwilei = [?] poho.)</line></p></li>
+          <li>Solve this equation using your body, or also drawing tape diagrams.</li>
+        </ul>
+      </example>
+
+      <paragraphs>
+        <title>An Optional Challenge: Relate to a Standard Measure</title>
+        <p>
+          Relate to a measure (inch, yard, foot, meter, etc.): Laura and Carlos work together, and spin an <q>iwilei</q>. They also choose <q>inch</q>.
+          <ul>
+            <li>inch</li>
+            <li>iwilei</li>
+          </ul>
+        </p>
+        <p>They roll a 5. They create the following equation: <md>[5]~\text{iwilei} = [?]~\text{inches}</md>.</p>
+        <p>
+          Everyone (starting with Laura and Carlos) shares a thing that measures close to 5 iwilei (for example, a car, a boat). Then, students work in pairs to solve the equation (approximations are ok). Each correct answer gives 1 point. After discussing, the answer is made visible, using a diagram.
+        </p>
+      </paragraphs>
+
+      </introduction>
+
+      <xi:include href="./hawaii-ws-spinIt.ptx"/>
+
+    </section>
+
+    <section xml:id="sec-our-data">
+      <title>Our Data! (25 min)</title>
+
+      <introduction>
+        <paragraphs>
+          <title>Checklist</title>
+          <ul>
+            <li>Explore data concepts, including centers (representative values), variation, and outliers.</li>
+            <li>Get a sense of community when sharing our different measures.</li>
+          </ul>
+        </paragraphs>
+        <p>
+          In this activity, students will collect their own body data about measures converted in inches for two specific Hawaiian measures, and calculate the ratio. There are lots of mathematical ideas going on, and you can decide how deep to go, depending on your students and the time you have:
+          <ul>
+            <li>Measuring and rounding strategically.</li>
+            <li>For each of the 2 Hawaiian measures, graphing a dot plot to see the center and dispersion.</li>
+            <li>Plotting the 2D points in the plane (where each axis corresponds to one of the Hawaiian measures in inches), to see the trend or association between the measures, and predicting a line of best fit, and what the slope would mean in terms of the context.</li>
+            <li>Discussing outliers in the three data plots, and what they mean.</li>
+            <li>Discussing samples vs total populations.</li>
+            <li>Discussing scaling and proportionality constants.</li>
+          </ul>
+        </p>
+        <p>You could make this part as a project for your students!</p>
+
+      <paragraphs>
+        <title>Notes about the questions</title>
+        <p>
+        <dl>
+          <li>
+            <title>Question 1</title>
+            <p>Asks about variation. This is to be understood in an intuitive sense, without appealing to a mathematical formula. Ask students to look at the dot plots to see how <q>wide</q> they are, and how much points cluster together.</p>
+          </li>
+          <li>
+            <title>Question 2</title>
+            <p>Asks for a typical value. Again, ask students to look at the dot plots to determine a reasonable center!</p>
+          </li>
+          <li>
+            <title>Question 3</title>
+            <p>Asks for outliers. Again, students can make sense of this with the dot plots.</p>
+          </li>
+          <li>
+            <title>Question 4</title>
+            <p>Intends to see if, even if the first measurements vary a bit, the last one has less variation, and why.</p>
+          </li>
+        </dl>
+        </p>
+      </paragraphs>
+
+      </introduction>
+
+      <xi:include href="./hawaii-ws-ourData.ptx"/>
+
+
+    </section>
+
+  </chapter>
+
+  <chapter xml:id="chap-equivalencies">
+    <title>Equivalencies (40 min)</title>
+    <introduction>
+      <p>
+        In the previous part, students examined ratios relating one unit to another, to see if they could start finding general numerical patterns.
+      </p>
+      <p>
+        In this part, students will discover the relationships between the measurements as they determine conversions. They will use the table to systematically organize their calculations and findings. Students should also be encouraged to notice patterns in the table between the different measurements and their conversions.
+      </p>
+      <p>
+        As an optional activity, students will also have the opportunity to create body poses that reflect the different measurements.
+      </p>
+
+      <paragraphs>
+        <title>Breakdown</title>
+        <p>Total time: 40 minutes</p>
+        <p>
+        <dl>
+          <li>
+            <title><xref ref="sec-conversions" text="type-global"/></title>
+            <p><xref ref="sec-conversions" text="title"/></p>
+            <p>Complete a conversions table, and analyze it</p>
+          </li>
+          <li>
+            <title><xref ref="sec-more-units" text="type-global"/></title>
+            <p><xref ref="sec-more-units" text="title"/></p>
+            <p>Come up with new body units and relate them to the original ones</p>
+          </li>
+          <li>
+            <title><xref ref="sec-pele" text="type-global"/></title>
+            <p><xref ref="sec-pele" text="title"/></p>
+            <p>Problems involving proportional thinking</p>
+          </li>
+        </dl>
+        </p>
+      </paragraphs>
+
+      <objectives>
+        <ul>
+          <li>Familiarize with non-standard measures from other cultures that may be non-dominant, and relate them to standard measures.</li>
+          <li>Use proportional thinking to solve problems.</li>
+        </ul>
+      </objectives>
+
+      <paragraphs>
+        <title>Materials</title>
+        <ul>
+          <li>Student Workbook (<url href="https://mathceo-uci.github.io/hawaii-sw.pdf">pdf</url> / <url href="https://mathceo-uci.github.io/hawaii-workbook">web</url>)</li>
+          <li>Whiteboards and Markers</li>
+          <li>Your body!</li>
+        </ul>
+      </paragraphs>
+    </introduction>
+
+    <section xml:id="sec-conversions">
+      <title>Conversions (15 min)</title>
+      <introduction>
+        <paragraphs>
+          <title>Checklist</title>
+          <ul>
+            <li>Make a more systematic record of conversions.</li>
+            <li>Solve ratio problems.</li>
+          </ul>
+        </paragraphs>
+        <p>
+          In this activity, students complete a conversion table between Hawaiian measures of length, and make observations about the table. Make sure that students discuss a lot during this part.
+        </p>
+        <p>
+          Make sure that students know what the table means, and how to read it. Encourage students to use fractions (or fractions and decimals), so that they can see the patterns more easily.
+        </p>
+        <p>
+          There is a <q>2</q> already (which students may observe that it is an approximation), as well as a <q>1/4</q>. Explain the meaning of the <alert>2</alert>:
+        </p>
+        <blockquote>
+          <p><em>1 kīko'o equals to about <alert>2</alert> poho.</em></p>
+        </blockquote>
+        <p>These are some observations about the table:
+          <ul>
+            <li>The diagonal has 1s (ones), because they are about converting from the same unit to the same unit. So the multiplicator is just 1.</li>
+            <li>Some values can be deduced from others, without measuring again. (Ask students for examples.)</li>
+            <li>The table is <q>inverse-symmetric</q> in the sense that a value of <m>a</m> has a corresponding value of <m>1/a</m> in the mirror position with respect to the diagonal. This is because if going from one unit of measure to another you need to multiply, then to go back you need to divide by the same number.</li>
+          </ul>
+        </p>
+        <paragraphs>
+          <title>Teaching tip: make connections</title>
+          <p>
+            Make sure that filling the table does not feel like a routine task, in which the goal is just to complete the table. Relate many of the values filled out, look for more than one way to fill one value, and look for patterns in the table.
+          </p>
+          <p>
+            You may even surprise your students by introducing the anana (= 2 iwilei = 4 ha'ilima), and include it in the table. You get a <q>binary system</q>!
+          </p>
+
+          <figure xml:id="fig-anana">
+           <caption>
+            <m>1</m> anana = <m>2</m> iwilei = <m>4</m> ha'ilima
+           </caption>
+           <image source="hawaii-anana-labeled.png" width="55%">
+            <shortdescription>A person demonstrating the anana — arms fully outstretched to the sides, showing the full wingspan equal to 2 iwilei or 4 ha'ilima.</shortdescription>
+           </image>
+          </figure>
+    
+        </paragraphs>
+
+        <paragraphs>
+          <title>Video Resource</title>
+          <video youtube="GvgqJ-iG0LE" width="100%"/>
+        </paragraphs>
+        <assemblage component="TODO">
+          <title>EAJ, video needs review</title>
+          <p>
+            Check alignment. Redo?
+          </p>
+        </assemblage>
+      </introduction>
+
+      <xi:include href="./hawaii-ws-equivalencies.ptx"/>
+    </section>
+    <section xml:id="sec-more-units">
+      <title>More Units (10 min)</title>
+      <introduction>
+        <paragraphs>
+          <title>Checklist</title>
+          <ul>
+            <li>Optional activity.</li>
+            <li>Opportunity for creativity from students.</li>
+          </ul>
+        </paragraphs>
+        <p>
+          This is an optional activity if you still have time in which students create new body poses corresponding to certain measures. Have students work on the Student Workbook page for <xref ref="hawaii-ws-moreUnits" text="type-global-title"/>. You can have them work together.
+        </p>
+        <p>
+          Make sure that the body poses that students invent are easy to replicate, and that they can also describe them in their own words.
+        </p>
+        <p>
+          For 4 ha'ilima, students may actually discover the anana (wingspan!). For 3 ha'ilima, students may discover the muku, or you may also introduce it!
+        </p>
+    
+      <sidebyside widths="40% 45%" margins="0% 10%">
+        <image source="hawaii-muku-labeled.png">
+          <shortdescription>A spread hand illustrating the muku unit (arm from fingertips to opposite elbow, equal to 3 ha'ilima)</shortdescription>
+        </image>
+        <image source="hawaii-anana-labeled.png">
+          <shortdescription>A raised palm illustrating the anana unit (full wingspan, equal to 2 iwilei or 4 ha'ilima).</shortdescription>
+        </image>
+      </sidebyside>
+
+        <p>
+          You can also talk about the pī'ā.
+        </p>        
+        <image source="pia-poho.jpeg" width="20%">
+          <shortdescription>Two hand poses: pī'ā (hand with fingers together, palm facing out) and poho (open palm).</shortdescription>
+        </image>
+      </introduction>
+
+      <xi:include href="./hawaii-ws-moreUnits.ptx"/>
+    </section>
+    <section xml:id="sec-pele">
+      <title>Pele (15 min)</title>
+      <introduction>
+        <paragraphs>
+          <title>Checklist</title>
+          <p>
+          <ul>
+            <li>Proportionality problems.</li>
+            <li>Encourage multiple ways to solve the problem.</li>
+            <li>Can be used as a thermometer (challenge problem).</li>
+          </ul>
+          </p>
+        </paragraphs>
+        
+        <p>
+          This activity includes two different problems about making sense of proportionality situations, and solving them flexibly. It will also demand students to think about their own bodies and scale them.
+        </p>
+        <p>
+          In <xref ref="ex-pele-sculpture" text="custom">the first problem</xref>, a large statue of Pele is to be made, and we know a range for its height, in feet. Students will need to first make sense of the table. They may first think that they just need to convert their own body's measures to feet, without realizing that the table is relative to the giant statue.
+        </p>
+        <p>
+          To help students, you may tell them: <em><q>Imagine that YOU are the giant Pele, and you are 45 feet tall. If you created a measurement of 1 poho using your body, and then measured it using a large ruler, how many feet would you get?</q></em> [It may also help to ask: how many times as tall are you now?]
+        </p>
+        <p>
+          Students may also have trouble working with ranges. You may tell students to first simplify the problem and pretend that we are not given a range, but a single value (such as 45 or 50), and then make sense of the range. This strategy may actually be more efficient.
+        </p>
+        <p>
+          <xref ref="ex-pele-sculpture-small" text="custom">The second problem</xref> is similar, but now with a shrunken figure.
+        </p>
+        <p>
+          Students may think that there is a unique answer (as a typical closed mathematical problem), but the answer will actually depend on the relative body measurements that they assume Pele has! However, students should still compare their answers and they should be reasonably close. If they find large discrepancies, this is an opportunity to backtrack and see where their initial assumptions were so different (assuming that the calculations were correct).
+        </p>
+      </introduction>
+
+      <xi:include href="./hawaii-ws-pele.ptx"/>
+    </section>
+    <section xml:id="sec-muku">
+      <title>The Muku</title>
+      <xi:include href="./hawaii-ws-muku.ptx"/>
+    </section>
+  </chapter>
+
+  <chapter xml:id="chap-wrapUp">
+      <title>Wrap-up (10 min)</title>
+      <section xml:id="sec-reflection">
+      <title>Reflection Questions</title>
+      <introduction>
+      <p>If time permits, close the session with one or both sets of reflection questions. </p>
+      <p>In <xref ref="hawaii-ws-reflectingAboutToday" text="title"/>, students capture what they took away from the days activities. </p>
+      <p>In <xref ref="hawaii-ws-furtherReflections" text="title"/>, they consider deeper questions about how culture and history shape the ways different communities measure.</p>
+      </introduction>
+
+      <xi:include href="./hawaii-ws-reflectingAboutToday.ptx"/>
+      <xi:include href="./hawaii-ws-furtherReflections.ptx"/>
+      </section>
+  </chapter>
+
+  <chapter xml:id="chap-resources">
+    <title>More Resources</title>
+    <p>
+    <ul>
+      <li>
+        <p><url href="https://coe.hawaii.edu/ethnomath/wp-content/uploads/sites/12/2019/10/Messin-Around-in-the-M%C4%81l%C4%81.pdf">Messin' Around in The Mālā</url></p>
+      </li>
+      <li>
+        <p><url href="https://www.gohawaii.com/hawaiian-culture/hawaiian-language-guide">Hawaiian Language Pronunciation Guide</url></p>
+      </li>
+      <li>
+        <p><url href="https://www.wpcouncil.org/wp-content/uploads/2022/12/2023_Hawaii-LunarCalendar_WEB.pdf">Hawaiian Lunar Calendar</url></p>
+      </li>
+      <li>
+        <p><url href="https://files.eric.ed.gov/fulltext/ED584219.pdf">Indigenous Knowledge Provides An Elegant Way To Teach The Foundations Of Mathematics</url></p>
+      </li>
+      <li>
+        <p><url href="https://mnbg.org/na-ana-o-hawaii-hawaiian-body-measurements/">Hawaiian Body Measurements</url></p>
+      </li>
+      <li>
+        <p><url href="https://ulukau.org/gsdl2.81/cgi-bin/cbimiikecycle?a=pdf&amp;d=D0.5.6&amp;aurl=/gsdl2.81/collect/cbimiikecycle/index/assoc">Lesson in Hawaiian Measures</url></p>
+      </li>
+    </ul>
+    </p>
+  </chapter>
+
+  <backmatter xml:id="backmatter">
+    <title>Backmatter</title>
+
+    <appendix xml:id="appendix-image-attributions">
+      <title>Image Attributions</title>
+
+      <p>The images listed below originate from an external source or an AI tool. All other images in this module were created by UCI MATH CEO and are released under the same license as the book, except the logos, which belong to their respective owners and are not covered by this license.</p>
+
+      <!-- Entry format, ordering, and xref anchoring: see -->
+      <!-- DOCUMENTATION/conventions.md, "Image attributions". -->
+      <p>
+      <ul>
+        <li><p><xref ref="preface-intro-instructor" text="custom">Hawaiian shoreline</xref>: <url href="https://commons.wikimedia.org/wiki/File:Waikiki_Beach,_Diamond_Head,_Oahu_by_D._Howard_Hitchcock,_Hawaii,_1928.jpg" visual="commons.wikimedia.org">Waikiki Beach, Diamond Head, O'ahu</url> (1928) by D. Howard Hitchcock (d. 1943). Public domain.</p></li>
+        <li><p><xref ref="para-cultural-appropriation" text="custom">Hawaiian coastline</xref>: Image generated with Google Gemini, 2026.</p></li>
+        <li><p><xref ref="hawaii-ws-measureWithOurBodies" text="custom">Canoe</xref>: Image generated with Google Gemini, 2026.</p></li>
+        <li><p><xref ref="hawaii-ws-measureWithOurBodies" text="custom">Body-length unit illustrations</xref>: Images generated with Google Gemini, 2026.</p></li>
+        <li><p><xref ref="fig-hawaiian-units-ws" text="custom">Hawaiian units chart</xref>: Image generated with Google Gemini, 2026.</p></li>
+        <li><p><xref ref="sec-measuring-tape" text="custom">Kīko'o and poho ruler</xref>: Image generated with Google Gemini, 2026.</p></li>
+        <li><p><xref ref="ex-read-the-tape" text="custom">Dual-scale inch/cm ruler</xref>: Image generated with Google Gemini, 2026.</p></li>
+        <li><p><xref ref="ex-build-measuring-tape" text="custom">Paper roll</xref>: <url href="https://publicdomainvectors.org/es/vectoriales-gratuitas/Arte-de-papel-rollo-vector-clip/22051.html" visual="publicdomainvectors.org">Arte de papel rollo vector clip</url>. Public domain (CC0).</p></li>
+        <li><p><xref ref="hawaii-ws-spinIt" text="custom">Spinner</xref>: made by UCI MATH CEO from the body-length unit illustrations (generated with Google Gemini), 2026.</p></li>
+        <li><p><xref ref="sec-conversions" text="custom">Anana</xref>: Image generated with Google Gemini and edited by UCI MATH CEO, 2026.</p></li>
+        <li><p><xref ref="sec-more-units" text="custom">Pī'ā and Poho</xref>: Image generated with Google Gemini and edited by UCI MATH CEO, 2026.</p></li>
+        <li><p><xref ref="hawaii-ws-moreUnits" text="custom">Body poses</xref>: Image generated with Google Gemini, 2026.</p></li>
+        <li><p><xref ref="fig-pele" text="custom">Pele painting</xref>: <url href="https://commons.wikimedia.org/wiki/File:Pele_by_David_Howard_Hitchcock,_c._1929.jpg" visual="commons.wikimedia.org">Pele</url> (c. 1929) by D. Howard Hitchcock (d. 1943). Public domain.</p></li>
+        <li><p><xref ref="hawaii-ws-muku" text="custom">Muku illustration</xref>: Image generated with Google Gemini, 2026.</p></li>
+        <li><p><xref ref="hawaii-ws-muku" text="custom">Hawaiian canoe and storm</xref>: Image generated with Google Gemini, 2026.</p></li>
+        <li><p><xref ref="fig-taro-patch" text="custom">Taro patch</xref>: watercolor by Roberto Forero, 2026, <url href="https://creativecommons.org/licenses/by-sa/4.0/" visual="creativecommons.org">CC BY-SA 4.0</url>.</p></li>
+      </ul>
+      </p>
+
+    </appendix>
+
+    <xi:include href="./colophon.ptx"/>
+
+  </backmatter>
+  </book>
+</pretext>

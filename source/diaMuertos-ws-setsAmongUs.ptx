@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="diaMuertos-ws-setsAmongUs">
+  <title>SETS Among Us</title>
+    
+    <introduction>
+      <sidebyside widths="50% 35%" margins="0% 5%" valign="middle">
+        <p><paragraphs>
+        <title>Start</title>
+        <p>Brainstorm <q>people</q> aspects. Write each in 1 index card. Example: <term>FAVORITE MUSIC</term>. What are some possible options or values for each?</p>
+        <p>Focus on non-binary aspects! (More than 2 options or values).</p>
+      </paragraphs></p>
+        <!-- <image source="diaMuertos-setsAmongUS-people1.png" decorative="yes"/> -->
+        <image source="diaMuertos-setsAmongUS-people2.png" decorative="yes"/>
+      </sidebyside>     
+      
+    </introduction>   
+
+    <exercise xml:id="ex-sets-challenge1">
+      <title>Challenge #1: One Aspect Only</title>
+      <statement>
+        <sidebyside widths="65% 25%" margins="0% 5%" valign="middle">
+          <p>Do this together as a group:
+          <ul>
+            <li><p>Pick one aspect randomly. Example: <term>FAVORITE MUSIC</term></p></li>
+            <li><p>Everyone talk about the aspect. Share.</p></li>
+            <li><p>Select 2 random people in your table. Call it A and B.</p></li>
+            <li><p>A and B tell us the <q>values</q> of the aspect. Are they equal or different?</p></li>
+            <li><p>Together, find a third person C that would complete a <term>SET</term> with A and B. This means: <alert>either all three values are equal, or all three values are different</alert>. See the figure.</p></li>
+            <li><p>Can you find other <term>SET</term>s as a group (with any 3 people in the table)?</p></li>
+          </ul>
+          </p>
+          <stack>
+            <image source="diaMuertos-set.png">
+              <shortdescription>Two possible forms for a SET: all values equal or all values different.</shortdescription>
+            </image>
+            <p>Example of a SET</p>
+          </stack>
+        </sidebyside>
+      </statement>
+    </exercise>
+    
+    <exercise xml:id="ex-sets-challenge2" workspace="5cm">
+      <title>Challenge #2: Three Aspects</title>
+      <statement>
+        <p>Do the same for 3 aspects at the same time. Example:
+          <md>\boxed{\text{Favorite music}} + \boxed{\text{Month you were born}} + \boxed{\text{Favorite Weekend Family Activity}} </md>
+        </p>
+        <!-- <p>Favorite music + Month you were born + Favorite Weekend Family Activity</p> -->
+        
+        <p>A <term>SET</term> is a collection of 3 people such that:</p>
+        <ul>
+          <li><p>For the first aspect, all people's values are equal, or all values are different!</p></li>
+          <li><p>For the second aspect, all people's values are equal, or all values are different!</p></li>
+          <li><p>For the third aspect, all people's values are equal, or all values are different!</p></li>
+        </ul>
+      </statement>
+    </exercise>
+  </worksheet>

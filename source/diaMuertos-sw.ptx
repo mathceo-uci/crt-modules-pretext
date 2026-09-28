@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <xi:include href="./docinfo.ptx"/>
+  <book xml:id="diaMuertos-sw">
+    <title>Día de los Muertos</title>
+    <subtitle>Student Workbook</subtitle>
+    <frontmatter xml:id="frontmatter">
+      <xi:include href="./diaMuertos-bibinfo.ptx"/>
+      <titlepage>
+        <titlepage-items/>
+      </titlepage>
+      <colophon>
+        <colophon-items/>
+      </colophon>
+      <xi:include href="./aboutMathCEO.ptx"/>
+      <xi:include href="./diaMuertos-sw-intro.ptx"/>
+    </frontmatter>
+
+    <chapter xml:id="chap-celebrations">
+      <title>Celebrations (25 min)</title>
+      <introduction>
+        <image source="diaMuertos-calaverasSamples.png" decorative="yes" width="75%"/>
+      </introduction>
+      <xi:include href="./diaMuertos-ws-celebration.ptx"/>
+      <!-- <xi:include href="./diaMuertos-ws-miAltar.ptx"/> -->
+    </chapter>
+
+    <chapter xml:id="chap-los-musicos">
+      <title>Los Músicos (35 min)</title>
+      <introduction>
+        <image source="diaMuertos-musicos-examples.png" decorative="yes" width="95%"/>
+      </introduction>
+      <xi:include href="./diaMuertos-ws-fiestaDeMusicos.ptx"/>
+      <xi:include href="./diaMuertos-ws-fullFiesta.ptx"/>
+    </chapter>
+
+    <chapter xml:id="chap-more-counting">
+      <title>More Counting (20 min)</title>
+      <introduction>
+        <image source="diaMuertos-Gato.png" width="50%" decorative="yes"/>
+      </introduction>
+      <xi:include href="./diaMuertos-ws-reasonings.ptx"/>
+      <xi:include href="./diaMuertos-ws-rooms.ptx"/>
+    </chapter>
+
+    <chapter xml:id="chap-sets-among-us">
+      <title>Sets Among Us (15 min)</title>
+      <introduction>
+        <image width="80%" decorative="yes">
+          <latex-image>\restrictedimage{12.9cm}{9.0cm}{Image of people. See restricted diaMuertos-setsAmongUS-people1.png}</latex-image>
+        </image>
+      </introduction>
+      <xi:include href="./diaMuertos-ws-setsAmongUs.ptx"/>
+    </chapter>
+
+    <chapter xml:id="chap-game-of-set">
+      <title>The Game of SET (25 min)</title>
+      <introduction>
+        <assemblage component="TODO">
+          <title>Add large intro image here</title>
+          <p>EAJ, 2026</p>
+          <p>I think this will look nice both in the web and for print. Maybe different web and print specific versions are needed, with different dimensions or aspect ratios.</p>
+        </assemblage>
+      </introduction>
+      <xi:include href="./diaMuertos-ws-tris.ptx"/>
+      <xi:include href="./diaMuertos-ws-plazaMagica.ptx"/>
+    </chapter>
+
+    <backmatter xml:id="backmatter">
+      <title>Backmatter</title>
+
+      <appendix xml:id="appendix-image-attributions">
+        <title>Image Attributions</title>
+        <p>The following images are used in this module. Where known, source, author, and license information is provided.</p>
+        <assemblage component="TODO">
+          <title>PENDING: image attributions</title>
+          <p>This appendix is not done — it has no entries yet. Build it to match the Hawaii or Los 4 Amigos <c>appendix-image-attributions</c> (see <c>hawaii-tg.ptx</c>/<c>hawaii-sw.ptx</c> and <c>cuatroAmigos-tg.ptx</c>/<c>cuatroAmigos-sw.ptx</c>) in both structure and style: one xref-led <c>&lt;li&gt;</c> per image, in order of appearance, each credited by its licence tier — TASL (title linked to source, author, licence) for CC-licensed images; title plus <q>Public domain</q> for public-domain/CC0; <q>Image generated with Google Gemini, 2026.</q> for AI images. List every module image with its source, author, and licence.</p>
+        </assemblage>
+      </appendix>
+
+      <xi:include href="./colophon.ptx"/>
+
+    </backmatter>
+  </book>
+</pretext>

@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <xi:include href="./docinfo.ptx"/>
+  <book xml:id="cuatroAmigos-tg">
+    <title>Los 4 Amigos</title>
+    <subtitle>Teaching Guide</subtitle>
+
+    <frontmatter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="frontmatter">
+      <xi:include href="./cuatroAmigos-bibinfo.ptx"/>
+      <titlepage>
+        <titlepage-items/>
+      </titlepage>
+      <colophon>
+        <colophon-items/>
+      </colophon>
+      <xi:include href="./cuatroAmigos-tg-intro.ptx"/>
+      <xi:include href="./aboutMathCEO.ptx"/>
+      <!-- <xi:include href="./mentoringTips.ptx"/> -->
+    </frontmatter>
+
+    <chapter xml:id="chap-multiverses">
+      <title>Multiverses (40 min)</title>
+      <introduction>
+        <assemblage component="TODO">
+          <title>Check time</title>
+          <p>EAJ, 3Aug2026</p>
+          <p>TG overview slide 3 says this is 40min, but slide 9 says 35min. Which one is correct?</p>
+        </assemblage>
+        <p>In this part, students learn about logical puzzles, tables to represent solutions, and the notion of a <term>world</term> (an object or possible configuration in a combinatorial situation). By creating and counting worlds, and extending and solving puzzles, students develop mathematical skills related to modelling, counting and reasoning with logic.</p>
+
+        <p>The combinatorial situation will allow for cultural exchanges related to hobbies. It will also make students more aware about biases or stereotypes that people has when thinking about hobbies based on gender. By connecting to the combinatorial idea of multiple worlds, and the idea of using logic and not just guessing, students can discuss how math can help reduce stereotypes.</p>
+
+        <p>Students will learn about permutations (in the form of tables), count them, and explore how changing parameters lead to new counting. They use tree diagrams and time strips, and make sense of multiplication equations.</p>
+
+        <paragraphs>
+          <title>Breakdown</title>
+          <p>
+          <dl>
+            <li>
+              <title><xref ref="sec-viajeros" text="type-global"/></title>
+              <p><xref ref="sec-viajeros" text="title"/></p>
+              <p>Students play the game-puzzle, and familiarize with the setting.</p>
+            </li>
+            <li>
+              <title><xref ref="sec-amigos" text="type-global"/></title>
+              <p><xref ref="sec-amigos" text="title"/></p>
+              <p>Students explore ways to count the total number of options.</p>
+            </li>
+          </dl>
+          </p>
+          <assemblage component="TODO">
+            <title>Check times for the breakdown</title>
+            <p>The TG slide breakdown p9 lists 10min and 25mins, but they don't seem to match the following slides: Viajeros is 5 min in the Overview (slide.6) and activity header (slide.10) but 10 min in the Part 1 breakdown (slide.9). Cuatro Amigos is 20 min in the Overview (slide.6), 25 min in the breakdown (slide.9), and 15 min in the activity header (slide.14). The section titles currently use the Overview times (5 min / 20 min); reconcile.</p>
+            <p>As authored in PreTeXt, this involves fixing the time in the activity headers, which becomes the single source of thruth to avoid these inconsistencies.</p>
+          </assemblage>
+        </paragraphs>
+
+        <objectives>
+          <ul>
+            <li><p>Use tree diagrams to count worlds.</p></li>
+          </ul>
+        </objectives>
+
+        <paragraphs>
+          <title>Materials</title>
+          <ul>
+            <li><p>Student Workbook (<url href="https://mathceo-uci.github.io/cuatroAmigos-sw.pdf">pdf</url> / <url href="https://mathceo-uci.github.io/cuatroAmigos-workbook">web</url>)</p></li>
+            <li>(large paper)</li>
+            <!-- <li><p>Sets of 16 colored squares (<url href="external/cuatroAmigos-blm-coloredSquares.pdf">pdf</url>)</p></li> -->
+            <li><p>Friends &amp; Hobby Cards (several sets of 8) (<url href="external/cuatroAmigos-blm-friendsHobbyCards.pdf">pdf PENDING</url>)</p></li>
+            <!-- <li><p>Tally Charts (for teachers) (<url href="external/cuatroAmigos-blm-tallyChart.pdf">pdf</url>)</p></li> -->
+            <li><p>Mini-tables (several copies) (<url href="external/cuatroAmigos-blm-miniTables.pdf">pdf PENDING</url>)</p></li>
+            <!-- <li><p>Large Trees (2-sided) (<url href="external/cuatroAmigos-blm-largeTree.pdf">pdf</url>)</p></li> -->
+            <li><p>Whiteboards and Markers</p></li>
+          </ul>
+          <assemblage component="TODO">
+            <title>PENDING: BLM PDFs, where are these? </title>
+            <p>EAJ, 7Aug2026</p>
+            <p>I do not see these pdfs in the module folder.</p>
+          </assemblage>
+        </paragraphs>
+
+      </introduction>
+
+      <section xml:id="sec-viajeros">
+        <title>Viajeros (5 min)</title>
+        <introduction>
+          <paragraphs>
+            <title>Checklist</title>
+            <ul>
+              <li><p>Introduce what a logic puzzle is (clues, solutions).</p></li>
+              <li><p>Introduce the notion of a (combinatorial) world, representing it with a completed table.</p></li>
+              <li><p>No focus yet on counting worlds.</p></li>
+              <li><p>May skip this activity if you are short on time.</p></li>
+            </ul>
+          </paragraphs>
+
+          <p>This short activity introduces some of the mathematical ideas that come about combinatorics (without counting yet), and using logic to solve information puzzles. It's a simple incomplete puzzle (with 3 clues) that helps students think about worlds as configurations of the situation that we are interested in. However, it is fine to skip if you want, as it's not a prerequisite to what comes after.</p>
+
+          <p>Some students may have little exposure to what a logical puzzle is, so this is a good opportunity to introduce these. You may decide how students should work: individually, in small groups, or as a whole class demonstration.</p>
+
+          <p>The puzzle is incomplete since it does not lead to a unique solution. This gives depth to the activity, as students can discuss about how many worlds are possible under the current clues, and how to create a final clue (or several) that would determine a unique world.</p>
+
+          <paragraphs>
+            <title>Challenge</title>
+            <p>If students want to, they can also create a new puzzle to pose to each other.</p>
+          </paragraphs>
+
+          <paragraphs>
+            <title>Representations</title>
+            <p>A table is provided to help students keep track of the information. However, students may decide to use other diagrams, such as a <m>4 \times 4</m> table, each row representing a person, and each column representing a means of transportation. When closing the activity, make sure to show that representation, and how to use it.</p>
+          </paragraphs>
+
+          <paragraphs>
+            <title>Misconceptions: not a unique solution!</title>
+            <p>Some students may be confused by the fact that the clues are not enough to determine a unique solution. Pay attention to this and be ready to engage students, and discuss that in life, often times we are in incomplete information situations.</p>
+          </paragraphs>
+
+          <paragraphs>
+            <title>Overview video (4 min)</title>
+            <p><video youtube="D9SvOvmwkxk" width="80%"/></p>
+          </paragraphs>
+        </introduction>
+
+        <xi:include href="./cuatroAmigos-ws-viajeros.ptx"/>
+      </section>
+
+      <section xml:id="sec-amigos">
+        <title>Cuatro Amigos (20 min)</title>
+        <introduction>
+          <paragraphs>
+            <title>Checklist</title>
+            <ul>
+              <li><p>Connect logical puzzles to worlds.</p></li>
+              <li><p>Introduce the notion of a (combinatorial) world, representing it with a completed table.</p></li>
+              <li><p>Don't focus yet on counting worlds.</p></li>
+            </ul>
+          </paragraphs>
+
+          <p>In this activity, students will start creating their own cultural story about four friends that share things. This is an opportunity for giving voice to your students about values and personal interests that they want to share with other students, while perhaps also bringing some stereotypes when talking about the four different fictional kids that appear in the Student Workbook.</p>
+
+          <paragraphs>
+            <title>Tips for propelling cultural exchanges</title>
+            <p>While the neutral kids allow for students to have more freedom to describe them, it's important to find connections between what they say and the cultural setting of students. For that:</p>
+            <ul>
+              <li><p>Ask follow up questions that relate what students are saying about the fictional kids to the students' real lives. For example, <q><em>Is this story similar to yours?</em></q> or <q><em>Who would you be in that friendship?</em></q></p></li>
+              <li><p>Press students for details to help them tell a rich story, so that cultural aspects can emerge.</p></li>
+            </ul>
+          </paragraphs>
+
+          <paragraphs>
+            <title>Bring a photo of your friends!</title>
+            <p>As an optional task for your students, a week before the activity ask them to bring a meaningful photo that depicts them and some of their friends, so that they can tell a story of that photo!</p>
+            <p>This validates student's identity and culture, while connecting to the sharing part of the activity.</p>
+          </paragraphs>
+
+          <paragraphs>
+            <title>Counting worlds</title>
+            <assemblage component="TODO">
+              <title>PENDING: hard-coded cross-reference → xref</title>
+              <p>The <q>In 2)</q> below points to a Student Workbook question by its number. Replace it with an <c>&lt;xref&gt;</c> to the corresponding worksheet exercise so it tracks PreTeXt's auto-numbering instead of a hard-coded number.</p>
+              <p>Have not linked it becuase it is not clear which is 1) and which is 2)</p>
+            </assemblage>
+            <p>In 2), students will now start thinking about counting the total number of configurations (matching each friend to a different hobby). First, they will create a particular example, by filling out the table. Then, they will think about how to count all worlds. Students may work in pairs or small groups at some point.</p>
+            <p>Make this part as exploratory as possible. Students should be given time of productive struggle, in which they are maybe a bit confused about how to go about it, and how to know that they counted all tables. Do not worry much if they don't get the right answer, and spend your monitoring time in making sure that they understand what a world means.</p>
+            <p>Resist the temptation of telling them the right answer!</p>
+            <p>Here are productive questions to advance your students knowledge:</p>
+            <ul>
+              <li><p><em>I see that you put Andy in the first row and Lana in the second. Can you tell me how many such tables could you make (having these choices)?</em> (Ans: 2)</p></li>
+              <li><p><em>I see that you put Miguel in the first row. Can you show me explicitly all tables (having that choice)?</em> (Ans: the student builds 6 tables)</p></li>
+            </ul>
+          </paragraphs>
+
+          <paragraphs>
+            <title>Misconceptions</title>
+            <p>Here are a few possible misconceptions and what you could do:
+            <ul>
+              <li>
+                <title>If students have a table that repeats a hobby</title>
+                <p>Remind them that we are building a world in which each hobby happens once, so we cannot repeat them. Tell them that we could also later work on a situation in which hobbies are repeated, and that this is more challenging mathematically!</p></li>
+              <li>
+                <title>If students build, say, 8 tables, and claim that these are all</title>
+                <p>Have a second student try to come up with a new one! Alternatively, select one of the 8 tables, and ask the student to try to switch just 2 hobbies, to see if they find a new table.</p></li>
+            </ul>
+            </p>
+            <p>
+              Students will use the notion of multiple worlds (tables) to create awareness of the notion that the associations that students may make are not fixed. This is a powerful idea against biases and stereotypes. 
+            </p>
+          </paragraphs>
+
+
+          <paragraphs>
+            <title>Stereotypes</title>
+            <p>At this point, you may notice that stereotypes start emerging. For example, observe if students tend to:
+            <ul>
+              <li><p>not pick girls to playing sports or video games</p></li>
+              <li><p>not pick the afro-american boy as reader</p></li>
+              <li><p>pick the afro-american boy to playing sports.</p></li>
+              <li><p>pick the asian boy to play video games</p></li>
+              <li><p>pick the girls as readers or dancers</p></li>
+            </ul>
+            </p>
+            <p>Pay close attention to them, but don't yet mention them. Later during the activity, there will be chances for you and the students to discuss, in a candid and productive way.</p>
+            <p>Students will use the notion of multiple worlds (tables) to create awareness of the notion that the associations that students may make are not fixed. This is a powerful idea against biases and stereotypes.</p>
+          </paragraphs>
+
+          <paragraphs>
+            <title>Comparing worlds</title>
+            <assemblage component="TODO">
+              <title>PENDING: hard-coded cross-reference → xref</title>
+              <p>The <q>In 3)</q> below points to a Student Workbook question by its number. Replace it with an <c>&lt;xref&gt;</c> to the corresponding worksheet step so it tracks PreTeXt's auto-numbering instead of a hard-coded number.</p>
+            </assemblage>
+            <p>In 3), students compare their tables, and keep discussing stereotypes through guided questions in the SW. Students should agree that the total number of worlds is 24, and they could use different arguments to arrive to this number, such as:
+            <ul>
+              <li><p>build a counting tree (4 branches, then 3, then 2, then 1, and see that this gives <m>4\times 3\times 2\times 1 = 24</m> worlds</p></li>
+              <li><p>think about how would one organize the tables following a nice, <em>symmetric</em> pattern, in which one would not need to list all of them. (For example: seeing that there are 6 worlds in which the first friend likes sports, and then convincing ourselves that, similarly, there are 6 worlds in which the first friend likes each of the other hobbies, arriving to the expression <m>6+6+6+6</m> (or <m>4\times6</m>) for the total;</p></li>
+              <li><p>Simplify the problem, by first thinking about two friends and two hobbies and realizing that the answer is 2, and then seeing what happens when adding a friend (multiply by 3), and adding another (multiply by 4). Put things together to arrive at 24.</p></li>
+            </ul>
+            </p>
+          </paragraphs>
+
+          <paragraphs>
+            <title>Logical Puzzle</title>
+            <assemblage component="TODO">
+              <title>PENDING: hard-coded cross-reference → xref</title>
+              <p>The <q>In 4)</q> below points to a Student Workbook question by its number. Replace it with an <c>&lt;xref&gt;</c> to <c>ex-cuatroAmigos-puzzle</c> so it tracks PreTeXt's auto-numbering instead of a hard-coded number.</p>
+            </assemblage>
+            <p>In 4), students solve analyze the partial puzzle given, that has only 2 clues, to conclude that there are 2 solutions. Then, they come up with a final clue that would give a unique solution. (If you want, you could also give them the last clue.)</p>
+            <p>If you want a big challenge, ask students to start over with the four original friends and:
+            <ul>
+              <li><p>First, think of a new trait. (They can <em>replace</em> the hobby trait, or <em>add it</em> to the information to have <m>24 \times 24</m> worlds!)</p></li>
+              <li><p>Then, create a puzzle (invent clues). Provide examples!</p></li>
+            </ul>
+            </p>
+          </paragraphs>
+
+          <paragraphs>
+            <title>Overview video: Cuatro Amigos (6 min)</title>
+            <p><video youtube="K-i1mxOfYB4" width="80%"/></p>
+          
+          </paragraphs>
+        </introduction>
+
+        <xi:include href="./cuatroAmigos-ws-cuatroAmigos.ptx"/>
+
+        <conclusion>
+          <title>Reflection</title>
+          <p>To close this part, reflect about ways to represent information, and also about the stereotypes that were visible.</p>
+
+          <paragraphs>
+            <title>Representing information</title>
+            <p>Have students reflect on the various ways that they used to navigate the logical puzzle. Ask questions like:
+              <ul>
+                <li><p>How did we record the information?</p></li>
+                <li><p>Which types of tables did we use?</p></li>
+                <li><p>How did we make sense of the clues?</p></li>
+                <li><p>Did we use other ways?</p></li>
+                <li><p>What would you do differently if you were to solve a similar puzzle?</p></li>
+                <li><p>Which parts were the hardest about this puzzle?</p></li>
+              </ul>
+            </p>
+          </paragraphs>
+
+          <paragraphs>
+            <title>Implicit bias and stereotypes</title>
+            <p>Have students reflect on stereotypes that they perceived (from others, or themselves) during the previous activities. Start with general focusing questions. (See <url href="https://mycoachescouch.blogspot.com/2019/01/funneling-or-focusing-using-questions.html" visual="mycoachescouch.blogspot.com">this link</url> for example.) After, move to more closed questions to bring up specific stereotypes from the activity.</p>
+            <p>Make sure that everyone understands the terms <term>unfair assumptions</term> and <term>stereotype</term>.
+            </p>
+
+            <p>
+              <dl>
+                <li><title>Stereotype</title>
+                <p>an often unfair and untrue belief that many people have about all people or things with a particular characteristic.</p></li>
+              </dl>
+            </p>
+            <p>It's very important to not be judgmental, and to share our own stereotypes (we all have), to show vulnerability and have students open up.</p>
+            <p>Then, ask these (and other) questions:
+              <ul>
+                <li><p>Did you hear comments from others that you think were based on unfair assumptions that excluded certain kids from the start?</p></li>
+                <li><p>What is a stereotype?</p></li>
+                <li><p>Did you catch yourself applying a stereotype when filling the information? Which ones? How did you react?</p></li>
+                <li><p>Which stereotypes do you think Asian, Afro-american, Latino, and white kids may have related to hobbies or other traits?</p></li>
+                <li><p>How can <q>seeing and counting all the worlds</q>, like we did, help us be aware of stereotypes or unfair assumptions?</p></li>
+              </ul>
+            </p>
+          </paragraphs>
+        </conclusion>
+      </section>
+    </chapter>
+
+    <chapter xml:id="chap-challenges">
+      <title>Challenges (40 min)</title>
+      <introduction>
+        <p>In this part, students continue exploring counting situations, using their conceptual understanding from <xref ref="chap-multiverses"/>. This time, the number of friends is larger.</p>
+
+        <p>First, students consider the case of 5 friends and 5 hobbies. In particular, they explore the possibility that a friend can repeat a hobby and realize that this gives a much larger number of worlds. Students should still think about the situation using a tree, even if they don't fully draw it. (They <em>imagine</em> the tree.)</p>
+
+        <p>Then, students consider a situation where there are 10 friends and various possibilities for the number of hobbies, conceptualizing how this has an effect in the number of worlds.</p>
+
+        <objectives>
+          <ul>
+            <li><p>Use tree diagrams to count worlds.</p></li>
+          </ul>
+        </objectives>
+
+        <paragraphs>
+          <title>Materials</title>
+          <ul>
+            <li><p>Student Workbook (<url href="https://mathceo-uci.github.io/cuatroAmigos-sw.pdf">pdf</url> / <url href="https://mathceo-uci.github.io/cuatroAmigos-workbook">web</url>)</p></li>
+          </ul>
+        </paragraphs>
+
+        <paragraphs>
+          <title>Breakdown</title>
+          <p>
+          <dl>
+            <li>
+              <title>5 Friends (15 min)</title>
+              <p>Students extend the context in part 1 to have 5 friends and 5 hobbies.</p>
+            </li>
+            <li>
+              <title>10 Friends (25 min)</title>
+              <p>Students now consider the case where there are 10 friends.</p>
+            </li>
+          </dl>
+          </p>
+        </paragraphs>
+
+        <assemblage component="TODO">
+          <title>PENDING: Presentation-slide extension Q&amp;A (pp. 45–46)</title>
+          <p>The Presentation Slides (pp. 45–46) include extension questions with worked answers that are not in the TG/SW proper. Decide whether to fold them into this chapter. They are: (1) balance in each tree row — each friend/hobby appears the same number of times; (2) worlds where Ben dances vs. reads — the same, 6 each (3x2x1); (3) worlds where Ben does NOT play sports — 18 (6+6+6, or 24−6, or 75% of 24); (4) with a new hobby <q>Gardening</q> (no repeats) — 5x4x3x2 = 24+24+24+24+24; (5) if hobbies can repeat — 4x4x4x4, about 10 times as many as the old 4x3x2.</p>
+        </assemblage>
+      </introduction>
+
+      <section xml:id="sec-countingWorldsChallenges">
+        <title>Challenges</title>
+        <introduction>
+          <assemblage component="TODO">
+            <title>PENDING: teacher guidance</title>
+            <p>Teacher guidance for this section is missing. Add the facilitation notes (checklist, discussion prompts, misconceptions, answers) for the 5 Friends and 10 Friends challenges.</p>
+          </assemblage>
+        </introduction>
+        <xi:include href="./cuatroAmigos-ws-countingWorldsChallenges.ptx"/>
+      </section>
+    </chapter>
+
+    <backmatter xml:id="backmatter">
+      <title>Backmatter</title>
+
+      <appendix xml:id="appendix-image-attributions">
+        <title>Image Attributions</title>
+        <p>The following images are used in this module. Where known, source, author, and license information is provided.</p>
+
+        <!-- One entry per image, in the order the images appear in the book.  -->
+        <!-- Each entry opens with an  xref  whose text is a description of    -->
+        <!-- the image (text="custom"), pointing at the closest numbered       -->
+        <!-- division that holds it. On the web that description is the link,  -->
+        <!-- and hovering it shows where the link goes. If this book ever gets -->
+        <!-- a print target, PreTeXt inserts the page number right after the   -->
+        <!-- description, so an entry reads "Axel, p. 12: ...".                -->
+        <p>
+        <ul>
+          <li><p><xref ref="cuatroAmigos-ws-cuatroAmigos" text="custom">Axel</xref>: <url href="https://boudewijnhuijgens.getarchive.net/amp/media/los-angeles-kids-boy-people-67771c" visual="boudewijnhuijgens.getarchive.net">GetArchive</url>, from a pre-July-2017 Pixabay upload (CC0). Public domain.</p></li>
+          <li><p><xref ref="cuatroAmigos-ws-cuatroAmigos" text="custom">Ben</xref>: <url href="https://www.pexels.com/photo/portrait-of-an-asian-boy-in-black-and-white-18124971/" visual="www.pexels.com">Pexels</url> photo by Aibek Skakov, <url href="https://www.pexels.com/license/" visual="pexels.com">Pexels License</url>.</p></li>
+          <li><p><xref ref="cuatroAmigos-ws-cuatroAmigos" text="custom">Cora</xref>: <url href="https://www.rawpixel.com/search/women%20latin?page=1&amp;path=_topics%7C%24editorial%7C%248%5Cx2e5%3A11&amp;sort=curated" visual="www.rawpixel.com">Young Latin-American girl, FSA camp, Robstown, Texas</url>, a Library of Congress U.S. Government work. Public domain.</p></li>
+          <li><p><xref ref="cuatroAmigos-ws-cuatroAmigos" text="custom">Dana</xref>: <url href="https://freerangestock.com/photos/159193/black-and-white-portrait-of-a-girl.html" visual="freerangestock.com">FreeRange Stock</url> photo by Candace McDaniel, from the site's CC0 Images. Public domain.</p></li>
+        </ul>
+        </p>
+
+        <assemblage component="TODO">
+          <title>PENDING: image attributions</title>
+          <p>Still needed:
+          <ul>
+            <li><p>Viajeros train (cuatroAmigos-viajeros-train.jpg): source, author, license.</p></li>
+            <li><p>Viajeros ordering (cuatroAmigos-viajeros-ordering.png): source, author, license.</p></li>
+            <li><p>24-world tree (cuatroAmigos-tree-empty.png, cuatroAmigos-tree-full.jpg): source, author, license.</p></li>
+          </ul>
+          </p>
+        </assemblage>
+      </appendix>
+
+      <xi:include href="./colophon.ptx"/>
+
+    </backmatter>
+  </book>
+</pretext>

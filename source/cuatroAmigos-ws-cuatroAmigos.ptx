@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="cuatroAmigos-ws-cuatroAmigos">
+  <title>Cuatro Amigos (four friends)</title>
+
+  <page>
+    <title>The Cuatro Amigos Game!</title>
+
+    <!-- Widths are proportional to each portrait's aspect ratio (w/h), so all four
+         render at the same height (39.7% of the text width): 1024x778, 500x750,
+         413x546, 953x631. Row 1's panels are narrower than row 2's, so its margins
+         are widened to center it and keep both rows' 6% column gap equal. -->
+    <sidebyside widths="52.3% 26.5%" margins="7.6% 7.6%" valign="top">
+      <stack>
+        <p>1. Axel</p>
+        <image source="cuatroAmigos-friends-axel.jpg">
+          <shortdescription>Grayscale portrait of a boy with an afro, outdoors in a park.</shortdescription>
+        </image>
+      </stack>
+      <stack>
+        <p>2. Ben</p>
+        <image source="cuatroAmigos-friends-ben.jpg">
+          <shortdescription>Grayscale portrait of a smiling boy with dark fringe, looking down.</shortdescription>
+        </image>
+      </stack>
+    </sidebyside>
+
+    <sidebyside widths="30.0% 60.0%" margins="2% 2%" valign="top">
+      <stack>
+        <p>3. Cora</p>
+        <image source="cuatroAmigos-friends-cora.jpg">
+          <shortdescription>Grayscale portrait of a smiling girl with curled hair and a lace blouse.</shortdescription>
+        </image>
+      </stack>
+      <stack>
+        <p>4. Dana</p>
+        <image source="cuatroAmigos-friends-dana.jpg">
+          <shortdescription>Grayscale portrait of a smiling girl with long wavy hair, outdoors by a river.</shortdescription>
+        </image>
+      </stack>
+    </sidebyside>
+
+    <p>Create a world for these 4 friends<ellipsis/>
+      <ul>
+        <li><p>How do they know each other?</p></li>
+        <li><p>How did they meet?</p></li>
+        <li><p>What do they like to do together?</p></li>
+      </ul>
+    </p>
+    <p>Add anything else to the story about these friends!</p>
+    <p>Now: let's play a quick thinking game! (Wait for instructions)</p>
+  </page>
+
+  <page>
+    <title>Cuatro amigos — four friends</title>
+
+    <assemblage component="TODO">
+      <title>Hobby icons?</title>
+      <p>The SW pairs each hobby with an icon (dancing, sports, reading, video games). Emoji are not used in this project (no print/Windows support), so these are kept as words. Decide whether to add the icons as images instead.</p>
+    </assemblage>
+    <!-- Column 1 is 46% in both rows, so the text reads as one vertical band; row 2's
+         first panel is an empty <p/> holding that column open. The image widths are
+         proportional to each portrait's aspect ratio, so all four share a height of
+         15.9% of the text width; row 1's portraits total 31.5% against row 2's 36%, so
+         row 1 carries the wider right margin and its right edge is ragged. Equal heights
+         and a flush right edge are not both achievable without cropping the portraits
+         to a common aspect ratio. (A spacer panel between Axel and Ben can force the
+         flush edge, since PreTeXt only ever splits leftover space into equal gaps —
+         tried and rejected, it left too wide a channel mid-row.) -->
+    <sbsgroup valign="top">
+      <sidebyside widths="46% 20.9% 10.6%" margins="0% 16.5%">
+        <p>Each friend has a different favorite hobby:
+          <ul>
+            <li>dancing</li>
+            <li>playing sports</li>
+            <li>reading</li>
+            <li>playing video games</li>
+          </ul>
+        </p>
+        <stack>
+          <p>1. Axel</p>
+          <image source="cuatroAmigos-friends-axel.jpg">
+            <shortdescription>Grayscale portrait of a boy with an afro, outdoors in a park.</shortdescription>
+          </image>
+        </stack>
+        <stack>
+          <p>2. Ben</p>
+          <image source="cuatroAmigos-friends-ben.jpg">
+            <shortdescription>Grayscale portrait of a smiling boy with dark fringe, looking down.</shortdescription>
+          </image>
+        </stack>
+      </sidebyside>
+
+      <sidebyside widths="46% 12.0% 24.0%" margins="0% 12%">
+        <p/>
+        <stack>
+          <p>3. Cora</p>
+          <image source="cuatroAmigos-friends-cora.jpg">
+            <shortdescription>Grayscale portrait of a smiling girl with curled hair and a lace blouse.</shortdescription>
+          </image>
+        </stack>
+        <stack>
+          <p>4. Dana</p>
+          <image source="cuatroAmigos-friends-dana.jpg">
+            <shortdescription>Grayscale portrait of a smiling girl with long wavy hair, outdoors by a river.</shortdescription>
+          </image>
+        </stack>
+      </sidebyside>
+    </sbsgroup>
+
+    <assemblage component="TODO">
+      <title>Exericise 1?</title>
+      <p>EAJ, 4Aug2026</p>
+      <p>The SW in the TG (slide 19) does not have a question (2), and (1) in that slide seems to be (2) in the small screenshot in slide 14. Also, the wording in the "Presentation Slides" in the TG too (slide 39) has yet another wording for (1) and (2). Which is the right one?  </p>
+      <p>Below I followed the TG-SW slide 19 which does not have a question (1). Needs to be checked.</p>
+    </assemblage>
+
+    <exercise xml:id="ex-cuatroAmigos-count">
+      <statement>
+        <p>Count: in how many ways could you fill out the table without repeating names?</p>
+        <sidebyside widths="55% 40%" margins="0% 0%">
+          <stack>
+            <p>Each such full table is called a <term>world</term>. Create one example. Then, find all possible worlds!</p>
+            <p>Represent all worlds using a <em>tree</em>! (large version in the next page…)</p>
+            <image source="cuatroAmigos-tree-empty.png" width="70%">
+              <shortdescription></shortdescription>
+            </image>
+            <p>Total # of worlds: <fillin characters="8"/></p>
+            <p><em>How can you be sure that you counted them all?</em></p>
+          </stack>
+          <tabular>
+            <row bottom="minor" header="yes"><cell>Friend</cell><cell>Hobby</cell></row>
+            <row><cell></cell><cell>dancing</cell></row>
+            <row><cell></cell><cell>sports</cell></row>
+            <row><cell></cell><cell>reading</cell></row>
+            <row><cell></cell><cell>video games</cell></row>
+          </tabular>
+        </sidebyside>
+        <assemblage component="TODO">
+          <title>PENDING: hard-coded cross-reference → xref</title>
+          <p>The <q>see the next page…</q> below is a hard-coded layout reference to the tree page. Replace it with an <c>&lt;xref&gt;</c> to <c>ex-cuatroAmigos-tree</c> so it stays correct if page order changes.</p>
+        </assemblage>
+      </statement>
+      <solution>
+        <image source="cuatroAmigos-tree-full.jpg" width="100%">
+          <shortdescription>A four-level tree diagram. From the Start node, the first level branches into 4 (dancing choices), the second into 3 (sports), the third into 2 (reading), and the last into 1 (video games), giving 24 complete branches — one for each world.</shortdescription>
+        </image>
+      
+        <p>Each word corresponds to a complete branch (where we pick a different hobby for each friend). Note that we counted them all, without repeating (why?) So, there are 24 worlds in total (<m>4\times 3\times 2\times 1</m>, or simply <m>4\times 3\times 2</m>).</p>
+        <ul>
+          <li><p>We could have just not drawn the last branch (why?)</p></li>
+          <li><p>Order matters in a branch (why?)</p></li>
+          <li><p>Each friend appears exactly once in each branch (why?)</p></li>
+          <li><p>We could also do this process not by hobby, but by friend. Do it, and you will see that we get the same result!</p></li>
+        </ul>
+      </solution>
+    </exercise>
+  </page>
+  <page>
+    <image source="cuatroAmigos-tree-empty.png" width="100%">
+      <shortdescription></shortdescription>
+    </image>
+  </page>
+
+  <page>
+    <exercise xml:id="ex-cuatroAmigos-compare" workspace="4cm">
+      <statement>
+        <p>Compare your worlds and answers to check if you all agree with the total possible number of worlds.</p>
+        <p>Discuss: Which factors did you use to create your example? Are all worlds equally likely? Do you think that some worlds are impossible or almost impossible? Why?</p>
+      </statement>
+      <solution>
+        <p>Students should conclude that there is a total of 24 worlds. Give students time to explore this, instead of guiding them quickly to the answer. Let them pursue different ways to represent the worlds, and ask questions throughout.</p>
+          <p>Possible answers in the discussion:</p>
+          <p><em>Which factors did you use to create your example?</em>
+            <ul>
+              <li><p>I looked at the pictures and went for what I thought was most likely. For example, one of the girls should be the reader, and the Asian boy should be playing video games.</p></li>
+              <li><p>I thought of some of my friends to represent the fictional kids, and tried to think about their hobbies.</p></li>
+              <li><p>I just randomly chose, using a coin.</p></li>
+            </ul>
+          </p>
+          <p><em>Are all universes equally likely?</em>
+            <ul>
+              <li><p>No! I think that more girls like dancing, for example.</p></li>
+              <li><p>Yes! Each has a 1/24 chance of happening, mathematically.</p></li>
+              <li><p>I am not too sure…</p></li>
+            </ul>
+          </p>
+          <p><em>Do you think that some universes are impossible or almost impossible? Why?</em>
+            <ul>
+              <li><p>No. I think all have a decent amount of happening. There's too many people in this world!</p></li>
+            </ul>
+          </p>
+      </solution>
+    </exercise>
+
+    <exercise xml:id="ex-cuatroAmigos-puzzle">
+      <statement>
+        <p>Puzzle time! We are going to use some clues. </p>
+          
+        <ol>
+          <li>
+            <p>Complete these 2 clues with 3 of the kids' names: <alert>You must write each at most once!</alert></p>
+            <ul>
+              <li><p><fillin characters="12"/> and <fillin characters="12"/> both think that dancing is <alert>not</alert> amusing and sports are <alert>not</alert> fun.</p></li>
+              <li><p><fillin characters="12"/>'s hobby is either playing video games or playing sports.</p></li>
+            </ul>
+          </li>
+          <li>
+            <p>How many possible worlds satisfy both clues? (at the same time!) <fillin characters="8"/></p>
+          </li>
+          <li>
+            <p>Write a <alert>third</alert> clue to help us narrow down to just 1 solution! (You can now repeat a person's name.)</p>
+            <sidebyside widths="30% 68%" margins="0% 0%" valign="middle">
+              <p>Use the table for help!</p>
+              <tabular>
+                <row bottom="medium" header="yes"><cell>Friend</cell><cell>my deductions / possibilities</cell><cell>Hobby is…</cell></row>
+                <row bottom="minor"><cell><nbsp/></cell><cell><nbsp/></cell><cell><nbsp/></cell></row>
+                <row bottom="minor"><cell><nbsp/></cell><cell><nbsp/></cell><cell><nbsp/></cell></row>
+                <row bottom="minor"><cell><nbsp/></cell><cell><nbsp/></cell><cell><nbsp/></cell></row>
+                <row bottom="minor"><cell><nbsp/></cell><cell><nbsp/></cell><cell><nbsp/></cell></row>
+              </tabular>
+            </sidebyside>
+            
+           <sidebyside widths="15% 80%" valign="middle">
+              <p>Final clue:</p>
+              <p workspace="2cm"></p>
+            </sidebyside>
+
+          </li>
+        </ol>
+        
+                    
+
+      </statement>
+
+      <solution>
+          <ul>
+            <li><p><alert>Hank</alert> and <alert>Leyla</alert> agree in that they don't enjoy dancing nor playing sports.</p></li>
+            <li><p><alert>Alana</alert>'s hobby is either playing video games or playing sports.</p></li>
+          </ul>
+          <assemblage component="TODO">
+            <title>WARNING puzzle-solution names differ from the activity</title>
+            <p>EAJ, 5Aug2026</p>
+            <p>The solution (TG p.23) uses the names Alana, Hank, Leyla, and Shawn, but the activity's four friends are Axel, Ben, Cora, and Dana. Reconcile the names — the two solution tables below carry them too.</p>
+          </assemblage>
+          <tabular>
+            <row bottom="medium" header="yes">
+              <cell>Friend</cell><cell colspan="4">my deductions / possibilities</cell><cell>Hobby is…</cell>
+            </row>
+            <row bottom="minor">
+              <cell>Alana</cell><cell><stale>dan.</stale></cell><cell>spo.</cell><cell><stale>read.</stale></cell><cell>vid.</cell><cell><nbsp/></cell>
+            </row>
+            <row bottom="minor">
+              <cell>Hank</cell><cell><stale>dan.</stale></cell><cell><stale>spo.</stale></cell><cell>read.</cell><cell>vid.</cell><cell><nbsp/></cell>
+            </row>
+            <row bottom="minor">
+              <cell>Leyla</cell><cell><stale>dan.</stale></cell><cell><stale>spo.</stale></cell><cell>read.</cell><cell>vid.</cell><cell><nbsp/></cell>
+            </row>
+            <row bottom="minor">
+              <cell>Shawn</cell><cell>dan.</cell><cell>spo.</cell><cell>read.</cell><cell>vid.</cell><cell>dan.</cell>
+            </row>
+          </tabular>
+
+          <p>Then:</p>
+
+          <tabular>
+            <row bottom="medium" header="yes">
+              <cell>Friend</cell><cell colspan="4">my deductions / possibilities</cell><cell>Hobby is…</cell>
+            </row>
+            <row bottom="minor">
+              <cell>Alana</cell><cell><stale>dan.</stale></cell><cell>spo.</cell><cell><stale>read.</stale></cell><cell>vid.</cell><cell>spo.</cell>
+            </row>
+            <row bottom="minor">
+              <cell>Hank</cell><cell><stale>dan.</stale></cell><cell><stale>spo.</stale></cell><cell>read.</cell><cell>vid.</cell><cell><nbsp/></cell>
+            </row>
+            <row bottom="minor">
+              <cell>Leyla</cell><cell><stale>dan.</stale></cell><cell><stale>spo.</stale></cell><cell>read.</cell><cell>vid.</cell><cell><nbsp/></cell>
+            </row>
+            <row bottom="minor">
+              <cell>Shawn</cell><cell>dan.</cell><cell><stale>spo.</stale></cell><cell>read.</cell><cell>vid.</cell><cell>dan.</cell>
+            </row>
+          </tabular>
+
+          <p>Solution: 2 worlds satisfy the clues. They are almost equal, just differing in the choices of Hank and Leyla (between reading and playing video games).</p>
+          <p>A third clue to narrow down to just one world: There are many options, such as:</p>
+          <ul>
+            <li><p>Hank plays video games as his hobby.</p></li>
+            <li><p>One of the girls plays video games as her hobby.</p></li>
+          </ul>
+      </solution>
+    </exercise>
+  </page>
+</worksheet>

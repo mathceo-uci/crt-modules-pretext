@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="diaMuertos-ws-plaza-magica">
+  <title>Plaza Mágica</title>
+
+  <introduction>
+      <sidebyside widths="60% 25%" margins="0% 5%">
+        <p>In a <alert>Plaza Mágica in Cartagena, Colombia</alert>, 9 músicos live in a <m>3 \times 3</m> grid, and every row, column, and diagonal forms a TRI.</p>
+        <image source="diaMuertos-plazaMagica.png" width="30%" decorative="yes">
+        </image>
+      </sidebyside>    
+  </introduction>
+
+  <exercise xml:id="ex-plaza-magica-1">
+    <title>6 músicos missing</title>    
+      <p>In the Plaza Mágica below, 6 músicos are missing. Complete it!</p>
+      <image source="diaMuertos-triTacToe.png" width="55%">
+        <shortdescription></shortdescription>
+      </image>
+  </exercise>
+
+  <exercise xml:id="ex-plaza-magica-2" workspace="3cm">
+      <p>Show that there are at least 8 TRI's in a Plaza Mágica. Do you think that there can be more?</p>
+  </exercise>
+
+  <exercise xml:id="ex-plaza-magica-3" workspace="4cm">
+  <title>6 músicos missing</title>
+      <p>Pick any three músicos you like, and place them anywhere in a new <m>3 \times 3</m> board. (If you put them in a line, they must <alert>form</alert> a TRI.) Can you fill in the rest of the board to create a Plaza Mágica? Try!</p>
+      <p>Is it true that no matter where you place the three músicos in the <m>3 \times 3</m> board (assuming they are not in a line), it's always possible to fill in the rest of the board to create a Plaza Mágica? Why or why not? Test some cases, and try to reason in general.</p>
+  </exercise>
+
+  <exercise xml:id="ex-plaza-magica-4" workspace="4cm">
+      <title>Puzzle Mágico Game</title>
+      <p>Randomply choose 9 músicos. Try to place them in the <m>3 \times 3</m> board to obtain a Plaza Mágica. During this game, you have one chance to replace one músic with a new one from the deck if you want!</p>
+   </exercise>
+  </worksheet>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="hawaii-ws-moreUnits">
+  <title>Use your body!</title>
+  <page>
+    <sidebyside widths="35% 60%" margins="0% 0%" valign="middle">
+      <stack>
+        <p>Come up with a body measure — pose (describe it, draw it, and show it) equivalent to:</p>
+        <p><em>It's ok to get close equivalencies!</em></p>
+      </stack>
+
+      <image source="body-poses.jpeg" width="70%">
+        <shortdescription>Fifteen numbered sketch figures showing various body poses for reference when creating new body measurements.</shortdescription>
+      </image>      
+    </sidebyside>
+    <sbsgroup>
+      <sidebyside>  
+        <exercise workspace="4cm">
+          <statement>
+            <p><m>4</m> ha'ilima</p>
+          </statement>
+        </exercise>
+
+        <exercise workspace="4cm">
+          <statement>
+            <p><m>3</m> ha'ilima</p>
+          </statement>
+        </exercise>
+      </sidebyside>
+
+      <sidebyside>  
+        <exercise workspace="4cm">
+          <statement>
+            <p><m>4.5</m> kīko'o</p>
+          </statement>
+        </exercise>
+
+        <exercise workspace="4cm">
+          <statement>
+            <p>2/5 ha'ilima</p>
+          </statement>
+        </exercise>
+      </sidebyside>
+      <sidebyside>  
+        <exercise workspace="4cm">
+          <statement>
+            <p><m>3.\overline{3}</m> iwilei</p>
+          </statement>
+        </exercise>
+      </sidebyside>
+    </sbsgroup>
+  </page>
+</worksheet>

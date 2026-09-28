@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="cuatroAmigos-ws-countingWorldsChallenges">
+  <title>Counting Worlds Challenges</title>
+
+  <page>
+    <exercise xml:id="ex-fiveFriends" workspace="12cm">
+      <!-- <title>5 Friends</title> -->
+      <statement>
+        <p>Assume that we have 5 friends, and there are 5 hobbies. Each friend will choose 1 hobby.
+        <ol>
+          <li><p>If the choices are all different, how many worlds are there?</p></li>
+          <li><p>If friends can freely repeat choices, how many worlds are there?</p></li>
+          <li><p>If we only count worlds in which 4 hobbies were chosen (so one was repeated), how many worlds are there?</p></li>
+        </ol>
+        </p>
+      </statement>
+    </exercise>
+  </page>
+
+  <page>
+    <exercise xml:id="ex-tenFriends" workspace="12cm">
+      <!-- <title>10 Friends</title> -->
+      <statement>
+        <p>Assume now that we have 10 friends.
+        <ol>
+          <li><p>If the number of hobbies to choose from is equal to <m>N=20</m>, how many worlds are there? (Assume that repetition is not allowed.)</p></li>
+          <li><p>If the number of hobbies to choose from is equal to <m>N=2</m>, how many worlds are there? (Of course, repetition is allowed!)</p></li>
+          <li><p>If the number of hobbies to choose from is equal to <m>N=3</m>, how many worlds are there? (Of course, repetition is allowed!)</p></li>
+          <li>
+            <p>Assume that repetition is not allowed, and there are 6 friends choosing from 10 hobbies. How do we increase more the number of worlds?
+            <ol>
+              <li><p>By bringing a new friend (<m>6\to 7</m>)</p></li>
+              <li><p>By adding a new hobby (<m>10 \to 11</m>)</p></li>
+            </ol>
+            </p>
+          </li>
+        </ol>
+        </p>
+      </statement>
+    </exercise>
+  </page>
+</worksheet>

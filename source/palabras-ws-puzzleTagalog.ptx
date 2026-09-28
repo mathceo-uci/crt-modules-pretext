@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="palabras-ws-puzzleTagalog" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Tagalog Puzzle</title>
+ 
+  <page>
+    <exercise xml:id="ex-tagalog-match">
+      <statement>
+        <p>Can you match the E's and the T's, even knowing little Tagalog? How? Try! (Some were matched to help you, such as E8–T7.)</p>   
+        <sidebyside widths="48% 48%" margins="0% 0%" valign="top">
+          <tabular>
+            <col halign="center"/>
+            <col width="48%"/>
+            <col halign="center"/>
+            <col halign="center"/>
+            <row header="yes" bottom="major"><cell></cell><cell>English word/phrase</cell><cell>len</cell><cell>T?</cell></row>
+            <row bottom="minor"><cell>E1</cell><cell><p>Tea</p></cell><cell>3</cell><cell>T1</cell></row>
+            <row bottom="minor"><cell>E2</cell><cell><p>tiger</p></cell><cell>5</cell><cell>T2</cell></row>
+            <row bottom="minor"><cell>E3</cell><cell><p>a bear</p></cell><cell>5</cell><cell></cell></row>
+            <row bottom="minor"><cell>E4</cell><cell><p>elephant</p></cell><cell>8</cell><cell>T4</cell></row>
+            <row bottom="minor"><cell>E5</cell><cell><p>crazy shark</p></cell><cell>10</cell><cell></cell></row>
+            <row bottom="minor"><cell>E6</cell><cell><p>a purple owl</p></cell><cell>10</cell><cell></cell></row>
+            <row bottom="minor"><cell>E7</cell><cell><p>a black dolphin</p></cell><cell>13</cell><cell></cell></row>
+            <row bottom="minor"><cell><alert>E8</alert></cell><cell><p><alert>The pink panther</alert></p></cell><cell>14</cell><cell>T7</cell></row>
+            <row bottom="minor"><cell>E9</cell><cell><p>Reading is exciting</p></cell><cell>17</cell><cell></cell></row>
+            <row bottom="minor"><cell>E10</cell><cell><p>Better late than never</p></cell><cell>19</cell><cell></cell></row>
+            <row bottom="minor"><cell>E11</cell><cell><p>Out of sight, out of mind</p></cell><cell>20</cell><cell></cell></row>
+            <row bottom="minor"><cell>E12</cell><cell><p>The proof is in the pudding</p></cell><cell>22</cell><cell></cell></row>
+            <row bottom="minor"><cell>E13</cell><cell><p>Don't cry over spilled milk</p></cell><cell>23</cell><cell></cell></row>
+            <row bottom="minor"><cell>E14</cell><cell><p>Don't eat the green apples yet</p></cell><cell>25</cell><cell></cell></row>
+            <row bottom="minor"><cell>E15</cell><cell><p>Laughter is the best medicine</p></cell><cell>25</cell><cell></cell></row>
+            <row bottom="minor"><cell>E16</cell><cell><p>Don't judge a book by its cover</p></cell><cell>25</cell><cell></cell></row>
+            <row bottom="minor"><cell>E17</cell><cell><p>The early bird catches the worm</p></cell><cell>26</cell><cell></cell></row>
+            <row bottom="minor"><cell>E18</cell><cell><p>Dance like nobody's watching you</p></cell><cell>28</cell><cell></cell></row>
+            <row bottom="minor"><cell>E19</cell><cell><p>A picture is worth a thousand words</p></cell><cell>29</cell><cell></cell></row>
+            <row bottom="minor"><cell>E20</cell><cell><p>Time flies when you are reading books</p></cell><cell>31</cell><cell></cell></row>
+          </tabular>
+          
+          <tabular>
+            <col halign="center"/>
+            <col width="60%"/>
+            <col halign="center"/>
+            <row header="yes" bottom="major"><cell></cell><cell>Tagalog word/phrase</cell><cell>len</cell></row>
+            <row bottom="minor"><cell>T1</cell><cell><p>Tsaa</p></cell><cell>4</cell></row>
+            <row bottom="minor"><cell>T2</cell><cell><p>Tigre</p></cell><cell>5</cell></row>
+            <row bottom="minor"><cell>T3</cell><cell><p>Isang oso</p></cell><cell>8</cell></row>
+            <row bottom="minor"><cell>T4</cell><cell><p>Elepante</p></cell><cell>8</cell></row>
+            <row bottom="minor"><cell>T5</cell><cell><p>Mabaliw na pating</p></cell><cell>15</cell></row>
+            <row bottom="minor"><cell>T6</cell><cell><p>Isang lila na kuwago</p></cell><cell>17</cell></row>
+            <row bottom="minor"><cell><alert>T7</alert></cell><cell><p><alert>Ang rosas na pantera</alert></p></cell><cell>17</cell></row>
+            <row bottom="minor"><cell>T8</cell><cell><p>Isang itim na dolphin</p></cell><cell>18</cell></row>
+            <row bottom="minor"><cell>T9</cell><cell><p>Mas mabuti nang huli kaysa wala</p></cell><cell>26</cell></row>
+            <row bottom="minor"><cell>T10</cell><cell><p>Huwag umiyak sa nabasang gatas</p></cell><cell>26</cell></row>
+            <row bottom="minor"><cell>T11</cell><cell><p>Ang patunay ay nasa kinalabasan</p></cell><cell>27</cell></row>
+            <row bottom="minor"><cell>T12</cell><cell><p>Ang pagbabasa ay kapana-panabik</p></cell><cell>28</cell></row>
+            <row bottom="minor"><cell>T13</cell><cell><p>Pag wala sa paningin, wala sa isip</p></cell><cell>28</cell></row>
+            <row bottom="minor"><cell>T14</cell><cell><p>Ang tawanan ay pinakamagandang gamot</p></cell><cell>32</cell></row>
+            <row bottom="minor"><cell>T15</cell><cell><p>Ang maagap ay nakakakuha ng pagkakataon</p></cell><cell>34</cell></row>
+            <row bottom="minor"><cell>T16</cell><cell><p>Sumayaw ka parang walang nanonood sa'yo</p></cell><cell>35</cell></row>
+            <row bottom="minor"><cell>T17</cell><cell><p>Huwag mong kainin ang mga berdeng mansanas</p></cell><cell>36</cell></row>
+            <row bottom="minor"><cell>T18</cell><cell><p>Huwag husgahan ang aklat sa kanyang pabalat</p></cell><cell>37</cell></row>
+            <row bottom="minor"><cell>T19</cell><cell><p>Mabilis ang oras kapag nagbabasa ka ng mga aklat</p></cell><cell>40</cell></row>
+            <row bottom="minor"><cell>T20</cell><cell><p>Isang larawan ay mas makapangyarihan kaysa libong salita</p></cell><cell>49</cell></row>
+          </tabular>
+        </sidebyside>
+      </statement>
+      <solution>
+        <p>Matches (E <m>\to</m> T): E1–T1, E2–T2, E3–T3, E4–T4, E5–T5, E6–T6, E7–T8, E8–T7, E9–T12, E10–T9, E11–T13, E12–T11, E13–T10, E14–T17, E15–T14, E16–T18, E17–T15, E18–T16, E19–T20, E20–T19.</p>
+        <p>For reference, here are the 20 pairs in the dot plot (English length, Tagalog length): (3, 4), (5, 5), (5, 8), (8, 8), (10, 13), (10, 15), (13, 18), (14, 17), (17, 28), (19, 26), (20, 28), (22, 27), (23, 26), (25, 32), (25, 36), (25, 37), (26, 34), (28, 35), (29, 49), (31, 40).</p>
+        
+        <p>Matched table:</p>
+        <tabular>
+          <col halign="center"/>
+          <col/>
+          <col halign="center"/>
+          <col halign="center"/>
+          <col/>
+          <row header="yes" bottom="major"><cell></cell><cell>English word/phrase</cell><cell>len</cell><cell>T?</cell><cell>Tagalog word/phrase</cell></row>
+          <row bottom="minor"><cell>E1</cell><cell>Tea</cell><cell>3</cell><cell>T1</cell><cell>Tsaa</cell></row>
+          <row bottom="minor"><cell>E2</cell><cell>tiger</cell><cell>5</cell><cell>T2</cell><cell>Tigre</cell></row>
+          <row bottom="minor"><cell>E3</cell><cell>a bear</cell><cell>5</cell><cell>T3</cell><cell>Isang oso</cell></row>
+          <row bottom="minor"><cell>E4</cell><cell>elephant</cell><cell>8</cell><cell>T4</cell><cell>Elepante</cell></row>
+          <row bottom="minor"><cell>E5</cell><cell>crazy shark</cell><cell>10</cell><cell>T5</cell><cell>Mabaliw na pating</cell></row>
+          <row bottom="minor"><cell>E6</cell><cell>a purple owl</cell><cell>10</cell><cell>T6</cell><cell>Isang lila na kuwago</cell></row>
+          <row bottom="minor"><cell>E7</cell><cell>a black dolphin</cell><cell>13</cell><cell>T8</cell><cell>Isang itim na dolphin</cell></row>
+          <row bottom="minor"><cell>E8</cell><cell>The pink panther</cell><cell>14</cell><cell>T7</cell><cell>Ang rosas na pantera</cell></row>
+          <row bottom="minor"><cell>E9</cell><cell>Reading is exciting</cell><cell>17</cell><cell>T12</cell><cell>Ang pagbabasa ay kapana-panabik</cell></row>
+          <row bottom="minor"><cell>E10</cell><cell>Better late than never</cell><cell>19</cell><cell>T9</cell><cell>Mas mabuti nang huli kaysa wala</cell></row>
+          <row bottom="minor"><cell>E11</cell><cell>Out of sight, out of mind</cell><cell>20</cell><cell>T13</cell><cell>Pag wala sa paningin, wala sa isip</cell></row>
+          <row bottom="minor"><cell>E12</cell><cell>The proof is in the pudding</cell><cell>22</cell><cell>T11</cell><cell>Ang patunay ay nasa kinalabasan</cell></row>
+          <row bottom="minor"><cell>E13</cell><cell>Don't cry over spilled milk</cell><cell>23</cell><cell>T10</cell><cell>Huwag umiyak sa nabasang gatas</cell></row>
+          <row bottom="minor"><cell>E14</cell><cell>Don't eat the green apples yet</cell><cell>25</cell><cell>T17</cell><cell>Huwag mong kainin ang mga berdeng mansanas</cell></row>
+          <row bottom="minor"><cell>E15</cell><cell>Laughter is the best medicine</cell><cell>25</cell><cell>T14</cell><cell>Ang tawanan ay pinakamagandang gamot</cell></row>
+          <row bottom="minor"><cell>E16</cell><cell>Don't judge a book by its cover</cell><cell>25</cell><cell>T18</cell><cell>Huwag husgahan ang aklat sa kanyang pabalat</cell></row>
+          <row bottom="minor"><cell>E17</cell><cell>The early bird catches the worm</cell><cell>26</cell><cell>T15</cell><cell>Ang maagap ay nakakakuha ng pagkakataon</cell></row>
+          <row bottom="minor"><cell>E18</cell><cell>Dance like nobody's watching you</cell><cell>28</cell><cell>T16</cell><cell>Sumayaw ka parang walang nanonood sa'yo</cell></row>
+          <row bottom="minor"><cell>E19</cell><cell>A picture is worth a thousand words</cell><cell>29</cell><cell>T20</cell><cell>Isang larawan ay mas makapangyarihan kaysa libong salita</cell></row>
+          <row bottom="minor"><cell>E20</cell><cell>Time flies when you are reading books</cell><cell>31</cell><cell>T19</cell><cell>Mabilis ang oras kapag nagbabasa ka ng mga aklat</cell></row>
+        </tabular>
+       
+       
+        
+      </solution>
+    </exercise>
+    
+    
+  </page>
+  
+</worksheet>

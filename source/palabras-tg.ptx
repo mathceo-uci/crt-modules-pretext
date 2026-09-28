@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <xi:include href="./docinfo.ptx"/>
+  <book xml:id="palabras-tg">
+    <title>Palabras More, Palabras Less</title>
+    <subtitle>Teaching Guide</subtitle>
+
+    <frontmatter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="frontmatter">
+      <xi:include href="./palabras-bibinfo.ptx"/>
+      <titlepage>
+        <titlepage-items/>
+      </titlepage>
+      <colophon>
+        <colophon-items/>
+      </colophon>
+      <xi:include href="./palabras-tg-intro.ptx"/>
+      <xi:include href="./aboutMathCEO.ptx"/>
+      <!-- <xi:include href="./mentoringTips.ptx"/> -->
+    </frontmatter>
+
+    <chapter xml:id="chap-lengths-of-words">
+      <title>Lengths of Words (50 min)</title>
+      <introduction>
+        <p>In this part, we first share different things about languages. This is a great opportunity to appreciate all languages, not just Spanish and English. Bring your own personal stories related to words, sayings, and language in general!</p>
+        <p>Then, we will explore <term>scaling factors</term> when we translate words and see what happens to the length (# of letters). Each translation has a scaling factor, and students will try, from the data gathered, to postulate a scaling factor that represents them all as best as possible (e.g., an average). They will also make sense of what this scaling factor tells us about the relation between English and Spanish. Later, students will solve a challenge that involves dealing with 3 languages at the same time. A last, optional challenge activity is included.</p>
+
+        <paragraphs>
+          <title>Breakdown</title>
+          <p>
+          <dl>
+            <li>
+              <title><xref ref="sec-sharingAboutLanguages" text="type-global"/></title>
+              <p><xref ref="sec-sharingAboutLanguages" text="title"/>
+              <ul>
+                <li>Share experiences through languages, teach &amp; learn little language things!</li>
+                <li>Activate the inquiry about lengths of words.</li>
+              </ul>
+              </p>
+            </li>
+            <li>
+              <title><xref ref="sec-translate" text="type-global"/></title>
+              <p><xref ref="sec-translate" text="title"/>
+              <ul>
+                <li>Generate data for words translated between ENG and SPA.</li>
+                <li>Find scaling factors.</li>
+                <li>Make sense of the data, use it, and postulate a single scaling factor.</li>
+              </ul>
+              </p>
+            </li>
+            <li>
+              <title><xref ref="sec-machines" text="type-global"/></title>
+              <p><xref ref="sec-machines" text="title"/></p>
+              <p>Work with 3 languages at the same time. (Invert &amp; compose)</p>
+            </li>
+            <li>
+              <title><xref ref="sec-challenges" text="type-global"/></title>
+              <p><xref ref="sec-challenges" text="title"/></p>
+            </li>
+          </dl>
+          </p>
+        </paragraphs>
+
+        <objectives>
+          <ul>
+            <li><p>Given a number that changes to another number by multiplication, and given the scaling factor, find the resulting number.</p></li>
+            <li><p>Given a number that <q>changes</q> to become another number, find the scaling factor that does this, and express it in different ways (decimal, fraction, percent change, tape diagrams).</p></li>
+            <li><p>Use mental math to find scaling factors or results of scaling, and orally explain the strategies and reasoning.</p></li>
+            <li><p>Given data of multiplications that have various scaling factors, find a single one that represents them all and justify why. (It could be an approximate average, mode, median, or other similar idea.)</p></li>
+          </ul>
+        </objectives>
+
+        <paragraphs>
+          <title>Materials</title>
+          <ul>
+            <li><p>Student Workbook (<url href="https://mathceo-uci.github.io/palabras-sw.pdf">pdf</url> / <url href="https://mathceo-uci.github.io/palabras-workbook">web</url>)</p></li>
+            <li><p>Map of South America (for <xref ref="sec-sharingAboutLanguages" text="type-global"/>) (<url href="external/palabras-blm-southAmericaMap.pdf">pdf</url>)</p></li>
+            <li><p>Scaling Factors Template (for  <xref ref="sec-translate" text="type-global"/>) (<url href="external/palabras-blm-scalingFactors.pdf">pdf</url>)</p></li>
+          </ul>
+        </paragraphs>
+
+      </introduction>
+
+      <section xml:id="sec-sharingAboutLanguages">
+        <title>Sharing About Languages (10 min)</title>
+        <introduction>
+          <paragraphs>
+            <title>Checklist</title>
+            <ul>
+              <li><p>Give voice to students.</p></li>
+              <li><p>Cultural exchanges involving languages.</p></li>
+              <li><p>Everyone teaches things &amp; learns new things!</p></li>
+              <li><p>Start (slightly) focusing on lengths of words (activate curiosity).</p></li>
+            </ul>
+          </paragraphs>
+
+        <p>This part will help set the tone for the meeting, which is about languages in general, but not just data, but also from students' personal points of view. Make sure that there are lots of interactions and personal stories about how language helps build identity and a sense of community. <em>What important words do students use? Which sayings they like and why? Are they learning any languages?</em> (Behind this last question, there might be some cultural connection to a country or region.)</p>
+
+        <p>There are four discussion aspects (you may bring another one):</p>
+        <p>
+        <dl>
+          <li> <title>Question 1</title>
+            <p><em>Which languages people speak and want to learn</em></p>
+            <p> This may be a good starting point. Follow up with questions about words or phrases that students may want to share.</p></li>
+          <li> <title>Question 2</title>
+            <p><em>Longest word</em></p>
+            <p> This is a fun question, and the goal is to serve as icebreaker and connect to student's interests. In other words, it does not matter that students don't come up with super long words, but what matters is that students open up more in sharing personal and cultural aspects.</p></li>
+          <li> <title>Question 3</title>
+            <p><em>Where is Spanish spoken?</em></p>
+            <p> This question is important, as is makes students aware that, beyond the U.S. and México, Spanish is spoken in many places.</p></li>
+          <li> <title>Question 4</title>
+            <p><em>Comparing lengths (ENG vs SPA)</em></p>
+            <p> End with this question and have kids speculate as much as they want. This is yet another opportunity to hear personal things from students (for example, books that they read, or how they speak Spanish at home and notice that phrases are longer, etc.). This also helps you start setting the context for what follows, without presenting anything yet.</p></li>
+        </dl>
+        </p>
+
+        <p>End by saying that we will investigate this in detail and use math to try to arrive to some conclusions!</p>
+
+        </introduction>
+
+        <!-- Worksheet -->
+        <xi:include href="./palabras-ws-sharingAboutLanguages.ptx"/>
+      </section>
+
+      <section xml:id="sec-translate">
+        <title>Translate! (20 min)</title>
+        <introduction>
+          <paragraphs>
+            <title>Checklist</title>
+            <ul>
+              <li><p>Have fun translating words!</p></li>
+              <li><p>Introduce the concept of multiplier or scaling factor.</p></li>
+              <li><p>Practice mental math (as well as making diagrams and writing expressions).</p></li>
+            </ul>
+          </paragraphs>
+          
+          <p>Point students to the Student Workbook pages for <xref ref="palabras-ws-espanglishemos" text="type-global-title"/>. You can give them some time to try to make sense of the visuals they see, and have them explain the activity to you. Of course, you can correct and clarify throughout.</p>
+          
+          <p>First, students will translate the different words (sometimes to English, sometimes to Spanish), and record the length. This creates naturally several pairs of positive integers <m>a</m> and <m>b</m>, where <m>a</m> is the length in English, and <m>b</m> is the length in Spanish.</p>
+          
+          <p>Students can also come up with 2 extra pairs of words! Together in your table, this will create a set of many pairs of words ENG<m>\leftrightarrow</m>SPA (and their corresponding pairs of lengths <m>a</m> and <m>b</m>).</p>
+          
+          <p>Next, ask in each case: did the length in Spanish increase or decrease? (Or equivalently in reverse: did the length in English increase or decrease?)</p>
+          
+          <p>Students may first answer in absolute terms (it increased by <m>x</m> letters), while some may think in relative terms (example: the length almost doubles, or increased by 50%, etc.).</p>
+          
+          <p>Give interesting, extreme examples such as:
+            <ul>
+              <li>WE (2) <m>\gt</m> NOSOTROS (8)</li>
+              <li>BAT (3) <m>\gt</m> MURCIÉLAGO (10)</li>
+            </ul>
+            Point out that the length more than tripled. Write some diagrams and ask: which number helps convert 2 into 8 through multiplication? Or: what is the <term>multiplier</term>?
+            <md> 
+              2 \xrightarrow{\boldsymbol{?}} 8
+              \quad\text{or}\quad 
+              2 \xrightarrow{\text{times what?}} 8 
+              \quad\text{and then: } 
+              \quad 2\times(\boldsymbol{?}) = 8
+            </md>
+          </p>
+          
+          <p>Explain that this number is also called <term>multiplier</term> or <term>scaling factor</term>, and that we will find the scaling factors and write them. We will try mentally at first, and then try to also write it down. For each pair of words, there are 2 scaling factors: from ENG to SPA, and from SPA to ENG.</p>
+
+          <p>For notes about Questions <xref ref="ex-translate-patterns" text="local"/> and <xref ref="ex-translate-predict" text="local"/>, see <xref ref="subsec-analyzing-the-data"/>.</p>
+
+          <example>
+            <title>Finding a scaling factor</title>
+            <p>These are different ways to find the scaling factor for <q>DOOR</q>, <q>PUERTA</q>, from ENG to SPA. The scaling factor is 1.5.</p>
+            <image source="espanglishemos-door-puerta.png" width="60%">
+              <shortdescription></shortdescription>
+            </image>
+            <paragraphs>              
+              <image source="espanglishemos-exampleEngToSpa.png" width="30%">
+                <shortdescription>(for accessibility)</shortdescription>
+              </image>              
+              <ul>
+                <li><p>Think about a number I can multiply 4 by to get 6. (<m>1.5</m>.)</p></li>
+                <li><p>Divide by 4 (to get 1), then multiply by 6. This gives <m>6/4</m>.</p></li>
+                <li><p>Divide by 2 (to get 2), then multiply by 3 (to get 6). This is the same as (in a single step) <m>3/2</m>.</p></li>
+                <li><p>Look at the tape diagram: the length grows by half, so this is a scaling of <alert>150%</alert>.</p></li>
+              </ul>
+            </paragraphs>
+          </example>
+          
+          <paragraphs>
+            <title>The data (scaling factors)</title>
+            <p>The scaling factors from English to Spanish are: <m>5/4</m>, <m>4/5</m>, <m>5/5</m>, <m>6/4</m>, <m>9/6</m>, <m>5/10</m>, <m>7/5</m>, <m>5/3</m>, <m>7/5</m>, <m>8/7</m>, and two other numbers. Ordering and passing to decimals: <m>0.5</m>, <m>0.8</m>, <m>1</m>, <m>1.14</m>, <m>1.25</m>, <m>1.4</m>, <m>1.4</m>, <m>1.5</m>, <m>1.5</m>, <m>1.66</m> (and two other numbers).</p>
+            <p>Without including the extra numbers, the average is <alert>~1.2</alert>, and the median (number in the middle of the data) is <alert>1.325</alert>. At this point, students don't need to find average or medians, but they will in the following activities.</p>
+            <image source="espanglishemos-dotPlot.png" width="60%">
+              <shortdescription>Dot plot of scaling factors</shortdescription>
+            </image>
+          </paragraphs>
+          
+          <paragraphs>
+            <title>Overview video</title>
+            <p><video youtube="4sbMHOSSZPk" width="80%"/></p>
+          </paragraphs>
+          
+        </introduction>
+
+        <!-- Worksheet -->
+        <xi:include href="./palabras-ws-espanglishemos.ptx"/>
+
+        <subsection xml:id="subsec-analyzing-the-data">
+          <title>Analyzing the Data</title>
+          <p>Students, as a whole, now have several pairs of numbers <m>a</m> and <m>b</m>, along with the scaling factor (we will use the one from ENG to SPA). This is a dataset that students will analyze (SW <q>Analyzing the Data</q> page).</p>
+
+          <paragraphs>
+            <title>Question <xref ref="ex-translate-patterns" text="local"/></title>
+            <p>Is an open question just to brainstorm ideas about the data set. Students may notice, for example, that the scaling factors (from ENG to SPA) are frequently larger than 1, which means that words tend to get longer. They can also describe the range of scaling factors, and order it, classify them into ranges (say: [0, 0.5], [0.5, 1], [1, 1.5], [1.5, 10]), or even postulate some mean or average. Students may notice several things:</p>
+            <ul>
+              <li><p>The scaling factors are all different.</p></li>
+              <li><p>Sometimes, the scaling factors are equal to 1.</p></li>
+              <li><p>The scaling factors from ENG to SPA are often larger than 1.</p></li>
+              <li><p>The reverse scaling factor (SPA to ENG) is 1 over the other scaling factor. (Ask them why they think this is true! Help them with a diagram.)</p></li>
+            </ul>
+          </paragraphs>
+
+          <paragraphs>
+            <title>Question <xref ref="ex-translate-predict" text="local"/>, parts a and b</title>
+            <p>Do not explicitly ask to use an ideal scaling factor, but students may <em>see the necessity</em> of such a thing to answer the question with more accuracy, instead of just guessing. Guide students with questions such as: <q>How can you use the previous data?</q> or <q>But we have a lot of scaling factors from the previous activity<ellipsis/> which one should we use?</q> or <q>Maybe we look at frequencies of the scaling factors?</q> Note also that students can check that their answers to 2a and 2b are <em>consistent</em>.</p>
+          </paragraphs>
+
+          <paragraphs>
+            <title>Question <xref ref="ex-translate-predict" text="local"/> part c</title>
+            <p>Now asks directly for an <q>ideal</q> scaling factor that represents them all at the same time. You may be tempted to ask 2c before 2a/b because 2c helps readily solve 2a/b. However, we have decided to ask 2a/b before, so that students can build themselves the concept of <q>ideal scaling factor</q>. After question 2c, you should return to 2a/b and redo it, this time using the result in 2c.</p>
+          </paragraphs>
+
+          <paragraphs>
+            <title>Question <xref ref="ex-translate-predict" text="local"/> part d</title>
+            <p>Is optional and consists of a nice discovery about <term>multiplicative inverses</term> (e.g., 5/4 and 4/5). This helps solidify the concept of scaling factor.</p>
+          </paragraphs>
+        
+        <paragraphs>
+          <title>Finding Relative growth in terms of Percents &amp; Scaling Factors</title>
+          <p><video youtube="yCbiK5vt8g4" width="80%"/></p>
+        </paragraphs>
+
+      </subsection>
+
+
+      </section>
+
+      <section xml:id="sec-machines">
+        <title>Machines (20 min)</title>
+        <introduction>
+          <paragraphs>
+            <title>Checklist</title>
+            <ul>
+              <li><p>Properties of inversion and multiplication of scaling factors</p></li>
+              <li><p>Stimulate student's creativity.</p></li>
+            </ul>
+          </paragraphs>
+
+        <p>
+          In this activity, we explore transitive properties of scaling factors via translating machines. We have the Sophia Machine from English to Greek, and the Chokhma Machine from English to Hebrew. Students are given the scaling factors, and then are asked about how to build a new machine from Greek to Hebrew, and what would the scaling factor be.</p>
+        <p> Students get to be creative and maybe come up with out of the box ideas about creating the new machine. Make sure that at least one solution goes through the fact that the Sophia machine needs to be inverted (how? Be creative!), and then put together with the Chokhma Machine:
+          <md>
+            \text{GRE}\xrightarrow{\text{(Sophia inverted)}}\text{ENG}\xrightarrow{\text{(Chokhma)}}\text{HEB}
+          </md>
+          Make sure that students can build this arrow diagram or a similar visual to make sense of the process.
+        </p>
+          
+          <paragraphs>
+            <title>Overview video</title>
+            <p><video youtube="lJQsfG5nTdA" width="80%"/></p>
+          </paragraphs>
+        </introduction>
+          
+          <!-- Worksheet -->
+          <xi:include href="./palabras-ws-translationMachines.ptx"/>
+
+      </section>
+
+      <section xml:id="sec-challenges">
+        <title>Challenges (optional) (30–40 min)</title>
+        <introduction>
+
+        <p>An optional challenge that extends scaling factors from the number of <alert>letters</alert> to the number of <alert>words</alert> in a phrase.</p>
+
+        </introduction>
+
+        <!-- Worksheet -->
+        <xi:include href="./palabras-ws-challenges.ptx"/>
+      </section>
+    </chapter>
+
+    <chapter xml:id="chap-lets-read-tagalog">
+      <title>Let's Read Tagalog (30 min)</title>
+      <introduction>
+        <p>In this part, students learn about Tagalog, a language from the Philippines. After a short initial introduction to the language, they receive 2 pieces of data:</p>
+        <ul>
+          <li><p>The first is a graph that shows 20 points in the plane following some tendency. (This graph is called a dot plot, but you don't need to tell that name to students).</p></li>
+          <li><p>The second is a list of translations of words/phrases between English (ENG) and Tagalog (TAG), but there is an <q>issue</q>: the matches <q>ENG<m>\leftrightarrow</m>TAG</q> were broken and students need to match them back!</p></li>
+        </ul>
+        <p>As students make sense of the situation, students connect the two data representations, and finally find a trend in the data (in the form of a line with a positive slope), relating this back to the concept of an ideal scaling factor.</p>
+
+        <paragraphs>
+          <title>Breakdown</title>
+          <p>
+          <dl>
+            <li>
+              <title><xref ref="sec-what-is-tagalog" text="type-global"/></title>
+              <p><xref ref="sec-what-is-tagalog" text="title"/></p>
+              <p>Introduction to the language and its relation to Spanish.</p>
+            </li>
+            <li>
+              <title><xref ref="sec-analyzing-data" text="type-global"/></title>
+              <p><xref ref="sec-analyzing-data" text="title"/></p>
+              <p>Make sense of a graph of points, and connect it with a list of translations.</p>
+              <p>Find a trend line (line of best fit) and understand what the slope tells us.</p>
+              <p>Connect all with Part 1.</p>
+            </li>
+          </dl>
+          </p>
+        </paragraphs>
+
+        <objectives>
+          <ul>
+            <li><p>Understand a dot plot in a situation, explaining what each dot means in terms of the context.</p></li>
+            <li><p>Given a dot plot, draw a trend line (line of best fit) that best represents all points, and explain the meaning of the slope in terms of the situation.</p></li>
+            <li><p>Make a connection between the slope of a line and scaling factor, explaining why these concepts are equivalent.</p></li>
+          </ul>
+        </objectives>
+
+        <paragraphs>
+          <title>Materials</title>
+          <ul>
+            <li><p>Student Workbook (<url href="https://mathceo-uci.github.io/palabras-sw.pdf">pdf</url> / <url href="https://mathceo-uci.github.io/palabras-workbook">web</url>)</p></li>
+            <li><p>Whiteboards &amp; Markers</p></li>
+            <li><p>Cards: Sample words in Tagalog (for students to guess) (<url href="external/palabras-blm-wordCards.pdf">pdf</url>)</p></li>
+          </ul>
+        </paragraphs>
+      </introduction>
+
+      <section xml:id="sec-what-is-tagalog">
+        <title>What is Tagalog? (10 min)</title>
+        <introduction>
+          <paragraphs>
+            <title>Checklist</title>
+            <ul>
+              <li><p>Learn a bit about Tagalog.</p></li>
+              <li><p>Connect to Spanish language.</p></li>
+              <li><p>Guess the meaning of some words (cards).</p></li>
+            </ul>
+          </paragraphs>
+        </introduction>
+
+        <image source="palabras-philippines-street.jpg" width="100%">
+          <shortdescription>A cobblestone street in a historic Philippine town lined with Spanish colonial-era houses, with a horse-drawn kalesa carriage and vendors' stalls.</shortdescription>
+        </image>
+
+        <p>In this part, briefly introduce Tagalog, and discuss basic facts. For example, talk about the following:</p>
+        <ul>
+          <li>
+            <title>Tagalog is the basis of Filipino</title>
+            <p> (the national language of the Philippines). While Filipino includes words from other Philippine languages, it's largely rooted in Tagalog, which is spoken by millions as a first language and even more as a second language.</p>
+          </li>
+          <li>
+            <title>Strong Spanish Influence</title>
+            <p> Due to over 300 years of Spanish colonization, about 20 to 30% of Tagalog comes from Spanish. Words like <em>mesa</em> (table), <em>silya</em> (chair), <em>relos</em> (watch), and even numbers like <em>kwatro</em> (four) are the same (or almost) as Spanish.</p>
+          </li>
+          <li>
+            <title>Unique Sentence Structure</title>
+            <p> Tagalog often uses a verb-subject-object (VSO) sentence structure, unlike English's subject-verb-object (SVO). For example, <q>I eat rice</q> in Tagalog would be <q>Kumakain ako ng kanin</q>, which literally translates to <q>Eating I [of] rice.</q></p>
+          </li>
+          <li>
+            <title>Numbers Show Spanish Influence</title>
+            <p> Tagalog has two number systems—native Tagalog and Spanish-derived. People often mix them: <em>isa, dalawa, tatlo</em> (1, 2, 3) are native, but for money, time, or dates, you'll hear <em>uno, dos, tres</em> from Spanish.</p>
+          </li>
+        </ul>
+
+        <p>When Tagalog borrowed words from Spanish, it didn't just copy them directly, but adapted them to fit the natural sound patterns and pronunciation rules of Tagalog. This process is called <q>phonological adaptation</q> or <q>nativization.</q> Languages evolve to fit the sounds and speech habits of the users. Tagalog speakers naturally adjusted Spanish words to feel more <q>Tagalog</q>, making them easier to pronounce, remember, and use in conversations.</p>
+
+        <paragraphs>
+          <title>Examples</title>
+          <p> See  (<url href="external/palabras-blm-wordCards.pdf">sample word cards, pdf</url>)</p>
+          <p>
+            <dl>
+              <li><title>Mesa</title><p>Table (Spanish: mesa = table)</p></li>
+              <li><title>Silya</title><p>Chair (Spanish: silla = chair)</p></li>
+              <li><title>Kutsara</title><p>Spoon (Spanish: cuchara = spoon)</p></li>
+              <li><title>Tsinelas</title><p>Slippers (Spanish: chinelas = slippers)</p></li>
+              <li><title>Kumusta?</title><p>How are you? (Spanish: ¿Cómo está?)</p></li>
+              <li><title>Relos</title><p>Watch/Clock (Spanish: reloj = watch/clock)</p></li>
+              <li><title>Bintana</title><p>Window (Spanish: ventana = window)</p></li>
+              <li><title>Sapatos</title><p>Shoes (Spanish: zapatos = shoes)</p></li>
+              <li><title>Lamesa</title><p>Dining table (Spanish: la mesa = the table)</p></li>
+              <li><title>Kandila</title><p>Candle (Spanish: candela = candle)</p></li>
+              <li><title>Kamiseta</title><p>T-shirt (Spanish: camiseta = t-shirt)</p></li>
+              <li><title>Kutsilyo</title><p>Knife (Spanish: cuchillo = knife)</p></li>
+              <li><title>Berde</title><p>Green (Spanish: verde = green)</p></li>
+              <li><title>Karne</title><p>Meat (Spanish: carne = meat)</p></li>
+              <li><title>Asukar</title><p>Sugar (Spanish: azúcar = sugar)</p></li>
+              <li><title>Tenedor</title><p>Fork (Spanish: tenedor = fork)</p></li>
+              <li><title>Kwarto</title><p>Room (Spanish: cuarto = room or fourth)</p></li>
+              <li><title>Mantika</title><p>Cooking oil (Spanish: manteca = lard/fat)</p></li>
+              <li><title>Dyos</title><p>God (Spanish: Dios = God)</p></li>
+              <li><title>Almusal</title><p>breakfast (almuerzo is lunch in modern Spanish, but it originally meant breakfast!)</p></li>
+              <li><title>Traysikel</title><p>Tricycle ← adapted from triciclo, but it refers to the iconic Filipino motorized version, and not just any three-wheeler.</p></li>
+              <li><title>Kotse</title><p>(Car) ← from coche (Spanish for car), though pronounced with a harder <q>-tse</q> sound in Tagalog.</p></li>
+            </dl>
+          </p>
+        </paragraphs>
+
+        <image source="palabras-tagalog-examples.png" width="100%">
+          <shortdescription>(for accessibility)</shortdescription>
+        </image>
+      </section>
+
+      <section xml:id="sec-analyzing-data">
+        <title>Analyzing Data (20 min)</title>
+        <introduction>
+          <paragraphs>
+            <title>Checklist</title>
+            <ul>
+              <li><p>Make sense of the graph.</p></li>
+              <li><p>Find a trend line (line of best fit).</p></li>
+              <li><p>Connect with the ideas from <xref ref="chap-lengths-of-words"/>.</p></li>
+            </ul>
+          </paragraphs>
+
+        <p>In this part, students make sense of the graph shown, building on the concepts from Part 1 to identify what is happening.</p>
+        <p>First, they decide how ENG and TAG compare in terms of lengths. This requires little computations and tests for conceptual understanding.</p>
+        <p>Then, students give a meaning to each 2D point, explaining what it means (that is, what the two values x, and y mean) in the context of the situation. Make sure to anticipate potential struggles, and offer sentence starters for students.</p>
+        <p>Then, students work to find a trend line that would summarize all the data points, and discuss why this line is useful. Make sure that students mention the meaning of the slope, and what it tells us.</p>
+        <p>Finally, students are asked to connect back to scaling factors. Here, students should use the line and its slope. Make sure to support students, for example, asking them to test their candidates for particular cases.</p>
+
+        <p>Help students build the concept of trend line using spacial language (cluster, passes closer to most points, represents most points, etc.).</p>
+        <p>The use of the trend line is: if we pick a length (either in ENG or TAG), it helps us <em>predict</em> the length of the translation to the other language.</p>
+
+        <paragraphs>
+          <title><xref ref="ex-tagalog-match" text="type-local"/></title>
+          <p>To find the matchings, students work as <q>language detectives</q>. This is a fun, bonding activity, but it may take time. Make sure to help. What makes this puzzle interesting is that it mixes reading graphs with logical thinking with knowledge of Spanish with <q>grammar</q> deductions.</p>
+          <ul>
+            <li>
+              <p>They <alert>use the dot plot</alert> to find matches that are certain (Ex: E20 with T19, as (31, 40) is the <em>only</em> point having <m>x=31</m> or <m>y=40</m>.)</p>
+            </li>
+            <li>
+              <p>For some, they <alert>use knowledge of Spanish</alert> (for example, T17 says <q>berdeng mansanas</q> &gt; manzanas verdes &gt; green apples &gt; E14.).</p>
+            </li>
+            <li>
+              <p>And for some, they <alert>make language deductions</alert>. Ex: they can deduce (with some help of the graph) that Huwag means Don't, and use that to make conclusions. Or, look at E11: It has two <q>Out of</q>. Can you see why this helps to decide whether if matches with T12 or T13?</p>
+            </li>
+            <li>
+              <p>Finally, if needed, students can <alert>ask for help</alert>. Say, only once, ask to translate an English word to Tagalog (via Google Translate).</p>
+            </li>
+          </ul>
+        </paragraphs>
+
+        <paragraphs>
+          <title>Overview video</title>
+          <p><video youtube="sbE_3483FZI" width="80%"/></p>
+        </paragraphs>
+
+        </introduction>
+
+        <!-- Worksheet -->
+        <xi:include href="./palabras-ws-letsReadTagalog.ptx"/>
+
+        <!-- Worksheet -->
+        <xi:include href="./palabras-ws-puzzleTagalog.ptx"/>
+
+      </section>
+    </chapter>
+
+    <backmatter xml:id="backmatter">
+      <title>Backmatter</title>
+
+      <appendix xml:id="appendix-image-attributions">
+        <title>Image Attributions</title>
+
+        <p>The images listed below originate from an external source or an AI tool. All other images in this module were created by UCI MATH CEO and are released under the same license as the book, except the logos, which belong to their respective owners and are not covered by this license.</p>
+
+        <!-- Only externally-sourced and AI-generated images are listed; the -->
+        <!-- project's own images are covered by the note above. Entry format, -->
+        <!-- ordering, and xref anchoring: see DOCUMENTATION/conventions.md, -->
+        <!-- "Image attributions". -->
+        <p>
+        <ul>
+          <li><p><xref ref="palabras-ws-sharingAboutLanguages" text="custom">Map of South America</xref>: Image generated with Google Gemini, 2026.</p></li>
+          <li><p><xref ref="palabras-ws-translationMachines" text="custom">Sophia Machine (English to Greek)</xref>: Image generated with Google Gemini, 2026.</p></li>
+          <li><p><xref ref="palabras-ws-translationMachines" text="custom">Chokhma Machine (English to Hebrew)</xref>: Image generated with Google Gemini, 2026.</p></li>
+          <li><p><xref ref="sec-what-is-tagalog" text="custom">Historic Philippine street</xref>: watercolor by Roberto Forero, 2026, <url href="https://creativecommons.org/licenses/by-sa/4.0/" visual="creativecommons.org">CC BY-SA 4.0</url>.</p></li>
+        </ul>
+        </p>
+      </appendix>
+
+      <xi:include href="./colophon.ptx"/>
+
+    </backmatter>
+  </book>
+</pretext>

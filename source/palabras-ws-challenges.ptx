@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="palabras-ws-challenges">
+  
+<title>Challenges</title>
+
+<p>We already explored scaling factors for lengths in terms of <alert>NUMBER OF LETTERS</alert> going from English to Spanish.</p>
+<p>Now let's explore scaling factors for <alert>NUMBER OF WORDS</alert>!</p>
+
+<p>Examples:</p>
+<tabular halign="center">
+    <col width="35%"/>
+    <col width="5%"/>
+    <col width="35%"/>
+    <col width="15%"/>
+    <row header="yes" bottom="medium">
+      <cell>ENG</cell>
+      <cell></cell>
+      <cell>SPA</cell>
+      <cell>Scaling Factor</cell>
+    </row>
+    <row bottom="minor">
+      <cell><p><line>Julia's House is near.</line><line>(4)</line></p></cell>
+      <cell><m>\to</m></cell>
+      <cell><p><line>La casa de Julia está cerca.</line><line>(6)</line></p></cell>
+      <cell><p>1.5</p></cell>
+    </row>
+    <row bottom="minor">
+      <cell><p><line>I want to eat ice cream.</line><line>(6)</line></p></cell>
+      <cell><m>\to</m></cell>
+      <cell><p><line>Quiero comer helado.</line><line>(3)</line></p></cell>
+      <cell><p>0.5</p></cell>
+    </row>
+    <row bottom="minor">
+      <cell><p><line>Wilbur didn't want food, he wanted love. He wanted a friend— someone who would play with him, stay with him, and listen to him.</line><line>(24)</line></p></cell>
+      <cell><m>\to</m></cell>
+      <cell><p><line>Wilbur no quería comida, quería amor. Quería un amigo, alguien que jugara con él, que se quedara con él y que lo escuchara.</line><line>(23)</line></p></cell>
+      <cell><p>almost 1!</p></cell>
+    </row>
+  </tabular>
+
+<exercise xml:id="ex-challenge-words" workspace="2cm">
+  <statement>
+    <p>Do you think that the scaling factor for words will be similar to the one for letters? Why?</p>
+  </statement>
+
+<solution>
+<p>
+  Spanish words are on average longer than English words (more syllables, explicit vowel endings, suffixes), making the letter count scaling factor consistently greater than <m>1.0</m> (usually around <m>1.15</m> to <m>1.30</m>).
+</p>
+
+<p>
+  <title>Why words behave differently</title>
+  Spanish grammar frequently drops subject pronouns (e.g., <q>I want</q> <m>\rightarrow</m> <q>Quiero</q>), which reduces the total word count. However, Spanish also uses extra prepositions and articles where English uses possessives or noun adjuncts (e.g., <q>Julia's House</q> <m>\rightarrow</m> <q>La casa de Julia</q>), which increases word count. These two opposing grammatical traits tend to offset each other, making the overall word count scaling factor fluctuate around <m>1.0</m> rather than showing a uniform increase like letter counts do.
+</p>
+</solution>
+
+</exercise>
+
+
+
+<exercise xml:id="ex-challenge-words-conjecture" workspace="5cm">
+  <statement>
+    <p>Test your conjecture! Gather data about several phrases in ENG and SPA, tracking the lengths (in terms of # of words) and seeing what happens!</p>
+  </statement>
+</exercise>
+
+<exercise xml:id="ex-challenge-words-dotplot" workspace="3cm">
+  <statement>
+    <p>Make a dot plot to show your findings!</p>
+  </statement>
+</exercise>
+
+</worksheet>

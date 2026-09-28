@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="diaMuertos-ws-miAltar">
+  <title>Mi Altar (TikZ BLM test)</title>
+  <assemblage component="TODO">
+    <title>Comment this out</title>
+    <p>EAJ, Jun2026</p>
+    <p>
+      This should become a pdf BLM for now. Consider this as a prototype for PreTeXt-sourced BLMs. We can comment this out for now, and then decide how to proceed with BLMs in the future.
+    </p>
+  </assemblage>
+
+
+
+  <page>
+  <p>
+    <image width="50%">
+      <latex-image>
+        \begin{tikzpicture}
+          \fill[rounded corners=14pt, fill=yellow!20] (0,0) rectangle (7,7);
+          \draw[rounded corners=9pt, dashed, thick, gray!70] (0.5,0.5) rectangle (6.5,6.5);
+          \node[align=center, font=\Large] at (3.5,3.3) {Glue your\\[6pt] Calavera!};
+        \end{tikzpicture}
+      </latex-image>
+      <shortdescription>A centered space to glue your calavera on the altar</shortdescription>
+    </image>
+  </p>
+
+  <sbsgroup widths="30% 30%" margins="10% 10%">
+  <sidebyside>
+    <stack>
+      <p>Favorite Food</p>
+      <image>
+        <latex-image>
+          \begin{tikzpicture}
+            \draw[workspaceboxstyle] (0,0) rectangle (6,0.7);
+          \end{tikzpicture}
+        </latex-image>
+        <shortdescription>Write-in space</shortdescription>
+      </image>
+      <image source="diaMuertos-altarNiche.png">
+        <shortdescription>Altar niche for Favorite Items</shortdescription>
+      </image>
+    </stack>
+    <stack>
+      <p>Favorite Activity</p>
+      <image>
+        <latex-image>
+          \begin{tikzpicture}
+            \draw[workspaceboxstyle] (0,0) rectangle (6,0.7);
+          \end{tikzpicture}
+        </latex-image>
+        <shortdescription>Write-in space</shortdescription>
+      </image>
+      <image source="diaMuertos-altarNiche.png">
+        <shortdescription>Altar niche for Favorite Items</shortdescription>
+      </image>
+    </stack>
+  </sidebyside>
+  <sidebyside>
+    <stack>
+      <p>Favorite Items</p>
+      <image>
+        <latex-image>
+          \begin{tikzpicture}
+            \draw[workspaceboxstyle] (0,0) rectangle (6,0.7);
+          \end{tikzpicture}
+        </latex-image>
+        <shortdescription>Write-in space</shortdescription>
+      </image>
+      <image source="diaMuertos-altarNiche.png">
+        <shortdescription>Altar niche for Favorite Items</shortdescription>
+      </image>
+    </stack>
+    <stack>
+      <p>Favorite <m>\underline{\phantom{xxxxxxxxx}}</m></p>
+     <image>
+        <latex-image>
+          \begin{tikzpicture}
+            \draw[workspaceboxstyle] (0,0) rectangle (6,0.7);
+          \end{tikzpicture}
+        </latex-image>
+        <shortdescription>Write-in space</shortdescription>
+      </image>
+      <image source="diaMuertos-altarNiche.png">
+        <shortdescription>Altar niche for a favorite of your choice</shortdescription>
+      </image>
+    </stack>
+  </sidebyside>
+</sbsgroup>
+
+  <!-- <sidebyside widths="22% 73%" margins="0% 5%"> -->
+    <p>Happy Memories with Me</p>
+    <image>
+      <latex-image>
+        \begin{tikzpicture}
+          \draw[workspaceboxstyle] (0,0) rectangle (14,3.5);
+        \end{tikzpicture}
+      </latex-image>
+      <shortdescription>Write-in space for happy memories</shortdescription>
+    </image>
+  <!-- </sidebyside> -->
+   </page>
+</worksheet>

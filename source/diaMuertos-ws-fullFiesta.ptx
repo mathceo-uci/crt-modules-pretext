@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="diaMuertos-ws-fullFiesta">
+  <title>The Full Fiesta</title>
+
+  <exercise>
+    <!-- <title>Building all the músicos</title> -->
+    <!-- <introduction> -->
+      <p>At the full fiesta:
+        <ul>
+          <li><p>All músicos are different</p></li>
+          <li><p>All possible músicos that you can think of are in there!</p></li>
+        </ul>
+      </p>
+      <p>Remember the four aspects and their choices:</p>
+
+                    <tabular>
+        <row bottom="medium" header="yes"><cell>Aspect</cell><cell>Choices</cell><cell>Codes</cell></row>
+        <row><cell>Face</cell><cell>Fox, Gato, Human</cell><cell>F, G, H</cell></row>
+        <row><cell>Body</cell><cell>Suit, Bones, Dress</cell><cell>Su, Bo, Dr</cell></row>
+        <row><cell># of Jaranas</cell><cell>2, 1, 0</cell><cell>2, 1, 0</cell></row>
+        <row><cell>Gift</cell><cell>bread, chocolate, dalia</cell><cell>br, ch, da</cell></row>
+      </tabular>
+    <!-- </introduction> -->
+    
+    <p>
+    <ol>
+      <li workspace="6cm">
+        <p>We want to build <alert>all</alert> the músicos in the fiesta. What is a good strategy we can use to make sure that (i) we do not forget anyone, and (ii) we do not repeat anyone? Illustrate the process with 1 picture (or more!).</p>
+      </li>
+      <li workspace="2cm">
+        <p>
+        Complete the sentence: <q>I made sure that I built all the músicos and without repeating any of them because . . . </q>
+        </p>
+      </li>
+    </ol>
+    </p>
+  </exercise>
+
+  <exercise workspace="8cm">
+    <!-- <title>How many músicos are at the fiesta?</title> -->
+    <statement>
+      <p>All the músicos came to the fiesta. How many of them are there?</p>
+      <ol>
+        <li><p>Make your own prediction.</p></li>
+        <li><p>Find an effective way of counting them.</p></li>
+        <li><p>Explain your method to everyone!</p></li>
+        <li><p>
+            <line>Bonus: can you generalize?</line> 
+            <line>(What if there are more aspects? Or more choices in one aspect?)</line>
+          </p></li>
+      </ol>
+    </statement>
+  </exercise>
+
+</worksheet>

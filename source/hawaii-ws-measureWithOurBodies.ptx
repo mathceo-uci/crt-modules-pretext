@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="hawaii-ws-measureWithOurBodies">
+  <title>Measuring With Our Bodies</title>
+  <introduction>
+    <p>
+      In Hawaiian culture, the body was commonly used to measure things like the length of a canoe, the height of a person, or the width of a taro patch. Using body lengths was a convenient way for the Hawaiians to estimate distances without instruments.
+    </p>
+    <sidebyside widths="50% 45%" margins="0% 0%">
+      <p>Imagine we are in the middle of the ocean without any rulers or measuring tapes. We want to know how long our canoe is in order to arrange our cargo.</p>
+      <image source="hawaii-canoe.jpg" width="70%">
+        <shortdescription>A line drawing of a canoe with a bracket below indicating a length of 16 feet.</shortdescription>
+      </image>
+    </sidebyside>
+    
+    <sidebyside widths="16% 16% 16%" valign="middle" margins="10%">
+      <image source="hawaii-pia-labeled.png">
+        <shortdescription>Pia</shortdescription>
+      </image>
+      <image source="hawaii-poho-labeled.png">
+        <shortdescription>Poho</shortdescription>
+      </image>
+      <image source="hawaii-kikoo-labeled.png">
+        <shortdescription>Kīko'o</shortdescription>
+      </image>      
+    </sidebyside>
+    
+    <sidebyside widths="30% 30% 30%" valign="middle" margins="0%">
+      <image source="hawaii-muku-labeled.png">
+        <shortdescription>Muku</shortdescription>
+      </image>
+      <image source="hawaii-hailima-labeled.png">
+        <shortdescription>Ha'ilima</shortdescription>
+      </image>
+      <image source="hawaii-iwilei-labeled.png">
+        <shortdescription>Iwilei</shortdescription>
+      </image>      
+    </sidebyside>
+    
+  </introduction>
+  
+  <sidebyside widths="40% 55%" margins="0%">
+    <exercise xml:id="ex-ws-canoe-measure" workspace="2cm">
+      <statement>
+        <p>Using the Hawaiian measures, what measurement could we use to most efficiently measure this canoe?</p>
+      </statement>
+      
+      <solution>
+        <p>Sample responses:</p>
+        <ul>
+          <li> <q>I would use iwilei because it is the largest measure that I see. Using small hand spans for a big canoe would take way too long.</q> </li>
+          <li> <q>Iwilei works great, but even that takes many steps. I wonder if there’s an even bigger measure, like using full open arms, for long canoes?</q> </li>
+        </ul>
+      </solution>
+    </exercise>
+    <exercise xml:id="ex-ws-canoe-estimate" workspace="2.5cm">
+      <statement>
+        <p>Estimate: About <em>how many</em> of that measurement would be equal to these 16<nbsp/>feet?</p>
+      </statement>
+      
+      <solution>
+        <p>Sample solutions:</p>
+        <ul>
+          <li> <q>I think about five iwilei, or perhaps a little more</q> </li>
+          <li> <q>I think that an iwilei is about 3 feet long, so it would take around 5 or 6 iwilei to measure a 16-foot canoe.</q> </li>
+        </ul>
+      </solution>
+      
+    </exercise>
+  </sidebyside>
+  <!-- <conclusion> -->
+  <!-- </conclusion> -->
+  <exercise xml:id="ex-ws-discuss" workspace="2cm">
+    <title>Discuss</title>
+    <statement>
+      <ol> 
+        <li><p>What other things do you think the iwilei/ha'ilima/muku were used to measure?</p></li>
+        <li><p>How might you use these measurements in your daily life?</p></li>
+      </ol>
+    </statement>
+    <solution>
+      <p>Sample responses:
+        <ul>
+          <li> <q>These body-based measures were maybe used for sizing woven mats, fishing nets, lengths of rope, or building things like canoes and shelters.</q> </li>
+          <li> <q>They could have been used to measure fabrics for clothing, agricultural fields, or tracking the depth of shallow water.</q> </li>
+        </ul>
+        
+        <ul>
+          <li> <q>I could use my arm span or forearm to quickly check if a desk or rug will fit in my room without using a tape measure.</q> </li>
+          <li> <q>I can use my iwilei or hand spans when shopping for craft supplies, wrapping ribbon, or measuring fabric at a store.</q> </li>
+        </ul>
+      </p>
+    </solution>
+  </exercise>
+  
+</worksheet>

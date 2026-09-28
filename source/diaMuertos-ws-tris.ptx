@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="diaMuertos-ws-tris">
+  <title>Tri's</title>
+
+  <introduction>
+    
+    <p>Three different músicos form a <alert>TRI</alert> (or <alert>SET</alert>, or <alert>BAND</alert>) if, for each aspect, the músicos are either all the same or all different.<fn>This activity is based on the game <url href="https://www.playmonster.com/brands/set/" visual="playmonster.com">SET</url>, and is adapted from <url href="https://jrmf.org/puzzle/monster-town/" visual="jrmf.org">Monster Town</url> by the Julia Robinson Mathematics Festival, used under <url href="https://creativecommons.org/licenses/by-nc-sa/4.0/" visual="creativecommons.org/licenses/by-nc-sa/4.0">CC BY-NC-SA 4.0</url>.</fn></p>
+
+    <p>For example:</p>
+
+    <image source="diaMuertos-tri.png" width="95%" margins="5% 0%">
+      <shortdescription></shortdescription>
+    </image>
+
+    <p>
+      <tabular top="minor" left="minor" right="minor" bottom="minor" row-headers="yes">
+      <row header="yes" bottom="medium">
+        <cell></cell><cell>Músico 1</cell><cell>Músico 2</cell><cell>Músico 3</cell><cell>Check</cell>
+      </row>
+      <row>
+        <cell>Face</cell><cell>HUMAN</cell><cell>HUMAN</cell><cell>HUMAN</cell><cell>All the Same</cell>
+      </row>
+      <row>
+        <cell>Body</cell><cell>Dress</cell><cell>Dress</cell><cell>Dress</cell><cell>All the same</cell>
+      </row>
+      <row>
+        <cell>Gift</cell><cell>bread</cell><cell>chocolate</cell><cell>dalia</cell><cell>All Different</cell>
+      </row>
+      <row>
+        <cell># of Jaranas</cell><cell>2</cell><cell>0</cell><cell>1</cell><cell>All Different</cell>
+      </row>
+    </tabular>
+  </p>
+  </introduction>
+
+  <exercise xml:id="ex-tris-which-are-tri">
+    <title>Which are a TRI? Why?</title>
+    <introduction>
+      <p>You can use the tables to check each aspect!</p>
+    </introduction>
+
+    <ol>
+      <li>
+        <title>The Bread Friends</title>
+        <sidebyside widths="62% 33%" margins="0% 0%" valign="middle">
+          <tabular top="minor" left="minor" right="minor" bottom="minor" row-headers="yes">
+            <row header="yes" bottom="medium">
+              <cell></cell><cell>Músico 1</cell><cell>Músico 2</cell><cell>Músico 3</cell><cell>Check</cell>
+            </row>
+            <row>
+              <cell>Face</cell><cell></cell><cell></cell><cell></cell><cell></cell>
+            </row>
+            <row>
+              <cell>Body</cell><cell></cell><cell></cell><cell></cell><cell></cell>
+            </row>
+            <row>
+              <cell>Gift</cell><cell></cell><cell></cell><cell></cell><cell></cell>
+            </row>
+            <row>
+              <cell>Jarana</cell><cell></cell><cell></cell><cell></cell><cell></cell>
+            </row>
+          </tabular>
+          <image source="diaMuertos-breadFriends.png" width="60%">
+            <shortdescription>Three músicos titled "Bread Friends", each with a calavera cat face and each holding a loaf of bread as their gift. Left to right — Músico 1: charro suit, holding two jaranas; Músico 2: skeleton body, holding one jarana; Músico 3: black dress with a red bow, holding no jarana.</shortdescription>
+          </image>
+        </sidebyside>
+      </li>
+      <li>
+        <title>The Choco-Dos</title>
+        <sidebyside widths="62% 33%" margins="0% 0%" valign="middle">
+          <tabular top="minor" left="minor" right="minor" bottom="minor">
+            <row header="yes" bottom="medium">
+              <cell></cell><cell>Músico 1</cell><cell>Músico 2</cell><cell>Músico 3</cell><cell>Check</cell>
+            </row>
+            <row>
+              <cell>Face</cell><cell></cell><cell></cell><cell></cell><cell></cell>
+            </row>
+            <row>
+              <cell>Body</cell><cell></cell><cell></cell><cell></cell><cell></cell>
+            </row>
+            <row>
+              <cell>Gift</cell><cell></cell><cell></cell><cell></cell><cell></cell>
+            </row>
+            <row>
+              <cell>Jarana</cell><cell></cell><cell></cell><cell></cell><cell></cell>
+            </row>
+          </tabular>
+          <image source="diaMuertos-chocoDos.png" width="60%">
+            <shortdescription>Three músicos titled "The Choco-Dos". Left to right — Músico 1: white skull face, skeleton body, brings chocolate, holding one jarana; Músico 2: orange fox face with a colorful headdress, charro suit, brings bread (no chocolate), holding no jarana; Músico 3: red calavera cat face, dress, brings chocolate, holding one jarana.</shortdescription>
+          </image>
+        </sidebyside>
+      </li>
+
+    </ol>
+  </exercise>
+
+  <exercise xml:id="ex-tris-challenge">
+    <title>Challenge</title>
+    <introduction>
+      <p>Pick the first two músicos independently or at random (for example, work with a partner, and each secretly picks a músico). Fill out the table, and leave the third row blank.</p>
+    <p>
+      <tabular top="minor" left="minor" right="minor" bottom="minor" row-headers="yes">
+      <row header="yes" bottom="medium">
+        <cell></cell><cell>Músico 1</cell><cell>Músico 2</cell><cell>Músico 3</cell><cell>Check</cell>
+      </row>
+      <row>
+        <cell>Face</cell><cell></cell><cell></cell><cell></cell><cell></cell>
+      </row>
+      <row>
+        <cell>Body</cell><cell></cell><cell></cell><cell></cell><cell></cell>
+      </row>
+      <row>
+        <cell>Gift</cell><cell></cell><cell></cell><cell></cell><cell></cell>
+      </row>
+      <row>
+        <cell># of Jaranas</cell><cell></cell><cell></cell><cell></cell><cell></cell>
+      </row>
+    </tabular>
+  </p>
+
+    </introduction>
+
+    <task>
+      <p>Is it possible to complete the table to form a TRI? Try!</p>
+    </task>
+
+    <task workspace="3cm">
+      <p>If you succeeded in forming a TRI, do you think that there was only one way to complete the table with the third músico? Why or why not?</p>
+    </task>
+
+    <task workspace="4cm">
+      <p>In general, if we pick any two músicos, what can we say about whether it's possible to complete the table to form a TRI, and if the choice is unique? Explain.</p>
+    </task>
+  </exercise>
+</worksheet>

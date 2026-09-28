@@ -1,0 +1,969 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <xi:include href="./docinfo.ptx"/>
+  <book xml:id="diaMuertos-tg">
+    <title>Día de los Muertos</title>
+    <subtitle>Teaching Guide</subtitle>
+    
+    <frontmatter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="frontmatter">
+      <xi:include href="./diaMuertos-bibinfo.ptx"/>
+      <titlepage>
+        <titlepage-items/>
+      </titlepage>
+      <colophon>
+        <colophon-items/>
+      </colophon>
+      <xi:include href="./diaMuertos-tg-intro.ptx"/>
+      <xi:include href="./aboutMathCEO.ptx"/>
+      <!-- <xi:include href="./mentoringTips.ptx"/> -->
+    </frontmatter>
+
+    <chapter xml:id="chap-celebrations">
+      <title>Celebrations (25 min)</title>
+      <introduction>
+        <image source="diaMuertos-calavera-sombrero.png" width="30%">
+          <shortdescription>A colorful Día de los Muertos sugar skull (calavera) wearing a sombrero.</shortdescription>
+        </image>
+        
+        <p>
+          Dia de Los Muertos plays a big part in Latin American culture. Everyone celebrates differently depending on their traditions. That is the beauty of Dia de Los Muertos. While we all celebrate our loved ones, we all do it differently. The people who we love and lost are people who had a big impact on our lives.
+        </p>
+        <p>
+          We want students to focus on the joy of celebrating their loved ones. It can also be a pet or anything they lost that meant a lot to them.
+        </p>
+
+        <paragraphs>
+          <title>Breakdown</title>
+          <p>
+          <dl>
+            <li>
+              <title><xref ref="sec-join-us" text="type-global"/></title>
+              <p><xref ref="sec-join-us" text="title"/></p>
+              <p>Short introduction to Día de los Muertos.</p>
+            </li>
+            <li>
+              <title><xref ref="sec-calaveras" text="type-global"/></title>
+              <p><xref ref="sec-calaveras" text="title"/>
+              <ul>
+                <li>Group discussion about Día de los Muertos. </li> 
+                <li>Students color calaveras to honor a loved one and build an altar.</li>
+                <li>Further sharing.</li>
+              </ul>
+              </p>
+            </li>
+          </dl>
+          </p>
+        </paragraphs>
+
+        <paragraphs>
+          <title>Goals</title>
+          <ul>
+            <li>Learn about Día de Los Muertos and all the complexities regarding it.</li>
+            <li>Reflect about celebrations (of life and death).</li>
+            <li>Share life experiences and celebrate loved ones together.</li>
+            <li>Get to know your students at a deeper level.</li>
+          </ul>
+        </paragraphs>
+        
+        <paragraphs>
+          <title>Materials</title>
+          <ul>
+            <li>Student Workbook (<url href="https://mathceo-uci.github.io/diaMuertos-sw.pdf">pdf</url> / <url href="https://mathceo-uci.github.io/diaMuertos-workbook">web</url>)</li>
+            <li>Mini-whiteboards</li>
+            <li>Pens</li>
+            <li>Colors</li>
+            <li>Altar sheets: 1 per person (<url href="external/diaMuertos-blm-altar.pdf">pdf</url>) </li>
+            <li>Calavera cutouts (<url href="external/diaMuertos-blm-calaveras.pdf">pdf</url>): 1 per person</li>
+          </ul>
+        </paragraphs>
+
+        <paragraphs>
+          <title>Resources</title>
+          <assemblage component="TODO">
+            <title>EAJ: License for "Learn more about Día de los muertos"?</title>
+            <p>What is the license for "Learn more about Día de los muertos"? I added link to the drive link, and also added a local pdf copy. This needs to ve revised.</p>
+          </assemblage>
+          <ul>
+            <li><p>5 min read: <xref provisional="Learn more about Día de los muertos pdf"/> </p></li>
+            <li><p>Video: <q>Cultural Relevance: Día de los muertos</q> (~5 min). <video youtube="6javZGpox0k" width="100%"/></p></li>
+          </ul>
+        </paragraphs>
+         <assemblage component="TODO">
+            <title>EAJ, video placement?</title>
+            <p>Does the video go here?</p>
+          </assemblage>
+      </introduction>
+
+      <section xml:id="sec-join-us">
+        <title>Join Us! (10 min)</title>
+        <introduction>
+          <paragraphs>
+            <title>Checklist</title>
+            <ul>
+              <li><p>Led using slides.</p></li>
+              <li><p>Short introduction about Día de los Muertos.</p></li>
+            </ul>
+          </paragraphs>
+        </introduction>
+        <assemblage component="TODO">
+          <title>EAJ, AF: activity placement?</title>
+          <p>Is there no worksheet activity in the workbook in this section? Guessing "Celebración" (ws-celebration) should go here, but not sure.</p>
+        </assemblage>
+
+        <p>Día de Los Muertos plays a big part in Latin American culture. Everyone celebrates differently, and that is special about Día de Los Muertos. While we all celebrate our loved ones, we all do it differently. The people who we love and lost are people who had a big impact on our lives. Whether they were a father figure, a sibling, a guardian, etc., losing them was not easy. You never truly stop grieving someone.</p>
+
+        <p>Students will focus on the joy of celebrating their loved ones. It can also be a pet, a famous person, or anything they lost that meant a lot to them. With this activity we want to show students that we care about them as people and we empathize with them.</p>
+        
+        <p>Some students might not know the origins of the holiday that they celebrate with their families, so the teacher will give them an overview of this. Día de los Muertos allows different communities to be able to connect. Not everyone has celebrated Día de Los Muertos, but everyone has someone they care for. This activity allows all to think about those they love and think how it connects them to one another. By allowing students to first learn about the history, it allows them to learn about their identities.</p>
+
+
+        <image source="diaMuertos-altar.png" width="75%">
+          <shortdescription>Drawing of a Día de Muertos altar with religious items, photos, candles, pan de muerto, sugar skulls, glass of water, incense, fruit, food, personal objects, papel picado, and flowers.</shortdescription>
+        </image>
+      </section>
+
+      <section xml:id="sec-calaveras">
+        <title>Calaveras (15 min)</title>
+        <introduction>
+          <paragraphs>
+            <title>Checklist</title>
+            <ul>
+              <li><p>Start the discussion. Build on what was said in <xref ref="sec-join-us" text="type-global"/>.</p></li>
+              <li><p>Launch the altar activity. 1 altar per person.</p></li>
+              <li><p>Keep building on the discussion and sharing.</p></li>
+            </ul>
+          </paragraphs>
+
+        <paragraphs>
+          <title>Initial discussion</title>
+          <p>Start with some questions (leave some for the middle/end):</p>
+          <ul>
+            <li><p>How do you celebrate Día de los muertos?</p></li>
+            <li><p>What happy or joyful memories do you keep in your heart about a loved one (a person or an animal) who is not with you anymore? (<em>Note: It could be a friend, someone from your family, a pet, a plush/toy, a famous person, etc.</em>)</p></li>
+            <li><p>Why do you think it's important to celebrate the loved ones that we lost through our memories?</p></li>
+            <li><p>How do you honor and remember your loved ones who have passed away on special occasions or anniversaries?</p></li>
+          </ul>
+          <p>The teacher can start sharing first, and slowly wait for students to ask follow-up questions, and then share themselves. Don't push too much.</p>
+        </paragraphs>
+
+        <paragraphs>
+          <title>Creating Altars ("Mi Altar" activity)</title>
+          <p>Students will make their own altars. Point students to the Student Workbook pages for <xref ref="diaMuertos-ws-celebration" text="type-global-title"/>, which has instructions to fill out the altar. They should pick one calavera template, color it, glue it to the altar sheet, and complete the blanks in the altar (with words). This is individual.</p>
+          <p>By allowing students to make their own calavera of someone they want to dedicate it to, this part will become personal. Connecting their calaveras and stories during <xref ref="chap-los-musicos"/> will allow students to see that their identities are valued and are important in Math CEO.</p>
+        </paragraphs>
+
+        <paragraphs>
+          <title>Cultural Appropriation</title>
+          <p>Cultural appropriation could mean purchasing jewelry or clothing that may have important cultural significance to that culture, but just using it as fashion. Or taking a photo of a ritual ceremony simply for the sake of getting as many likes on social media as possible.</p>
+          <p>Read about cultural appropriation:</p>
+          <ul>
+            <li><p><url href="https://dailytitan.com/opinion/the-mass-appropriation-of-d-a-de-los-muertos-must-stop/article_c54b324f-9771-5869-a1eb-a495667d5f22.html">The mass appropriation of Día de los Muertos must stop</url></p></li>
+            <li><p><url href="https://www.nytimes.com/2019/09/11/us/dia-de-muertos-barbie-mattel.html">Día de Muertos Barbie: Respectful Tribute, or <q>Obviously Cultural Appropriation</q>?</url></p></li>
+          </ul>
+        </paragraphs>
+
+        <paragraphs>
+          <title>Video with teaching tips and suggestions</title>
+          <p><video youtube="Zqlbae3Tcv8" width="100%"/></p>
+        </paragraphs>
+
+        </introduction>
+
+        <xi:include href="./diaMuertos-ws-celebration.ptx"/>
+        
+        <!-- <xi:include href="./diaMuertos-ws-miAltar.ptx"/> -->
+
+      </section>
+    </chapter>
+
+    <chapter xml:id="chap-los-musicos">
+      <title>Los Músicos (35 min)</title>
+      <introduction>
+        <p>We keep celebrating Día de los Muertos, this time in the context of a party. A counting situation will arise, in which students will explore counting ideas (for objects build with independent options). They will discover that there is a lot of músicos (<m>3\times 3\times 3\times 3</m>) to build! This will continue in Meeting 3.</p>
+        
+        <paragraphs>
+          <title>Breakdown</title>
+          <p>
+          <dl>
+            <li>
+              <title><xref ref="sec-music-traditions" text="type-global"/></title>
+              <p><xref ref="sec-music-traditions" text="title"/></p>
+              <p>Talk about music traditions in celebrations.</p>
+            </li>
+            <li>
+              <title><xref ref="sec-building-musicos" text="type-global"/></title>
+              <p><xref ref="sec-building-musicos" text="title"/></p>
+              <p>Learn how to build músicos with tiles. Activate counting.</p>
+            </li>
+            <li>
+              <title><xref ref="sec-how-many" text="type-global"/></title>
+              <p><xref ref="sec-how-many" text="title"/></p>
+              <p>Students count músicos with trees, diagrams and expressions, and reason flexibly to count subsets.</p>
+            </li>
+          </dl>
+          </p>
+        </paragraphs>
+        <objectives>
+          <ul>
+            <li><p>Given building rules for <q>things</q> (combinatorial objects), give examples, and tell when two objects are different based on the rules.</p></li>
+            <li><p>Use different ways to represent or describe the same combinatorial object.</p></li>
+            <li><p>Given a building rule with independent choices, deduce how many objects we can build, and represent this with tables, lists, trees, and expressions.</p></li>
+          </ul>
+        </objectives>
+
+        <paragraphs>
+          <title>Materials</title>
+          <ul>
+            <li><p>Student Workbook (<url href="https://mathceo-uci.github.io/diaMuertos-sw.pdf">pdf</url> / <url href="https://mathceo-uci.github.io/diaMuertos-workbook">web</url>)</p></li>
+            <li><p>Mini-whiteboards</p></li>
+            <li><p>Pens</p></li>
+            <li><p>Attribute tiles (<url href="external/diaMuertos-blm-tiles.pdf">pdf</url>): 1 pack for each group of 2–4 students</p></li>
+          </ul>
+        </paragraphs>
+
+      </introduction>
+
+      <section xml:id="sec-music-traditions">
+        <title>Music Traditions (5 min)</title>
+        <introduction>
+          <paragraphs>
+            <title>Checklist</title>
+            <ul>
+              <li><p>Activate curiosity for what follows.</p></li>
+              <li><p>Have a cultural exchange about music (in particular, about Latin American music).</p></li>
+            </ul>
+          </paragraphs>
+        </introduction>
+
+
+        <image source="diaMuertos-musicians.png" width="80%">
+          <shortdescription>Five musicians in white clothing performing on stage with string instruments and a harp.</shortdescription>
+        </image>
+
+        <p>Discuss music traditions with your students. Here are some questions that may be helpful:</p>
+        <ol>
+          <li><p>Have you heard your grandparents or parents talk about traditional music they used to listen to or play when they were younger?</p></li>
+          <li><p>Are there any musical instruments that you play, find interesting, or would like to learn to play?</p></li>
+          <li><p>Have you played in a Mariachi band?</p></li>
+          <li><p>What are some popular Latin American musical genres that you enjoy listening to or have heard about?</p></li>
+          <li><p>Do you have any family members who play a musical instrument or sing? If so, what kind of music do they usually perform?</p></li>
+          <li><p>Have you ever attended a traditional Latin American music concert or festival? If yes, what was your favorite part about it?</p></li>
+          <li><p>Are there any specific Latin American songs or artists that you feel connected to or resonate with you on a personal level? Why?</p></li>
+          <li><p>How do you think music plays a role in preserving cultural traditions within Latin American families and communities?</p></li>
+          <li><p>Have you ever participated in any school or community events that celebrate Latin American music and culture? If so, what did you enjoy the most about those events?</p></li>
+          <li><p>How do you think the influence of Latin American music has spread globally and impacted other cultures around the world?</p></li>
+        </ol>
+
+        <image source="diaMuertos-instruments.png" width="60%">
+          <shortdescription>A collection of traditional Latin American instruments including maracas, panpipes, and decorated percussion instruments.</shortdescription>
+        </image>
+
+      </section>
+
+      <section xml:id="sec-building-musicos">
+        <title>Building Músicos (10 min)</title>
+        <introduction>
+          <paragraphs>
+            <title>Checklist</title>
+            <ul>
+              <li><p>Build 1 músico by deciding values in each of 4 aspects.</p></li>
+              <li><p>Start reasoning about counting. Use lists, diagrams, expressions.</p></li>
+              <li><p>Focus on Equity in teaching when collaborating together.</p></li>
+              <li><p>Don't focus on counting the full total of músicos yet.</p></li>
+            </ul>
+          </paragraphs>
+
+        <p>Have the physical <term>attribute tiles</term> (<url href="external/diaMuertos-blm-tiles.pdf">pdf</url>) ready. Each pack has 12 of them: 
+          <ul>
+            <li>{ <alert>G</alert>ato, <alert>F</alert>ox, <alert>H</alert>uman }</li>
+            <li>{ <alert>Su</alert>it, <alert>Bo</alert>nes, <alert>Dr</alert>ess }</li>
+            <li>{ <alert>2</alert> jaranas, <alert>1</alert> jarana, <alert>0</alert> jaranas }</li>
+            <li>{ <alert>br</alert>ead, <alert>ch</alert>ocolate, <alert>da</alert>lia }</li>
+          </ul>
+        </p>
+                      
+        <p>Students can share: give 1 pack to each pair of students. If you have extra packs, you can give more!</p>
+
+        <p>Introduce this activity with a nice story about some Músicos going to a fiesta. The more you connect to stories of students, the better. <alert>Prepare a basic story</alert>, and be ready to <alert>add details on the fly</alert>, taking elements from student's stories (heard in Part 1).</p>
+
+        <p>
+          Explain the 4 aspects, pointing students to the Student Workbook page for <xref ref="diaMuertos-ws-fiestaDeMusicos" text="type-global-title"/>. Make sure that students understand that the aspects are independent, so choosing an option in one aspect does not limit the choice in other aspects. Keep your explanation short.
+        </p>
+
+        <p>
+          First, students will understand what information we need to build a musician, what does it mean that two musicians are the same (same choices for ALL aspects), and start to think combinatorially, that is, generating examples, and reason about efficient/systematic/ordered ways to count músicos (first by explicit listing, and then with descriptions).
+          </p>
+          <p>
+          In this sequence of mini-activities, some students can work alone, and others may pair up (but no more than 2) So you will have teams of 1 or 2. Teams will interact a lot! But how can you support a positive emotional climate?
+          </p>
+
+
+
+        <paragraphs>
+          <title>Positive Emotional Climate and Space Tips (Equity)</title>
+          <ul>
+            <li><p>Try to engage all students. You may fail this time with some, but engaging them is a process. Keep trying!</p></li>
+            <li><p>Ensure that students respect each other when sharing.</p></li>
+            <li><p>Support students in asking questions / making mistakes. Model it! (For example, the teacher makes a mistake.)</p></li>
+            <li><p>Cheer on students. Praise their accomplishments.</p></li>
+            <li><p>Give students enough time to work on the activities (without rushing them too much. It's not a race!).</p></li>
+            <li><p>Give students the freedom to be themselves.</p></li>
+          </ul>
+        </paragraphs>
+
+        <paragraphs>
+          <title>Teaching Tips Video</title>
+          <p><video youtube="atBlrMk1uqc" width="100%"/></p>
+        </paragraphs>
+        
+        <paragraphs>
+          <title>Description of activities</title>
+          <p>
+            Be flexible and adjust it to your student's, keeping always high, but attainable challenges.
+          </p>
+          <ol>
+            <li>
+              <title><xref ref="ex-buildMusicos" text="title"/></title>
+              <p>
+                Each team builds their favorite músico with 4 tiles, shows it, and describes it.
+              </p>
+              <p>
+              Takeaway: To build 1 músico, one needs to make 4 choices (3 options for each), and the order of the choices does not matter. It may seem like there are lots of músicos! Don't count them yet, nor tell the <q>formula</q>.
+              </p>
+            </li>
+            <li>
+              <title><xref ref="ex-challengeEachOther" text="title"/></title>
+              <ol>
+                <li>
+                  <title><xref ref="ex-challengeEachOther-hide-one" text="title"/></title>
+                  <p>
+                    One team builds a secret músico but shows only 3 of the 4 tiles. The others guess.
+                  </p>
+                  <p>
+                    Takeaway: If we <q>fix</q> 3 aspects, there are exactly 3 músicos with those aspects. Or, if we <q>forget 3 aspects</q> and just consider one, there would be only 3 músicos.
+                  </p>
+                </li>
+                <li>
+                  <title><xref ref="ex-challengeEachOther-hide-two" text="title"/></title>
+                  <p>
+                    Similar to the previous one. Have a different team share, to give voice to more people.
+                  </p>
+                  <p>
+                    Takeaway: If we <q>fix</q> or <q>forget/delete</q> 2 aspects, then we are focusing only on 2 aspects, and there are exactly 9 músicos with those aspects.
+                  </p>
+                </li>
+                <li>
+                  <title><xref ref="ex-challengeEachOther-hide-three" text="title"/></title>
+                  <p>
+                    (optional) This builds on Hide 1 and Hide 2, and uses <q>recursion</q>: Since fixing 2 aspects gives 9 músicos, fixing only 1 aspect will give three times as many. This part is optional, as what follows will include this analysis. But be ready to discuss!
+                  </p>
+                </li>
+              </ol>
+            </li>
+          </ol>
+        </paragraphs>
+
+        <paragraphs>
+          <title>Possible Student Representations</title>
+          <p>Expressions such as <m>3+3+3</m>, <m>3 \times 3</m>, or <m>3^2</m> may arise from students themselves, as well as representations such as these:</p>
+
+          <sidebyside valign="middle">
+            
+            <ol>
+              <li><p>F br</p></li>
+              <li><p>G ch</p></li>
+              <li><p>H da</p></li>
+              <li><p>H br</p></li>
+              <li><p>H da</p></li>
+              <li><p>br G</p></li>
+              <li><p>br F</p></li>
+              <li><p>da H</p></li>
+              <li><em>... did I repeat? Am I missing any?</em></li>
+            </ol>
+
+            <tabular top="minor" left="minor" right="minor">
+              <row><cell>F</cell><cell>br</cell></row>
+              <row><cell>F</cell><cell>da</cell></row>
+              <row bottom="minor"><cell>F</cell><cell>ch</cell></row>
+              <row><cell>G</cell><cell>br</cell></row>
+              <row><cell>G</cell><cell>da</cell></row>
+              <row bottom="minor"><cell>G</cell><cell>ch</cell></row>
+              <row><cell>H</cell><cell>br</cell></row>
+              <row><cell>H</cell><cell>da</cell></row>
+              <row bottom="minor"><cell>H</cell><cell>ch</cell></row>
+            </tabular>
+
+            <tabular top="minor" left="minor" right="minor">
+              <row><cell></cell><cell>br</cell></row>
+              <row><cell>F</cell><cell>ch</cell></row>
+              <row bottom="minor"><cell></cell><cell>da</cell></row>
+              <row><cell></cell><cell>br</cell></row>
+              <row><cell>G</cell><cell>ch</cell></row>
+              <row bottom="minor"><cell></cell><cell>da</cell></row>
+              <row><cell></cell><cell>br</cell></row>
+              <row><cell>H</cell><cell>ch</cell></row>
+              <row bottom="minor"><cell></cell><cell>da</cell></row>
+            </tabular>
+
+            <tabular top="minor" left="minor" right="minor">
+              <row bottom="minor">
+                <cell right="minor">F br</cell>
+                <cell right="minor">F ch</cell>
+                <cell right="minor">F da</cell>
+              </row>
+              <row bottom="minor">
+                <cell right="minor">G br</cell>
+                <cell right="minor">G ch</cell>
+                <cell right="minor">G da</cell>
+              </row>
+              <row bottom="minor">
+                <cell right="minor">H br</cell>
+                <cell right="minor">H ch</cell>
+                <cell right="minor">H da</cell>
+              </row>
+            </tabular>
+
+          </sidebyside>
+
+          
+        <sidebyside widths="60% 20%" margins="0% 5%" valign="middle">
+          <tabular top="minor" left="minor" right="minor">
+            <row bottom="minor">
+              <cell right="minor">Fox</cell>
+              <cell right="minor">Gato</cell>
+              <cell right="minor">Human</cell>
+            </row>
+            <row bottom="minor">
+              <cell right="minor">3 gift options</cell>
+              <cell right="minor">3 gift options</cell>
+              <cell right="minor">3 gift options</cell>
+            </row>
+          </tabular>
+
+          
+          <image source="diaMuertos-blankGrid3x3.png">
+            <shortdescription>A blank 3x3 grid.</shortdescription>
+          </image>
+
+        </sidebyside>
+
+        <sidebyside widths="60% 30%" margins="0% 5%" valign="middle">
+          <image source="diaMuertos-pickFaceGift-treeLabeled.png" width="60%">
+            <shortdescription>A labeled tree diagram: a "start" node branches into 3 nodes (labeled "pick the face"), and each of those branches into 3 more nodes (labeled "pick the gift"), for 9 leaves total.</shortdescription>
+          </image>
+
+          <image source="diaMuertos-pickFaceGift-tree.png" width="30%">
+            <shortdescription>A tree diagram: a start node branches into 3 nodes (pick the face), and each of those branches into 3 more nodes (pick the gift), for 9 leaves total.</shortdescription>
+          </image>
+
+
+        </sidebyside>
+
+          <image source="diaMuertos-pickFaceGift-3x3.png" width="35%">
+            <shortdescription>A box diagram showing 3 x 3 = 9, labeled "pick the face" under the first 3 and "pick the gift" under the second 3.</shortdescription>
+          </image>
+
+          <p>It's also possible that a student does not writenor draw anything, but uses and manipulates the tiles, convincing other students that the answer is 9, no more, and no less!</p>
+
+        </paragraphs>
+
+        </introduction>
+
+        <!-- Worksheet -->
+        <xi:include href="./diaMuertos-ws-fiestaDeMusicos.ptx"/>
+
+
+      </section>
+
+      <section xml:id="sec-how-many">
+        <title>How Many? (15 min)</title>
+        <introduction>
+          <paragraphs>
+            <title>Checklist</title>
+            <ul>
+              <li><p>Keep reasoning about counting. Use lists, diagrams, expressions.</p></li>
+              <li><p>Count how many músicos are there, and why.</p></li>
+              <li><p>Ask students to apply the result, changing parameters.</p></li>
+            </ul>
+          </paragraphs>
+
+        <p>Now students work to count all possible músicos. They will realize that doing lists or tables can take too long. Encourage them to reason using trees. In ii), they created smaller trees. Build on them!</p>
+
+        <p>The tree is huge as well, but it is a great way to visualize how the options triplicate, and students should build it and label the main things (but not all 81 final nodes). Have the kids use the large whiteboards to draw the tree, without labeling all the options, but they should know what each branch corresponds to. For example, you may assemble a particular músico with the tiles, and ask students were in the tree is that músico. Or, the other way around. Also, connect with multiplication expressions (labeled!) such as:</p>
+
+        <tabular>
+          <row>
+            <cell>pick face</cell>
+            <cell>pick head</cell>
+            <cell>pick gift</cell>
+            <cell>pick # of jaranas</cell>
+            <cell>TOTAL</cell>
+          </row>
+          <row>
+            <cell><m>3</m></cell>
+            <cell><m>\times\ 3</m></cell>
+            <cell><m>\times\ 3</m></cell>
+            <cell><m>\times\ 3</m></cell>
+            <cell><m>= 81</m></cell>
+          </row>
+        </tabular>
+
+      <image width="70%">
+        <latex-image>
+          <xi:include parse="text" href="tikz/diaMuertos-tree.tex"/>
+        </latex-image>
+        <shortdescription>The same 81-músico tree drawn left-to-right instead of top-down: a boxed root labeled "No choice yet!" branches into 3 at each of 4 levels (3x3x3x3), ending in 81 leaf dots stacked vertically.</shortdescription>
+      </image>  
+
+
+
+        <paragraphs>
+          <title>Thinking Questions</title>
+          <ul>
+            <li><p>Why do you think that a tree is a good way to represent options?</p></li>
+            <li><p>Would a <m>9\times9</m> table help us represent all 81 músicos? What would that look like?</p></li>
+            <li><p>Does the order of choosing aspects matter when building the tree?</p></li>
+            <li><p>Where can we see all the Gatos in the tree? How about all the Foxes with bread?</p></li>
+            <li><p>If we added a new choice (say <q>hat or no hat</q>), how would we change the tree? What would be the new number of músicos?</p></li>
+            <li><p>What if we added 1 extra option for gift? Without counting, can you figure out the percent increase of the # of músicos? What would the new tree look like?</p></li>
+          </ul>
+        </paragraphs>
+
+        <paragraphs>
+          <title>Teaching Tips Video</title>
+          <p><video youtube="3GtE1Pc6-y4" width="100%"/></p>
+        </paragraphs>
+
+
+        </introduction>
+
+        <!-- worksheet -->
+        <xi:include href="./diaMuertos-ws-fullFiesta.ptx"/>
+
+
+
+
+      </section>
+    </chapter>
+
+    <chapter xml:id="chap-more-counting">
+      <title>More Counting (20 min)</title>
+      <introduction>
+        <p>In this activity, we will focus on reasoning about counting, using mostly trees and multiplication expressions (but you may also use tables, lists, and manipulatives from before). Students will solidify their understanding of the multiplication principle, and use it flexibly in new situations. They will also have the chance to create and model counting situations.</p>
+
+        <paragraphs>
+          <title>Breakdown</title>
+          <p>
+          <dl>
+            <li>
+              <title><xref ref="sec-reasonings" text="type-global"/></title>
+              <p><xref ref="sec-reasonings" text="title"/></p>
+              <p>Students analyze correct and incorrect solutions.</p>
+            </li>
+            <li>
+              <title><xref ref="sec-rooms" text="type-global"/></title>
+              <p><xref ref="sec-rooms" text="title"/></p>
+              <p>Create groups corresponding to specific sets of músicos, and find their size.</p>
+            </li>
+          </dl>
+          </p>
+        </paragraphs>
+
+        <objectives>
+          <ul>
+            <li><p>Use different ways to represent or describe the same combinatorial object.</p></li>
+            <li><p>Given a building rule with independent choices, deduce how many objects we can build, and represent this with tables, lists, trees, and expressions.</p></li>
+            <li><p>Create and solve counting problems that use the multiplication principle in different ways, as well as complement principles (<q>counting the size of the complement of the set you want to count</q>).</p></li>
+          </ul>
+        </objectives>
+
+        <paragraphs>
+          <title>Materials</title>
+          <ul>
+            <li><p>Student Workbook (<url href="https://mathceo-uci.github.io/diaMuertos-sw.pdf">pdf</url> / <url href="https://mathceo-uci.github.io/diaMuertos-workbook">web</url>)</p></li>
+            <li><p>Mini-whiteboards</p></li>
+            <li><p>Pens</p></li>
+            <li><p>Attribute tiles (<url href="external/diaMuertos-blm-tiles.pdf">pdf</url>): 4 packs, each pack has 12 attributes</p></li>
+            <li><p>81 cards of SET (<url href="external/diaMuertos-blm-cards.pdf">pdf</url>)</p></li>
+          </ul>
+        </paragraphs>
+      </introduction>
+
+      <section xml:id="sec-reasonings">
+        <title>Reasonings (10 min)</title>
+        <introduction>
+          <paragraphs>
+            <title>Checklist</title>
+            <ul>
+              <li><p>Great way to test for understanding about counting.</p></li>
+              <li><p>Can move fast if students seem to understand things well.</p></li>
+            </ul>
+          </paragraphs>
+
+        <p>Move to the Student Workbook page for <xref ref="diaMuertos-ws-reasonings" text="type-global-title"/> and work together in each case. You can make this like a friendly competition, but give thinking time to students. Students may be eager to correct the students pictured in the SW, as well as their peers. The teacher can also role-play being one of the pictured students, and offer flawed or incomplete reasonings, so that students can correct them.</p>
+
+        <p>The main goal of this activity is to assess what students learned so far, and address misconceptions about counting. Be ready to have daily life counting situations that you can use to illustrate the concepts, and see if students can come up with their own.</p>
+
+        <p>It is ok to do just 2 or 3 of the situations, depending on where your students are at, as well as the time. You may also start with any situation you like. In <xref ref="sec-rooms" text="type-title"/>, you will have more chances to correct misconceptions, and offer help into reasoning.</p>
+
+        <note>
+          <title>Allow students to participate in deciding how to shape this activity flexibly (Voice)</title>
+          <p>This activity allows you to practice our Voice principle, as you are looking at the needs of your students:</p>
+          <ol>
+            <li><title>What if there are new students that did not participate in the previous activities?</title> 
+              <p>You can decide to count the 81 músicos again, but led by some students.</p>
+            </li>
+            <li><title>What if you feel that most students are very solid and won't benefit from these case studies?</title> <p>You can move on to <xref ref="sec-rooms" text="type-global"/>, but keep these cases in mind to support the few students who struggle (by a short, 5 min, individual teaching).</p></li>
+            <li><title>What if students want to create a similar situation?</title> <p>You can encourage them to do so and discuss the mathematical principles involved.</p></li>
+          </ol>
+        </note>
+
+        <paragraphs>
+          <title>Video with teaching tips and suggestions</title>
+            <p><video youtube="A37zmSYff3o" width="80%"/></p>
+        </paragraphs>
+
+        </introduction>
+
+        <!-- worksheet -->
+        <xi:include href="./diaMuertos-ws-reasonings.ptx"/>
+      </section>
+
+      <section xml:id="sec-rooms">
+        <title>Rooms (10 min)</title>
+        <introduction>
+          <p>This is an optional activity in which students work in groups to think of ways to restrict the universe of músicos to smaller sets. This involves considering different criteria and properties for selecting musicians and then making sense on what the new set looks like, how to visualize it, and what's its size. Students are also encouraged to create mathematical questions that they can answer using counting. The final task involves more creativity, as students are asked to come up with well-defined properties themselves.</p>
+          <paragraphs>
+            <title>Video with teaching tips and suggestions</title>
+            <p><video youtube="R0txwBlDVtE" width="80%"/></p>
+          </paragraphs>
+        </introduction>
+
+        <!-- worksheet -->
+        <xi:include href="./diaMuertos-ws-rooms.ptx"/>
+      </section>
+    </chapter>
+
+    <chapter xml:id="chap-sets-among-us">
+      <title>Sets Among Us (15 min)</title>
+      <introduction>
+        <assemblage component="TODO">
+          <title>Which time is right?</title>
+          <p>EAJ: 4June2026</p>
+          <p>The tg overview (slide 3 says) says this is  <alert>20 min</alert>, but the Part 4 intro slide in the tg (slide 35) says <alert>15 min</alert>. Confirm the correct duration and fix it here (the title propagates to the Overview via <c>xref</c>).</p>
+        </assemblage>
+        <p>This is a warm up to <xref ref="chap-game-of-set"/>, and a nice way in which students can keep sharing their identities in a playful way, while reasoning about categories.</p>
+
+        <paragraphs>
+          <title>Breakdown</title>
+          <p>
+          <dl>
+            <li>
+              <title><xref ref="sec-sets-introduction" text="type-global"/></title>
+              <p><xref ref="sec-sets-introduction" text="title"/></p>
+              <p>Led with slides. Explain the general purpose and introduce useful vocabulary.</p>
+            </li>
+            <li>
+              <title><xref provisional="sec-sets-challenges" text="type-global-title"/></title>
+              <!-- <title>Challenges (10 min)</title> -->
+              <p>Students work in the challenges together.</p>
+            </li>
+          </dl>
+          </p>
+        </paragraphs>
+
+        <assemblage component="TODO">
+          <title>EAJ: challenges section</title>
+          <p>There is no "Challenges" (ii) section in the TG slides. Maybe the ws in <xref ref="sec-sets-introduction"/> is really the two ws, and it has to be split up?</p>
+        </assemblage>
+
+        <objectives>
+          <ul>
+            <li><p>Understand the general principles of the game of SET (that will be played in <xref ref="chap-game-of-set"/>).</p></li>
+            <li><p>Develop logical reasoning through discussion about traits.</p></li>
+            <li><p>Make students aware of diversity in traits, and how to share them.</p></li>
+          </ul>
+        </objectives>
+
+        <paragraphs>
+          <title>Materials</title>
+          <ul>
+            <li><p>Student Workbook (<url href="https://mathceo-uci.github.io/diaMuertos-sw.pdf">pdf</url> / <url href="https://mathceo-uci.github.io/diaMuertos-workbook">web</url>)</p></li>
+            <li><p>Mini-whiteboards</p></li>
+            <li><p>Pens</p></li>
+            <li><p>Index Cards</p></li>
+          </ul>
+        </paragraphs>
+
+        <assemblage component="TODO">
+          <title>EAJ: goals placement?</title>
+          <p>The following Math Goals and Enrichment Goals appear in the TG slides (p. 34) between Parts 3 and 4. They seem like they belong in the module introduction (preface-intro-instructor), not in a chapter intro. Consider moving them there.</p>
+          <p>
+            Maybe this is two modules merged into one, and this is the start of the second module? If so, revise the decision before making edits. If it should stay as a single module, then I think these new objectives should get folded into the module introduction.
+          </p>
+        </assemblage>
+
+        <objectives>
+          <title>Math</title>
+          <ul>
+            <li>
+              <p>Logic</p>
+              <ul>
+                <li>We will use logic to see which things are possible, and count how many.</li>
+                <li>We will deduce when building some combination of things is impossible, by using reasoning by contradiction.</li>
+              </ul>
+            </li>
+            <li>
+              <p>Counting</p>
+              <ul>
+                <li>Given a building rule with independent choices, we will deduce how many objects we can build, and represent this with tables, lists, trees, and expressions.</li>
+                <li>Given a building rule with independent choices, plus extra restrictions or partial information, we will count how many objects we can build.</li>
+                <li>We will generalize counting situations by extending the number of options in one aspect, or the number of aspects. We will use general diagrams or expressions.</li>
+              </ul>
+            </li>
+          </ul>
+        </objectives>
+
+        <objectives>
+          <title>Enrichment</title>
+          <dl>
+            <li>
+              <title>Appreciate</title>
+              <p>We will appreciate the relationships that we have built with each other during Math CEO so far.</p>
+            </li>
+            <li>
+              <title>Disrupt</title>
+              <p>We will disrupt narratives about small representation in creative and academic roles and jobs such as education, science, arts, etc.</p>
+            </li>
+            <li>
+              <title>Resist</title>
+              <p>We will resist damaging biases that we or others have towards certain groups of people, and learn about how we can recognize them.</p>
+            </li>
+            <li>
+              <title>Frame</title>
+              <p>We will frame systemic or general changes that would be needed to promote more representations and diversity in different fields in life.</p>
+            </li>
+          </dl>
+        </objectives>
+      </introduction>
+
+      <section xml:id="sec-sets-introduction">
+        <title>Sets of People (15 min)</title>
+        <introduction>
+          <paragraphs>
+            <title>Checklist</title>
+            <ul>
+              <li><p>Use people's traits to create special SETS of three people.</p></li>
+              <li><p>Present the mathematical properties for the game of SET (to be played later on).</p></li>
+              <li><p>Introduce useful vocabulary.</p></li>
+            </ul>
+          </paragraphs>
+
+        <p>Present the key aspects for playing the game of SET with people's traits. In particular:
+          <ul>
+            <li><p>introduce what an aspect (trait, feature) is, giving examples.</p></li>
+            <li><p>talk about the values or options for that trait</p></li>
+            <li><p>describe what non-binary aspects are (those with more than 2 values, such as <q>eye color</q>, as opposed to <q>has been to Africa</q>.)</p></li>
+            <li><p>define a SET of people (in the case of 1 trait only).</p></li>
+          </ul>
+        </p>
+
+        <p>Launch Challenge #1 (a warm-up), and give groups a few minutes to do it.</p>
+
+        <p>In Challenge #1, students choose a non-binary aspect, then select 2 random people A, B, and these people will describe their value of that aspect. The group then looks for a third person C, that would complete the set. You can repeat this with a different aspect if you have time.</p>
+
+        <p>If there is time, close this part with a visualization of SETS in 2 dimensions (for just 2 aspects), using a <q>discrete square</q>, and then have the groups move on to Challenge #2.</p>
+
+        <p>In Challenge #2, students explore a more complex scenario: now there are three aspects at the same time, and they have to select three people A, B, C, such that for each aspect, people’s values are all equal, or all different. In other words, for each aspect, the three people must either have the same value or all different values.</p>
+
+        <note>
+          <title>What are we looking for in this activity?</title>
+          <ul>
+            <li><p>That we can bond with students, using their cultures and identities as material to do math!</p></li>
+            <li><p>That students understand the general principle behind SET, regardless of the number of aspects.</p></li>
+            <li><p>That we slowly open the door to a discussion about <q>dominant culture</q>, <q>imbalance</q>, <q>homogenization</q>, and <q>diversity</q>.</p></li>
+            <li><p>That students realize that, even with the rules limitations, it is possible to create SETS, and quite a lot of them!</p></li>
+          </ul>
+        </note>
+
+        </introduction>
+
+        <!-- worksheet -->
+        <xi:include href="./diaMuertos-ws-setsAmongUs.ptx"/>
+      </section>
+    </chapter>
+
+    <chapter xml:id="chap-game-of-set">
+      <title>The Game of SET (25 min)</title>
+      <introduction>
+        <p>In this activity, you will explore the combinatorial game of SET (in a <q>Día de Muertos</q> themed version) and answer different questions that involve logical reasoning, counting, and looking for specific configurations of sets of 3 friends called TRI's.</p>
+
+        <paragraphs>
+          <title>Breakdown</title>
+          <p>
+          <dl>
+            <li>
+              <title><xref ref="sec-tris" text="type-global"/></title>
+              <p><xref ref="sec-tris" text="title"/></p>
+              <p>Tri's are introduced, as well as the rules of SET. Make this part interactive, balancing between explaining and asking questions.</p>
+            </li>
+            <li>
+              <title><xref ref="sec-lets-play" text="type-global"/></title>
+              <p><xref ref="sec-lets-play" text="title"/></p>
+              <p>Play the game of SET. Between rounds, you can pose math challenges.</p>
+            </li>
+            <li>
+              <title><xref ref="sec-plaza-magica" text="type-global"/></title>
+              <p><xref ref="sec-plaza-magica" text="title"/></p>
+              <p>Create groups corresponding to specific sets of músicos, and find their size.</p>
+            </li>
+          </dl>
+          </p>
+        </paragraphs>
+
+        <objectives>
+          <ul>
+            <li><p>Given a combinatorial definition of what constitutes as a valid set of things, decide whether a given set is valid or not, and justify why.</p></li>
+            <li><p>Represent combinatorial objects using pictures, tables, codes or descriptions in words.</p></li>
+            <li><p>Given a combinatorial definition of what constitutes as a valid set of things, count how many sets can be built, using addition of multiplication, and representing using an expression.</p></li>
+            <li><p>Reason using cases and using the method of contradiction (informally).</p></li>
+          </ul>
+        </objectives>
+
+        <paragraphs>
+          <title>Materials</title>
+          <ul>
+            <li><p>Student Workbook (<url href="https://mathceo-uci.github.io/diaMuertos-sw.pdf">pdf</url> / <url href="https://mathceo-uci.github.io/diaMuertos-workbook">web</url>)</p></li>
+            <li><p>Mini-whiteboards</p></li>
+            <li><p>81 cards of SET (<url href="external/diaMuertos-blm-cards.pdf">pdf</url>)</p></li>
+            <li><p>Attribute tiles (<url href="external/diaMuertos-blm-tiles.pdf">pdf</url>): 4 packs, each pack has 12 attributes</p></li>
+          </ul>
+        </paragraphs>
+      </introduction>
+
+      <section xml:id="sec-tris">
+        <title>Tri's (5 min)</title>
+        <introduction>
+          <paragraphs>
+            <title>Checklist</title>
+            <ul>
+              <li><p>Explain the rules of the game.</p></li>
+              <li><p>Look for efficiency in the explanation.</p></li>
+            </ul>
+          </paragraphs>
+        <p>Explain the game of TRI, and play a sample round. Use the example in the Student Workbook page for <xref ref="diaMuertos-ws-tris" text="type-global-title"/> to support you in helping students understand how the game works. Don't spend too much time repeating the rules in abstract, as this may not be effective. Rather, use simple language, different examples, and the check table provided.</p>
+
+        <p>Make sure that students understand the following:
+          <ul>
+            <li><p>In a SET, no 2 cards can be totally equal.</p></li>
+            <li><p>If at least 1 aspect <q>fails</q> (exactly 2 equal values), then one can conclude that the 3 músicos do NOT form a SET.</p></li>
+          </ul>
+        </p>
+
+        </introduction>
+
+        <!-- worksheet -->
+        <xi:include href="./diaMuertos-ws-tris.ptx"/>
+      </section>
+
+      <section xml:id="sec-lets-play">
+        <title>Let's Play! (10 min)</title>
+        <introduction>
+          <paragraphs>
+            <title>Checklist</title>
+            <ul>
+              <li><p>Play several rounds.</p></li>
+              <li><p>Play only 10 minutes, to save time for <xref ref="sec-plaza-magica"/>.</p></li>
+            </ul>
+          </paragraphs>
+
+          <p>
+          During a round, lay out 9 cards randomly at the center of the table for all to see. Students silently look for a TRI, and whoever spots one says <q>TRI!</q> or <q>SET!</q>. 3 new cards are placed. Play at least 4 “fast” rounds. However, to make the game more friendly and varied, you can try different variations in each round.
+          </p>
+          <p>For example:
+            <ol>
+              <li>
+                <title>Round 1: Volleyball-style (cooperative sequence)</title>
+                <p>
+                  Give 30 seconds of silent thinking. Then a student that found a set only points at 1 card. Another student points at another card, and a third student tries to guess the set. This feels collaborative.
+                </p>
+              </li>
+              <li>
+                <title>Round 2: I wish for a<ellipsis/></title>
+                <p>
+                  Start with only 2 cards shown. Slowly, put a new card
+            and ask: do we have a TRI now, or which card are we
+            wishing for? Do this until someone finds a TRI!
+                </p>
+              </li>
+              <li>
+                <title>Round 3: TRI your luck!</title>
+                <p>
+                  Display the 9 cards, but 2 of them are hidden. Students need to make a TRI that involves at least 1 hidden card! (the student picks 2 visible cards, then the 2 hidden are shown, and the student tries to make a TRI out of the 4 cards). This involves luck, and tension! You can discuss probabilities a bit, also!
+                </p>
+              </li>
+            </ol>
+          </p>
+
+          <paragraphs>
+          <title>Video with teaching tips and suggestions</title>
+            <p><video youtube="oDQQM95D_-4" width="80%"/></p>
+          </paragraphs>
+        </introduction>
+      </section>
+
+      <section xml:id="sec-plaza-magica">
+        <title>Plaza Mágica (20 min)</title>
+        <introduction>
+          <paragraphs>
+            <title>Checklist</title>
+            <ul>
+              <li><p>Think about systems where many TRI's happen at the same time.</p></li>
+              <li><p>Find solutions to a system using logical reasoning.</p></li>
+            </ul>
+          </paragraphs>
+
+        <p>This activity goes beyond finding a single TRI, and helps students practice fluency with the ideas of TRI's. It introduces a <m>3 \times 3</m> board in which, after placing músicos, every row, column, and diagonal must form a TRI. When this happens, we call the board a <alert>Plaza Mágica</alert>.</p>
+        <p>The first task is about completing a partially filled board to create a Plaza Mágica.</p>
+        <p>The next task helps students realize that a Plaza Mágica has 8 TRI's at the very least. They can use the previous task as guide.</p>
+        <p>The next task involves a more general setting about placing 3 músicos anywhere in the <m>3 \times 3</m> board and generating a Plaza Mágica.</p>
+        <p>The last task is a fun puzzle: try to make a Plaza Mágica out of 9 random músicos using careful placement.</p>
+        </introduction>
+
+        <!-- worksheet -->
+        <xi:include href="./diaMuertos-ws-plazaMagica.ptx"/>
+      </section>
+
+    </chapter>
+
+    <chapter xml:id="chap-resources">
+      <title>More Resources</title>
+      <p>Here are further valuable resources connected to the topic:
+        <ul>
+          <li>
+            <p><url href="https://en.wikipedia.org/wiki/Day_of_the_Dead">Day of the Dead</url></p>
+          </li>
+          <li>
+            <p><url href="https://lolomercadito.com/blogs/news/celebrating-dia-de-muertos-a-reflection-on-cultural-respect">Celebrating Día De Muertos: A Reflection On Cultural Respect</url></p>
+          </li>
+        </ul>
+      </p>
+    </chapter>
+
+    <backmatter xml:id="backmatter">
+      <title>Backmatter</title>
+
+      <appendix xml:id="appendix-image-attributions">
+        <title>Image Attributions</title>
+        <p>The following images are used in this module. Where known, source, author, and license information is provided.</p>
+        <assemblage component="TODO">
+          <title>PENDING: image attributions</title>
+          <p>This appendix is not done — it has no entries yet. Build it to match the Hawaii or Los 4 Amigos <c>appendix-image-attributions</c> (see <c>hawaii-tg.ptx</c>/<c>hawaii-sw.ptx</c> and <c>cuatroAmigos-tg.ptx</c>/<c>cuatroAmigos-sw.ptx</c>) in both structure and style: one xref-led <c>&lt;li&gt;</c> per image, in order of appearance, each credited by its licence tier — TASL (title linked to source, author, licence) for CC-licensed images; title plus <q>Public domain</q> for public-domain/CC0; <q>Image generated with Google Gemini, 2026.</q> for AI images. List every module image with its source, author, and licence.</p>
+        </assemblage>
+      </appendix>
+
+      <xi:include href="./colophon.ptx"/>
+
+    </backmatter>
+  </book>
+</pretext>

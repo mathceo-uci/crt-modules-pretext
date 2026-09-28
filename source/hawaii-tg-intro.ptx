@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preface xml:id="preface-intro-instructor" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Module introduction</title>
+
+  <image source="hawaii-title-photo.png" width="100%">
+    <shortdescription>A painting of Waikiki Beach: coconut palms and an outrigger canoe on the sand, gentle surf, and the Diamond Head crater glowing in the distance under a blue sky.</shortdescription>
+  </image>
+
+  <p> In this session, we travel to Hawaii and learn about Hawaiian culture. In particular, we will learn about traditional Hawaiian measures (and their motivation). These are defined from distances between points on the body while doing certain poses.</p>
+
+  <p> These measures are non-standard, as they vary from person to person. We will convert between these measures using ratios and constants of proportionality. </p>
+
+  <p> We want to explore how different cultures have embedded different informal ways to do mathematics, and that this should be appreciated. In particular, we will be valuing mathematics as a cultural practice that depends on historical developments, and that can bear relations with our current practices. </p>
+
+  <p> We also want to show that <q>we can do mathematics with our bodies!</q>. We will connect this to visual diagrams and equations. </p>
+
+  <paragraphs>
+    <title>Overview</title>
+    <ol>
+      <li>
+        <title><xref ref="chap-hawaiian-measures" text="title"/></title>
+        <p>
+          We will learn about how Hawaiian people used to measure with their bodies, explore how they relate, and create a table of equivalencies. We will also discuss advantages and disadvantages of these measures.
+        </p>
+      </li>
+      <li>
+        <title><xref ref="chap-equivalencies" text="title"/></title>
+        <p>
+          This is a follow up, in which we build a conversion table, analyze it, and discuss general patterns and regularities. We also find new body measurements!
+        </p>
+      </li>
+      <li>
+        <title><xref ref="chap-wrapUp" text="title"/></title>
+        <p>
+          We will reflect on the cultural and historical context of these measures, and how they relate to our current practices.
+        </p>
+      </li>
+    </ol>
+
+  </paragraphs>
+
+  <objectives>
+    <title>Math</title>
+    <ul>
+      <li>
+        <p> Units of length, proportional reasoning</p>
+        <ul>
+          <li>
+            We will relate units of length with linear measures of objects in the real world, including our bodies and things we see.
+          </li>
+          <li>
+            We will use physical objects, visual aids, and equations to make conversions between units of length, and record them in systematic ways.
+            </li>
+          <li>
+              We will create conversion tables between various units of measurement, and find patterns and regularities in the table.
+              </li>
+          <li>
+              We will discuss the advantages and disadvantages of non-standard units of length.
+          </li>
+          <li>
+                We will create non-standard units of length from our body and relate them to other units, writing ratios and equations.
+          </li>
+
+          </ul>
+      </li>
+      <li>
+        <p>
+          Data exploration
+      </p>
+        <ul>
+          <li>
+            We will use dot plots to make sense of variation, center, and outliers in numerical data.
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </objectives>
+
+  <objectives>
+    <title>Enrichment</title>
+    <dl>
+      <li>
+        <title>Appreciate</title>
+        <p>
+          We will appreciate the ways of measuring in the Hawaiian culture, understand its importance, and compare to the ways that other cultures do this.
+        </p>
+      </li>
+      <li>
+        <title>Empower</title>
+        <p>
+          We will empower everyone to use their bodies in positive, affirming ways, as a legitimate, mathematical tool. We can do math with our bodies!
+        </p>
+      </li>
+      <li>
+        <title>Reflect</title>
+        <p>
+          We will reflect about how sometimes is useful to use body units of measurement, while also understand their limitations.
+        </p>
+      </li>
+    </dl>
+  </objectives>
+  <paragraphs xml:id="para-cultural-appropriation">
+        <title>On Cultural Appropriation</title>
+        <p>
+        When working with cultures distinct from our own, it is fundamental to approach the culture with an awareness of its purpose. We must ask ourselves: why are we utilizing this information? What are our goals with this lesson, and how does the inclusion of this culture enrich those outcomes?
+      </p>
+      <p>
+        This activity should be approached with the goal of students learning about and appreciating a culture different from theirs. We encourage you to have conversations with students about different ways of life and perspectives of the world.
+      </p>
+      <p>
+        The conversations around environmentalism in this lesson are especially important as they highlight a critical issue in the Hawaiian community: respecting the natural environment and allowing natives to have autonomy over the land. Students must understand the context of how native Hawaiians interacted with their world and the significance of their beliefs about preservation and respect.
+      </p>
+      <p>
+        Certain aspects of Hawaiian culture can be difficult to research, as much knowledge has been lost over time. We sought sources of information that come directly from native peoples and that accurately reflect their knowledge. We encourage you to do further research about the native Hawaiian peoples and inform yourself about the issues occurring in their communities.
+      </p>
+      <image source="hawaii-coast.jpg" width="65%">
+        <shortdescription>Aerial view of a Hawaiian coastline with lush green cliffs, turquoise water, and a sandy beach.</shortdescription>
+      </image>
+    </paragraphs>
+</preface>

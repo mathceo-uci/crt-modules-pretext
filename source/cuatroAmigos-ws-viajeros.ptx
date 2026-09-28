@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="cuatroAmigos-ws-viajeros">
+  <title>Viajeros (travelers)</title>
+
+  <page>
+    <image source="cuatroAmigos-viajeros-train.jpg" width="100%" decorative="yes">
+    </image>
+    
+    <sidebyside widths="63% 35%" valign="top" margins="0% 0%">
+      <stack>
+        <p>Rachelle, Thomas, Josefa and Ahtziri will go to different places to visit their friends.</p>
+        
+        <p>Each will use a different transportation: Train, Car, Ship, or Plane.</p>
+      </stack>
+      <tabular>
+        <row bottom="minor" header="yes"><cell>transportation</cell><cell>fee</cell></row>
+        <row><cell>CA (car)</cell><cell>$120</cell></row>
+        <row><cell>TR (train)</cell><cell>$80</cell></row>
+        <row><cell>SH (ship)</cell><cell>$160</cell></row>
+        <row><cell>PL (plane)</cell><cell>$250</cell></row>
+      </tabular>
+    </sidebyside>
+    <ul>
+      <li><p>Rachelle almost never flies, so she won't use a plane.</p></li>
+      <li><p>Thomas will go by land.</p></li>
+      <li><p>Someone will pay more than Josefa, but less than Ahtziri.</p></li>
+    </ul>
+    <exercise xml:id="ex-viajeros-puzzle">
+      <statement>
+        <p>How did they each travel? Do we need more clues to find out?</p>
+
+        <p>Use the table to help you keep track! (It has been started for you.)</p>
+
+        <tabular>
+          <row bottom="minor" header="yes"><cell>Friend</cell><cell>my deductions / possibilities</cell><cell>The Transportation is…</cell></row>
+          <row><cell>Rachelle</cell><cell>No PL. So: TR or CA or SH</cell><cell></cell></row>
+          <row><cell>Thomas</cell><cell>By land. So: TR or CA</cell><cell></cell></row>
+          <row><cell>Josefa</cell><cell></cell><cell></cell></row>
+          <row><cell>Ahtziri</cell><cell></cell><cell></cell></row>
+        </tabular>
+      </statement>
+      <solution>
+        <p>Clues:</p>
+        <ul>
+          <li><p>Rachelle almost never flies, so she won't use a plane.</p></li>
+          <li><p>Thomas will travel by land.</p></li>
+          <li><p>Someone will pay more than Josefa, but less than Ahtziri.</p></li>
+        </ul>
+
+        <p>From the first two clues, we advance our knowledge:</p>
+        <tabular>
+          <row bottom="minor" header="yes"><cell>Person</cell><cell>my deductions / possibilities</cell><cell>Transportation is…</cell></row>
+          <row><cell>Josefa</cell><cell></cell><cell></cell></row>
+          <row><cell>Thomas</cell><cell>By land. So: TR or CA</cell><cell></cell></row>
+          <row><cell>Rachelle</cell><cell>No PL. So: TR or CA or SH</cell><cell></cell></row>
+          <row><cell>Ahtziri</cell><cell></cell><cell></cell></row>
+        </tabular>
+
+        <p>The third clue is the most interesting. Remembering the ordering costs (TR &lt; CA &lt; SH &lt; PL), we rule out Ahtziri using TR &amp; CA, and Josefa using SH &amp; PL:</p>
+        <image source="cuatroAmigos-viajeros-ordering.png" width="30%">
+          <shortdescription>A number line of the four fares in increasing order — TR, CA, SH, PL — with a brace showing Josefa can only be among the lower fares (TR, CA) and a brace showing Ahtziri can only be among the higher fares (SH, PL).</shortdescription>
+        </image>
+        <tabular>
+          <row bottom="minor" header="yes"><cell>Person</cell><cell>my deductions / possibilities</cell><cell>Transportation is…</cell></row>
+          <row><cell>Josefa</cell><cell><em>No SH &amp; No PL</em></cell><cell></cell></row>
+          <row><cell>Thomas</cell><cell>By land. So: TR or CA</cell><cell></cell></row>
+          <row><cell>Rachelle</cell><cell>No PL. So: TR or CA or SH</cell><cell></cell></row>
+          <row><cell>Ahtziri</cell><cell><em>No TR &amp; No CA</em></cell><cell></cell></row>
+        </tabular>
+
+        <p>We see that Josefa, Thomas, and Rachelle don't use PL. So, Ahtziri must use PL.</p>
+        <tabular>
+          <col/>
+          <col halign="center"/>
+          <col halign="center"/>
+          <col halign="center"/>
+          <col halign="center"/>
+          <row bottom="minor" header="yes"><cell></cell><cell>TR</cell><cell>CA</cell><cell>SH</cell><cell>PL</cell></row>
+          <row><cell>Josefa</cell><cell></cell><cell></cell><cell>x</cell><cell>x</cell></row>
+          <row><cell>Thomas</cell><cell></cell><cell></cell><cell>x</cell><cell>x</cell></row>
+          <row><cell>Rachelle</cell><cell></cell><cell></cell><cell></cell><cell>x</cell></row>
+          <row><cell>Ahtziri</cell><cell>x</cell><cell>x</cell><cell>x</cell><cell><m>\checkmark</m></cell></row>
+        </tabular>
+
+        <p>Also, Josefa, Thomas and Ahtziri don't use SH, so Rachelle must.</p>
+        <tabular>
+          <col/>
+          <col halign="center"/>
+          <col halign="center"/>
+          <col halign="center"/>
+          <col halign="center"/>
+          <row bottom="minor" header="yes"><cell></cell><cell>TR</cell><cell>CA</cell><cell>SH</cell><cell>PL</cell></row>
+          <row><cell>Josefa</cell><cell></cell><cell></cell><cell>x</cell><cell>x</cell></row>
+          <row><cell>Thomas</cell><cell></cell><cell></cell><cell>x</cell><cell>x</cell></row>
+          <row><cell>Rachelle</cell><cell>x</cell><cell>x</cell><cell><m>\checkmark</m></cell><cell>x</cell></row>
+          <row><cell>Ahtziri</cell><cell>x</cell><cell>x</cell><cell>x</cell><cell><m>\checkmark</m></cell></row>
+        </tabular>
+
+        <p>There's nothing else we can say. There are two possible worlds that fit the clues. Here they are:</p>
+        <sidebyside widths="30% 5% 30%" margins="5% 5%" valign="middle">
+          <tabular>
+            <row><cell>Josefa</cell><cell>TR</cell></row>
+            <row><cell>Thomas</cell><cell>CA</cell></row>
+            <row><cell>Rachelle</cell><cell>SH</cell></row>
+            <row><cell>Ahtziri</cell><cell>PL</cell></row>
+          </tabular>
+          <p>and</p>
+          <tabular>
+            <row><cell>Josefa</cell><cell>CA</cell></row>
+            <row><cell>Thomas</cell><cell>TR</cell></row>
+            <row><cell>Rachelle</cell><cell>SH</cell></row>
+            <row><cell>Ahtziri</cell><cell>PL</cell></row>
+          </tabular>
+        </sidebyside>
+      </solution>
+    </exercise>
+
+    <exercise xml:id="ex-viajeros-extraclues">
+      <statement>
+        <p><em>Which extra clue or clues would you invent to get only 1 possible world (solution)?</em></p>
+      </statement>
+      <solution>       
+
+        <paragraphs>
+          <title>Inventing a clue: There are several options.</title>
+          <ul>
+            <li><p>A clue that would work: <q>Josefa won't use a car.</q></p></li>
+            <li><p>A clue that would not work (does not blend well with the rest, so produces 0 worlds): <q>Josefa will pay more than Rachelle.</q></p></li>
+            <li><p>A clue that would not work (does not add new information, so does not reduce the number of worlds): <q>Josefa will travel by land.</q></p></li>
+          </ul>
+          <p>Discuss all these types of clues! (Not just the ones that work.)</p>
+        </paragraphs>
+      </solution>
+    </exercise>
+  </page>
+</worksheet>

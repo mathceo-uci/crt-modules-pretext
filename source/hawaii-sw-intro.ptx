@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preface xml:id="preface-introduction-student" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Introduction</title>
+  
+  <image source="hawaii-coast.jpg" width="80%" decorative="yes">
+  </image>
+  
+  <p>
+    Let's learn about traditional lengths in Hawaiian Culture and use our bodies to do math and discover patterns!
+  </p>
+
+  <sidebyside widths="60% 30%" margins="0% 0%" valign="middle">
+  <p>
+  <paragraphs>
+    <title>Overview</title>
+    <ol cols="1">
+      <li>
+        <title><xref ref="chap-hawaiian-measures" text="title"/></title>
+        <p>
+          Let's learn about non-standard measures from Hawaiian natives, and compare their proportions.
+        </p>
+      </li>
+      <li>
+        <title><xref ref="chap-equivalencies" text="title"/></title>
+        <p>
+          Let's build a table of equivalencies of measures, investigate, and draw conclusions!
+        </p>
+      </li>
+      <li>
+        <title><xref ref="chap-reflections" text="title"/></title>
+        <p>
+          Let's look back on what we learned and reflect on measuring across cultures.
+        </p>
+      </li>
+    </ol>
+  </paragraphs>
+  </p>
+
+  <image source="hawaii-hailima-unlabeled-crop.png" decorative="yes">
+  </image>
+
+  </sidebyside>
+
+  <paragraphs>
+    <title>Math Topics</title>
+    <ul>
+      <li>Conventional and non-conventional units of length</li>
+      <li>Estimations</li>
+      <li>Ratios</li>
+      <li>Unit ratios</li>
+      <li>Equivalencies</li>
+    </ul>
+  </paragraphs>
+
+  <objectives>
+    <title>Enrichment</title>
+    <ul>
+      <li>Learn about measures in different cultures.</li>
+      <li>Measure things in different ways.</li>
+    </ul>
+  </objectives>
+
+  
+
+
+</preface>

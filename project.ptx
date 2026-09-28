@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- This file, the project manifest, provides the overall configuration for your PreTeXt project. -->
+<project ptx-version="2">
+  <!-- Print targets carry xsl="custom-latex.xsl": a custom LaTeX stylesheet -->
+  <!-- (in xsl/) that imports stock PreTeXt and overrides mode="workspace" so -->
+  <!-- <task workspace> renders as the green \workspacebox instead of an      -->
+  <!-- invisible strut. See xsl/custom-latex.xsl for the full explanation.    -->
+  <targets>
+    <!-- hawaii -->
+    <target name="hawaii-tg-web" format="html" source="hawaii-tg.ptx" publication="publication-tg.ptx">
+      <stringparams html.css.extra="external/css/custom-tg.css" author.tools="yes"/>
+    </target>
+    <target name="hawaii-sw-web" format="html" source="hawaii-sw.ptx" publication="publication-sw.ptx" xsl="custom-html-sw.xsl">
+      <stringparams html.css.extra="external/css/custom-sw.css" author.tools="yes"/>
+    </target>
+    <target name="hawaii-sw-print" format="latex" source="hawaii-sw.ptx" publication="publication-sw.ptx" xsl="custom-latex.xsl">
+      <stringparams latex.preamble.late="\input{external/latex/customPreambleLate.tex}"/>
+    </target>
+    
+    <!-- diaMuertos -->
+    <target name="diaMuertos-tg-web" format="html" source="diaMuertos-tg.ptx" publication="publication-tg.ptx">
+      <stringparams html.css.extra="external/css/custom-tg.css" author.tools="yes"/>
+    </target>
+    <target name="diaMuertos-sw-web" format="html" source="diaMuertos-sw.ptx" publication="publication-sw.ptx" xsl="custom-html-sw.xsl">
+      <stringparams html.css.extra="external/css/custom-sw.css" author.tools="yes"/>
+    </target>
+    <target name="diaMuertos-sw-print" format="latex" source="diaMuertos-sw.ptx" publication="publication-sw.ptx" xsl="custom-latex.xsl">
+      <stringparams latex.preamble.late="\input{external/latex/customPreambleLate.tex}"/>
+    </target>
+    
+    <!-- palabras -->
+    <target name="palabras-tg-web" format="html" source="palabras-tg.ptx" publication="publication-tg.ptx">
+      <stringparams html.css.extra="external/css/custom-tg.css" author.tools="yes"/>
+    </target>
+    <target name="palabras-sw-web" format="html" source="palabras-sw.ptx" publication="publication-sw.ptx" xsl="custom-html-sw.xsl">
+      <stringparams html.css.extra="external/css/custom-sw.css" author.tools="yes"/>
+    </target>
+    <target name="palabras-sw-print" format="latex" source="palabras-sw.ptx" publication="publication-sw.ptx" xsl="custom-latex.xsl">
+      <stringparams latex.preamble.late="\input{external/latex/customPreambleLate.tex}"/>
+    </target>
+
+    <!-- cuatroAmigos -->
+    <target name="cuatroAmigos-tg-web" format="html" source="cuatroAmigos-tg.ptx" publication="publication-tg.ptx">
+      <stringparams html.css.extra="external/css/custom-tg.css" author.tools="yes"/>
+    </target>
+    <target name="cuatroAmigos-sw-web" format="html" source="cuatroAmigos-sw.ptx" publication="publication-sw.ptx" xsl="custom-html-sw.xsl">
+      <stringparams html.css.extra="external/css/custom-sw.css" author.tools="yes"/>
+    </target>
+    <target name="cuatroAmigos-sw-print" format="latex" source="cuatroAmigos-sw.ptx" publication="publication-sw.ptx" xsl="custom-latex.xsl">
+      <stringparams latex.preamble.late="\input{external/latex/customPreambleLate.tex}"/>
+    </target>
+    
+  </targets>
+</project>
+
+<!-- SAMPLE MANIFEST illustrating all options. Defaults are given (mostly).              -->
+
+<!-- <project
+        ptx-version="2"
+        source="source"
+        publication="publication"
+        output-dir="output"
+        site="site"
+        stage="output/stage"
+        xsl="xsl"
+        asy-method="local"
+        generated-cache=".cache"
+     >
+       <targets>
+          <target
+            name="web"
+            format="html"
+            source="main.ptx"
+            publication="publication.ptx"
+            output-dir="web"
+            deploy-dir="interactive"
+            xsl="custom-html.xsl"
+            asy-method="local"
+          />
+          <target
+            name="web-zipped"
+            format="html"
+            source="main.ptx"
+            publication="publication.ptx"
+            output-dir="web"
+            compression="zip"
+            asy-method="local"
+          />
+          <target
+            name="runestone"
+            format="html"
+            platform="runestone"
+          />
+          <target
+            name="print"
+            format="pdf"
+            source="main.ptx"
+            publication="publication.ptx"
+            output-dir="print"
+            output-filename="mybook.pdf"
+            latex-engine="pdflatex"
+            deploy-dir="pdf"
+          />
+          <target
+            name="latex"
+            format="latex"
+          />
+          <target
+            name="braille"
+            format="braille"
+            braille-mode="emboss"
+          />
+        </targets>
+</project>
+-->

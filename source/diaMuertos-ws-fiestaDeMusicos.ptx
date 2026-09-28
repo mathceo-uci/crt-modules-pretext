@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="diaMuertos-ws-fiestaDeMusicos">
+  <title>Fiesta de Músicos</title>
+
+  <page>
+
+  <image source="diaMuertos-musicos-examples.png" width="85%">
+      <shortdescription>Three example músicos with their codes: G Su 2 br (Gato in a suit with 2 jaranas and bread), F Bo 1 ch (Fox with bones, 1 jarana, and chocolate), H Dr 0 da (Human in a dress with 0 jaranas and a dalia).</shortdescription>
+    </image>
+    <p>Get ready to celebrate big!<fn>Adapted from <url href="https://jrmf.org/puzzle/monster-town/" visual="jrmf.org">Monster Town</url> by the Julia Robinson Mathematics Festival, used under <url href="https://creativecommons.org/licenses/by-nc-sa/4.0/" visual="creativecommons.org/licenses/by-nc-sa/4.0">CC BY-NC-SA 4.0</url>.</fn> Your extended family's got a bunch of musicians coming... They've flown in from very, very far! It's a Jarana fiesta, so only Jaranas are allowed! Each musician is bringing a gift to share! Let the celebrations begin!</p>
+    
+    <p>In your fiesta, each músico (musician) has 4 <q>aspects</q>, and 3 choices in each of them (we use codes for brevity):</p>
+    <sidebyside widths ="60% 30%" margins="0% 0%">
+            <tabular>
+        <row bottom="medium" header="yes"><cell>Aspect</cell><cell>Choices</cell><cell>Codes</cell></row>
+        <row><cell>Face</cell><cell>Fox, Gato, Human</cell><cell>F, G, H</cell></row>
+        <row><cell>Body</cell><cell>Suit, Bones, Dress</cell><cell>Su, Bo, Dr</cell></row>
+        <row><cell># of Jaranas</cell><cell>2, 1, 0</cell><cell>2, 1, 0</cell></row>
+        <row><cell>Gift</cell><cell>bread, chocolate, dalia</cell><cell>br, ch, da</cell></row>
+      </tabular>
+      <stack>
+        <p>
+          A <term>Jarana</term> is a type of guitar
+        </p>
+        <image source="diaMuertos-jarana.png" width="50%">
+          <shortdescription>Image of a jarana, a type of guitar.</shortdescription>
+        </image>
+      </stack>
+    </sidebyside>
+    
+  </page>
+
+  <page>
+    
+    
+    <exercise xml:id="ex-buildMusicos">
+      <title>Build músicos</title>
+      <statement>
+        <p>
+        <ul>
+          <li><p>Use the 12 tiles to build some músicos! Take turns!</p></li>
+          <li><p>Describe your músico! (follow Cynthia's example below)</p></li>
+          <li><p>Did 2 or more people build the exact same músico? Or almost the same? Discuss!</p></li>
+        </ul>
+        </p>
+        <paragraphs xml:id="ex-buildMusicos-example">
+          <title>Example: Cynthia's músico</title>
+          <p>Cynthia built a Gato in a Dress with 0 Jaranas and a chocolate caliente as a gift:</p>
+          <sidebyside widths="45% 25%" margins="6% 6%">
+            <image source="diaMuertos-tile-grid.png">
+              <shortdescription>A grid of 12 attribute tiles for building músicos: 3 face options (Fox mask, Gato mask, Human skull), 3 body options (Suit, Bones, Dress), 3 jarana options (maracas/2 jaranas, 1 jarana, no jarana), and 3 gift options (chocolate, dalia flower, bread).</shortdescription>
+            </image>
+            <image source="diaMuertos-cynthia-example.png">
+              <shortdescription>Example músico card named Cynthia showing: G (Gato face), Dr (Dress body), 0 (no jaranas), ch (chocolate). Caption reads: I am a Gato. I sing, so I bring 0 jaranas. I wear a Dress. I bring joy and chocolate caliente to this fantástica fiesta!</shortdescription>
+            </image>
+          </sidebyside>
+        </paragraphs>
+      </statement>
+    </exercise>
+
+  </page>
+
+  <page>
+    
+    <exercise xml:id="ex-challengeEachOther">
+      <title>Let's now challenge each other!</title>
+      <statement>
+        <p></p>
+        <image source="diaMuertos-musicos-examples.png" width="65%" decorative="yes">
+        </image>
+        <ol>
+          <li xml:id="ex-challengeEachOther-hide-one"><title>Hide one</title>
+            <p><alert>One volunteer:</alert> Build a músico. Hide <alert>one</alert> aspect. <em>Example: hide the face.</em></p>
+            <p>Have others guess! <em>In the worst case scenario, what is the maximum number of guesses it would take to find out the hidden aspects?</em></p>
+          </li>
+          <li xml:id="ex-challengeEachOther-hide-two"><title>Hide two</title>
+            <p><alert>Another volunteer:</alert> Build your músico. Hide <alert>two</alert> aspects.</p>
+            <p>Have others guess! <em>What is the maximum number of guesses it would take us to find out the hidden 2 aspects? Explain why!</em></p>
+          </li>
+          <li xml:id="ex-challengeEachOther-hide-three"><title>Hide three</title>
+            <p><alert>And another volunteer:</alert> Build your músico. Hide <alert>three</alert> aspects.</p>
+            <p><em>What is the maximum number of guesses it would take us to guess your músico?</em></p>
+          </li>
+        </ol>
+      </statement>
+    </exercise>
+  
+  </page>
+
+</worksheet>

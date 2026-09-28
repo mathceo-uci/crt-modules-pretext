@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="hawaii-ws-equivalencies">
+  <title>Equivalencies</title>
+
+  <sidebyside widths="16% 16% 16%" valign="middle" margins="10%">
+      <image source="hawaii-pia-basic.png">
+        <shortdescription>Pia</shortdescription>
+      </image>
+      <image source="hawaii-poho-basic.png">
+        <shortdescription>Poho</shortdescription>
+      </image>
+      <image source="hawaii-kikoo-basic.png">
+        <shortdescription>Kīko'o</shortdescription>
+      </image>      
+    </sidebyside>
+    
+    <sidebyside widths="30% 30% 30%" valign="middle" margins="0%">
+      <image source="hawaii-muku-basic.png">
+        <shortdescription>Muku</shortdescription>
+      </image>
+      <image source="hawaii-hailima-basic.png">
+        <shortdescription>Ha'ilima</shortdescription>
+      </image>
+      <image source="hawaii-iwilei-basic.png">
+        <shortdescription>Iwilei</shortdescription>
+      </image>      
+    </sidebyside>
+  <exercise>
+    <statement>
+      <p>Complete the table of equivalencies.</p>
+      <tabular halign="center" top="medium" left="minor" right="minor" width="100%">
+        <col halign="left" width="20%"/>
+        <col width="20%"/>
+        <col width="20%"/>
+        <col width="20%"/>
+        <col width="20%"/>
+        <row header="yes" bottom="medium">
+          <cell></cell>
+          <cell>poho.</cell>
+          <cell>kīko'o.</cell>
+          <cell>ha'ilima.</cell>
+          <cell>iwilei.</cell>
+        </row>
+        <row bottom="minor">
+          <cell halign="left">1 poho =</cell>
+          <cell><p></p></cell>
+          <cell><p></p></cell>
+          <cell><p>1/4</p></cell>
+          <cell><p></p></cell>
+        </row>
+        <row bottom="minor">
+          <cell halign="left">1 kīko'o =</cell>
+          <cell>2</cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+        </row>
+        <row bottom="minor">
+          <cell halign="left">1 ha'ilima =</cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+        </row>
+        <row bottom="medium">
+          <cell halign="left">1 iwilei =</cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+        </row>
+      </tabular>
+    </statement>
+    <solution>
+      <p>This is a sample filled table. Students may try to use decimals instead of just integers in the lower diagonal.</p>
+      <tabular halign="center" top="medium" left="minor" right="minor" width="100%">
+        <col halign="left" width="20%"/>
+        <col width="20%"/>
+        <col width="20%"/>
+        <col width="20%"/>
+        <col width="20%"/>
+        <row header="yes" bottom="medium">
+          <cell></cell>
+          <cell>poho.</cell>
+          <cell>kīko'o.</cell>
+          <cell>ha'ilima.</cell>
+          <cell>iwilei.</cell>
+        </row>
+        <row bottom="minor">
+          <cell halign="left">1 poho =</cell>
+          <cell>1</cell>
+          <cell>1/2</cell>
+          <cell>1/4</cell>
+          <cell>1/8</cell>
+        </row>
+        <row bottom="minor">
+          <cell halign="left">1 kīko'o =</cell>
+          <cell>2</cell>
+          <cell>1</cell>
+          <cell>1/2</cell>
+          <cell>1/4</cell>
+        </row>
+        <row bottom="minor">
+          <cell halign="left">1 ha'ilima =</cell>
+          <cell>4 <m>(2\times2)</m></cell>
+          <cell>2</cell>
+          <cell>1</cell>
+          <cell>1/2</cell>
+        </row>
+        <row bottom="medium">
+          <cell halign="left">1 iwilei =</cell>
+          <cell>8 <m>(2\times2\times2)</m></cell>
+          <cell>4 <m>(2\times2)</m></cell>
+          <cell>2</cell>
+          <cell>1</cell>
+        </row>
+      </tabular>
+    </solution>
+  </exercise>
+
+  <exercise workspace="2cm">
+    <statement><p>Which strategies did you use to fill the table? What was the most challenging part?</p></statement>
+    <solution>
+      <ul>
+        <li>We first filled the diagonal with 1's because 1 poho = 1 poho, etc.</li>
+        <li>Then we filled the lower part of the table.</li>
+        <li>Finally we filled the other part with <q>one over</q> the upper parts (reciprocals).</li>
+        <li>The most challenging: agreeing on how to round.</li>
+      </ul>
+    </solution>
+  </exercise>
+
+  <exercise workspace="2cm">
+    <statement><p>What do you notice about the table you filled? Write all things that you notice!</p></statement>
+    <solution>
+      <ul>
+        <li>The diagonal is made out of 1 1 1 1.</li>
+        <li>With respect to the diagonal, we always see a number reflected to its multiplicative inverse. E.g.: 4 and 1/4.</li>
+        <li>All values are 2 to something! (Even 1/2 is <m>2^{-1}</m>.)</li>
+        <li>For any N, if I multiply the values of Row 1, and multiply this by the product of Column N, I get 1!</li>
+        <li>Each new row is <q>2 times</q> the previous row. (Same for cols.)</li>
+      </ul>
+    </solution>
+  </exercise>
+
+</worksheet>

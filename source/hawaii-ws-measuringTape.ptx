@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="hawaii-ws-measuringTape">
+  <title>Let's Build a Measuring Tape</title>
+  <page>
+    <sidebyside widths="46% 20% 20%" margins="0% 5%">
+      <p>We will first analyze a measuring tape that relates inches and centimeters. We will then build a measuring tape that relates kīko'o and poho.</p>
+      <image source="hawaii-kikoo-basic.png">
+        <shortdescription>A spread hand illustrating the kīko'o unit — distance across an open hand from thumb tip to pinky tip.</shortdescription>
+      </image>
+      <image source="hawaii-poho-basic.png">
+        <shortdescription>A raised palm illustrating the poho unit — width of the palm.</shortdescription>
+      </image>
+    </sidebyside>
+
+    <exercise xml:id="ex-read-the-tape">
+      <statement>
+        <p>Use the tape with marks for <alert>in</alert> and <alert>cm</alert> to answer the questions.</p>
+        <image source="hawaii-rulerinchcm.png" width="85%">
+          <shortdescription>A ruler showing both inches (top, with fraction markings) and centimeters (bottom), used as a reference for reading a dual-scale measuring tape.</shortdescription>
+        </image>
+        <p>
+        <ol>
+          <li>If an object is <m>4.5</m> in long, how many cm is that? <fillin characters="10"/></li>
+          <li><m>6.35</m> cm is how many inches? <fillin characters="10"/></li>
+        </ol>
+        </p>
+      </statement>
+      
+      <solution>
+        <p>Sample responses (looking at the ruler):</p>
+        <ul>
+          <li> <m>11.43</m> cm (or some close value)</li>
+          <li> <m>2.5</m> inches </li>
+        </ul>
+      </solution>
+      
+    </exercise>
+    <exercise xml:id="ex-build-measuring-tape">
+      <statement>
+        <p>Now build a single measuring tape for <alert>kīko'o</alert> and <alert>poho</alert>.</p>
+
+                    <p>Key principles for building a measuring tape:
+        <ul>
+          <li>We start at zero (0).</li>
+          <li>Numbers go from left to right.</li>
+          <li>Label each time to identify the measure being marked.</li>
+        </ul>
+      </p>
+        <sidebyside widths="60% 35%" margins="0% 5%">
+          
+          <p>Instructions:
+            <ul>
+              <li>Use the roll (one side) and markers.</li>
+              <li>Whose hands will be used?</li>
+              <li>Use an edge for kīko'o, the other for poho.</li>
+              <li>Draw a 0 mark for both units. Then: 1, 2, 3, …</li>
+              <li>No gaps! No overlaps!</li>
+            </ul>
+          </p>
+          
+          <image source="paper-roll.png" width="60%" decorative="yes"/>
+
+        </sidebyside>
+        <p>Answer the following questions:</p>
+        <ol>
+          <li>If an object is 4.5 kīko'o long, how many poho is that? <fillin characters="10"/></li>
+          <li>5 poho is equal to how many kīko'o? <fillin characters="10"/></li>
+        </ol>
+      </statement>
+    </exercise>
+    
+  </page>
+  
+</worksheet>

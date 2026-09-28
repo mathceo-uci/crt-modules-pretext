@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="diaMuertos-ws-rooms">
+  <title>Rooms</title>
+
+  <page>
+    <exercise xml:id="ex-rooms-gato-floor" workspace="6cm">
+      <title>The Gato Floor</title>
+      <statement>
+        <sidebyside widths="70% 10%" margins="0% 10%">
+          <stack>
+            <p>The people at the fiesta play a game and only allow certain músicos to enter a given floor of the house.</p>
+            <p>For example, <q>Only músicos that are Gatos!</q></p>
+          </stack>
+          <image source="diaMuertos-Gato.png" decorative="yes"/>
+        </sidebyside>
+        <p>
+          <ol>
+            <li><p>Give an example of three different músicos that can enter the Gato floor.</p></li>
+            <li><p>How many músicos can enter the Gato floor?</p></li>
+            <li><p>What percentage of all músicos are <alert>G</alert>atos? How can you visualize it?</p></li>
+          </ol>
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="ex-rooms-gato-suit-room" workspace="6cm">
+      <title>The Gato + Suit Room</title>
+      <statement>
+        <sidebyside widths="45% 40%" margins="0% 5%">
+          <p>Now, inside the Gato floor, there is a room called <q>Only gatos that wear suit (pants).</q></p>
+          <image source="diaMuertos-Gato+Suit.png" decorative="yes" width="40%"/>
+        </sidebyside>
+        <ol>
+          <li><p>What is a mathematical question that you could ask about this room? Write at least two questions.</p></li>
+          <li><p>How can you visualize this room?</p></li>
+          <li><p>Answer your questions!</p></li>
+        </ol>
+      </statement>
+    </exercise>
+  </page>
+
+  <page>
+    <exercise xml:id="ex-rooms-your-own-room" workspace="6cm">
+      <title>Your own room</title>
+      <statement>
+        <p>Work in pairs. Create your own special room, writing a <alert>precise condition</alert> for accessing that room. Challenge other pairs to represent this room and find the maximum number of músicos inside!</p>
+        <p>Bonus: do the different rooms overlap? How?</p>
+      </statement>
+    </exercise>
+  </page>
+</worksheet>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preface xml:id="preface-introduction-student" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Introduction</title>
+  <image source="diaMuertos-musicos-examples.png" width="60%" decorative="yes">
+  </image>
+  <p>
+    Let's celebrate Día de los Muertos and make it alive by exploring counting concepts and playing interesting games!
+  </p>
+
+  <paragraphs>
+    <title>Overview</title>
+    <ol>
+      <li>
+        <title><xref ref="chap-celebrations" text="title"/></title>
+        <p>Let's learn about Día de los Muertos, share similar celebrations, and take part in the celebration in a respectful way.</p>
+      </li>
+      <li>
+        <title><xref ref="chap-los-musicos" text="title"/></title>
+        <p>Let's have a celebration with musicians and invite as many as we can. Can we count them all?</p>
+      </li>
+      <li>
+        <title><xref ref="chap-more-counting" text="title"/></title>
+        <p>Let's challenge ourselves more with counting situations and discover general principles.</p>
+      </li>
+      <li>
+        <title><xref ref="chap-sets-among-us" text="title"/></title>
+        <p>Let's form sets with special conditions by focusing on aspects in which we all agree, or we all disagree!</p>
+      </li>
+      <li>
+        <title><xref ref="chap-game-of-set" text="title"/></title>
+        <p>Let's play the game of SET, and discover some of the math behind it!</p>
+      </li>
+    </ol>
+  </paragraphs>
+
+  <objectives>
+    <ul>
+      <li></li>
+    </ul>
+  </objectives>
+
+  <assemblage component="TODO">
+    <title>EAJ, May2026: Goals for students?</title>
+    <p>For hawaii-tg I used the non topics list in the title slide in the TG, but here it does not work: "dia de los muertos" and "celebrations"</p>
+  </assemblage>
+
+  <paragraphs>
+    <title>Math Topics</title>
+    <ul>
+      <li>combinatorics</li>
+      <li>counting</li>
+      <li>trees</li>
+      <li>game of set</li>
+    </ul>
+
+  </paragraphs>
+</preface>

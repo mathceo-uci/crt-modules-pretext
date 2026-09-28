@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="hawaii-ws-reflectingAboutToday">
+  <title>Reflecting About Today</title>
+  <page>
+    <exercise xml:id="ex-ws-reflect-solve-differently" workspace="3cm">
+      <statement>
+        <p>What did you learn about how people may solve mathematical problems differently?</p>
+      </statement>
+    </exercise>
+    <exercise xml:id="ex-ws-reflect-measure-body" workspace="3cm">
+      <statement>
+        <p>Do you measure things using body parts? What are the advantages and disadvantages of this way of measuring?</p>
+      </statement>
+    </exercise>
+    <exercise xml:id="ex-ws-reflect-unit-ratio" workspace="3cm">
+      <statement>
+        <p>What is a <term>unit ratio</term>? Why is it helpful?</p>
+      </statement>
+    </exercise>
+    <exercise xml:id="ex-ws-reflect-learn-hawaii" workspace="3cm">
+      <statement>
+        <p>What did you learn about Hawaii today?</p>
+      </statement>
+    </exercise>
+  </page>
+</worksheet>

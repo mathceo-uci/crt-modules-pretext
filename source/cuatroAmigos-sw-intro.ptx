@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preface xml:id="preface-introduction-student" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Introduction</title>
+  <assemblage component="TODO">
+    <title>Add decorative intro image</title>
+    <p>Add a cover/decorative image for the SW introduction (e.g. the four friends).</p>
+  </assemblage>
+  <p>
+    Let's create possible worlds of people, count them, and share our thoughts about them!
+  </p>
+
+  <paragraphs>
+    <title>Overview</title>
+    <ol>
+      <li>
+        <title><xref ref="chap-multiverses" text="title"/></title>
+        <p>Let's create and count different <q>worlds</q>, solve puzzles involving them, and share about what we like and enjoy about all of our friends!</p>
+      </li>
+      <li>
+        <title><xref ref="chap-challenges" text="title"/></title>
+        <p>Let's count new worlds of people, using the tools that we learned!</p>
+      </li>
+    </ol>
+  </paragraphs>
+
+  <objectives>
+    <title>Enrichment</title>
+    <ul>
+      <li>Friendship</li>
+      <li>Stereotypes</li>
+      <li>Implicit Biases</li>
+      <li>Cultural Exchanges</li>
+      <li>Giving Voice to Students</li>
+    </ul>
+  </objectives>
+
+  <paragraphs>
+    <title>Math Topics</title>
+    <ul>
+      <li>Solving logical puzzles</li>
+      <li>Counting</li>
+      <li>Permutations</li>
+      <li>Multiplication principles</li>
+      <li>Using cases to count</li>
+    </ul>
+  </paragraphs>
+  
+  <assemblage component="TODO">
+    <title>Don't forget the Spanish version of the SW</title>
+    <p>EAJ, 7Aug2026</p>
+    <p>To be done when the English version is complete.</p>
+  </assemblage>
+</preface>
