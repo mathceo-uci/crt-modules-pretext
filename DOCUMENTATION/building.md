@@ -38,6 +38,8 @@ Some things in the PDF are placed only on a later run: the growing `workspace` b
 
 `publish.py` runs pdflatex as many times as needed for you.
 
+Rebuilding a print target replaces its `.tex` file, so any hand edits to it are lost. `output/` is not tracked by git, so they cannot be recovered. If you have edited `output/{module}-sw-print/{module}-sw.tex`, copy it somewhere safe before rebuilding, or run only pdflatex.
+
 See [`external/latex/customPreambleLate.tex`](../external/latex/customPreambleLate.tex) for what the print build customizes (and the [design decisions](reference/latex-preamble-decisions.md) behind them), and [`xsl/custom-latex.xsl`](../xsl/custom-latex.xsl) for the emitted-LaTeX overrides.
 
 ### Cover pages

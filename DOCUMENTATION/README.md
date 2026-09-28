@@ -21,6 +21,7 @@ See `project.ptx` and [File structure & naming](file-structure.md).
 - **[PreTeXt authoring conventions](conventions.md)**: pick tags by meaning, and avoid the mistakes that build without error but silently drop or mangle content — includes a [silent-failure quick-index](conventions.md#silent-failure-quick-index). Covers elements, images & media, TODOs, tables, latex-image/TikZ, `<xref>`, links, authors & credits, and response/workspace.
 - **[Ingesting a new module](ingesting-a-module.md)**: the 8-step workflow, the PyMuPDF image extractor, and the faithful-ingestion `[[[ … ]]]` marker.
 - **[Pending tasks](pending-tasks.md)**: the open task list per module.
+- **[Contributing](contributing.md)**: how we use git, how to write docs and comments, and where each kind of information goes.
 
 ### Further technical reference
 

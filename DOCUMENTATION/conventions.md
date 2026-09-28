@@ -198,6 +198,9 @@ The including file's root must declare `xmlns:xi="http://www.w3.org/2001/XInclud
 
 Run `pretext generate latex-image` (or `-g`) before building if SVGs are missing. 
 
+### Comments inside LaTeX code use `%`
+The contents of `<latex-image>`, `<latex-image-preamble>`, and the LaTeX macro blocks in `docinfo.ptx` are LaTeX code. Write comments there as LaTeX comments, with `%` at the start of each line. Use `<!-- … -->` only between XML elements.
+
 ### Shared TikZ picture styles (`tikzPreamble.tex`)
 The shared preamble is `source/tikz/tikzPreamble.tex`. It gets loaded by `docinfo.ptx`'s `<latex-image-preamble>`, so all picture setup is defined in one file.
 It loads packages and libraries, defines global colors (like `treeblue`), and sets Lato as the font (see "`<latex-image>` text renders in Lato" below).
